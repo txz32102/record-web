@@ -10,7 +10,9 @@ function InputArea() {
     const handleButtonClick = () => {
         const baseURL = process.env.NODE_ENV === 'development'
             ? 'http://localhost:32102'
-            : 'https://www.druggableprotein.com';
+            : 'http://www.druggableprotein.com:32102';
+
+            console.log('Request URL:', baseURL); 
 
         fetch(`${baseURL}/server`, {
             method: 'POST',
