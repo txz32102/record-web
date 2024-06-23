@@ -6,7 +6,7 @@ function RecordsPreview() {
   useEffect(() => {
     // Determine the base URL based on the environment
     const baseURL = process.env.NODE_ENV === 'development' 
-                    ? 'http://localhost:9001' 
+                    ? 'http://localhost:32102' 
                     : 'https://www.druggableprotein.com';
 
     // Fetch records when the component mounts

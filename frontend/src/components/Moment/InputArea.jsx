@@ -9,9 +9,9 @@ function InputArea() {
 
     const handleButtonClick = () => {
         const baseURL = process.env.NODE_ENV === 'development'
-                        ? 'http://localhost:9001'
-                        : 'https://www.druggableprotein.com';
-    
+            ? 'http://localhost:32102'
+            : 'https://www.druggableprotein.com';
+
         fetch(`${baseURL}/server`, {
             method: 'POST',
             headers: {
@@ -39,15 +39,22 @@ function InputArea() {
             alert("An error occurred while sending data.");
         });
     };
-    
+
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent default Enter behavior (submitting the form or adding a new line)
+            handleButtonClick();
+        }
+    };
+
     return (
         <div>
-            <input
-                type="text"
+            <textarea
                 value={inputValue}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
                 placeholder="Type something..."
-                style={{ width: '100%', padding: '10px', fontSize: '16px', margin: '10px 0' }}
+                style={{ width: '100%', padding: '10px', fontSize: '16px', margin: '10px 0', height: '100px' }}
             />
             <button onClick={handleButtonClick} style={{ padding: '10px 20px', fontSize: '16px' }}>Send</button>
         </div>
