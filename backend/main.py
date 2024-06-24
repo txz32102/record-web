@@ -1,16 +1,18 @@
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from pydantic import BaseModel
 import os
 from datetime import datetime
-import os
+import markdown
 
 app = FastAPI()
 
 # CORS setup
-origins = ["*"]
+origins = ["http://localhost:3000", "*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -36,6 +38,34 @@ class Record(Base):
 
 # Create tables
 Base.metadata.create_all(bind=engine)
+
+# Directory containing Markdown files
+MD_DIR = "md"
+
+class FileResponse(BaseModel):
+    content: str
+
+@app.get("/files", response_model=dict)
+def list_files():
+    try:
+        files = [f for f in os.listdir(MD_DIR) if f.endswith(".md")]
+        return {"files": files}  # Return the list of files wrapped in a dictionary
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/files/{filename}", response_model=FileResponse)
+def read_file(filename: str):
+    file_path = os.path.join(MD_DIR, filename)
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="File not found")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            content = file.read()
+        html_content = markdown.markdown(content)
+        return FileResponse(content=html_content)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/server")
 async def handle_data(request: Request):
