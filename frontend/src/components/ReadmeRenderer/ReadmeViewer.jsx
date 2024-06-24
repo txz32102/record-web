@@ -23,9 +23,9 @@ const ReadmeViewer = () =>{
         const fetchContent = async () =>{
             console.log("Fetching content for:", filename);
             try{
-                const apiUrl = process.env.React_APP_API_URL || "http://localhost:9001";
+                const apiUrl = process.env.React_APP_API_URL || "http://localhost:32102";
                 // const response = await axios.get(`${apiUrl}/files/${filename}`);
-                const url = `http://localhost:9001/files/${filename}`;
+                const url = `http://localhost:32102/files/${filename}`;
                 const response = await axios.get(url);
                 console.log("url is ", url)
                 setContent(marked.parse(response.data.content));
