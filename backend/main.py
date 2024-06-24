@@ -1,55 +1,73 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 import os
 from datetime import datetime
+import os
 
-app = Flask(__name__)
-CORS(app)
-basedir = os.path.abspath(os.path.dirname(__file__))
+app = FastAPI()
+
+# CORS setup
+origins = ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Database setup
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+basedir = os.path.abspath(os.path.dirname(__file__))
+DATABASE_URL = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
 
-db = SQLAlchemy(app)
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
 
 # Model definition
-class Record(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    data = db.Column(db.String, nullable=False)
-    time = db.Column(db.String, nullable=False)
+class Record(Base):
+    __tablename__ = 'record'
+    id = Column(Integer, primary_key=True, index=True)
+    data = Column(String, nullable=False)
+    time = Column(String, nullable=False)
 
 # Create tables
-with app.app_context():
-    db.create_all()
+Base.metadata.create_all(bind=engine)
 
-@app.route('/server', methods=['POST'])
-def handle_data():
+@app.post("/server")
+async def handle_data(request: Request):
     try:
-        data = request.json
+        data = await request.json()
         print(data)
         # Get the current server time in the specified format
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         # Create a new record with the provided data and the current server time
         new_record = Record(data=data['data'], time=current_time)
-        db.session.add(new_record)
-        db.session.commit()
-        return jsonify({"success": True, "message": "Data and time stored successfully!"}), 200
+        session = SessionLocal()
+        session.add(new_record)
+        session.commit()
+        session.close()
+        return {"success": True, "message": "Data and time stored successfully!"}
     except Exception as e:
-        return jsonify({"success": False, "message": "An error occurred: " + str(e)}), 500
+        raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
 
-@app.route('/records', methods=['GET'])
-def get_records():
+@app.get("/records")
+async def get_records():
     try:
+        session = SessionLocal()
         # Fetch the last ten records from the database, ordered by id in descending order
-        records = Record.query.order_by(Record.id.desc()).limit(10).all()
+        records = session.query(Record).order_by(Record.id.desc()).limit(10).all()
+        print(records)
+        session.close()
         # Transform the records into a JSON-serializable format
         records_list = [{"id": record.id, "data": record.data, "time": record.time} for record in records]
-        return jsonify(records_list), 200
+        return records_list
     except Exception as e:
-        return jsonify({"error": "An error occurred: " + str(e)}), 500
-
-
+        raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=32102)
+    import uvicorn
+    uvicorn.run(app, host='0.0.0.0', port=32102)
