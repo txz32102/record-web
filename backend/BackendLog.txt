@@ -5754,3 +5754,15 @@ Press CTRL+C to quit
 96.126.104.20 - - [23/Jun/2024 14:56:22] "GET /signin HTTP/1.1" 404 -
 64.62.197.10 - - [23/Jun/2024 15:20:57] "GET / HTTP/1.1" 404 -
 64.62.197.10 - - [23/Jun/2024 15:21:13] "GET /favicon.ico HTTP/1.1" 404 -
+/root/home/record-web/backend/main.py:30: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+INFO:     Started server process [3149]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+[<__main__.Record object at 0x7f9479df4bb0>, <__main__.Record object at 0x7f9479df4b50>, <__main__.Record object at 0x7f9479df4c70>, <__main__.Record object at 0x7f9479df4cd0>, <__main__.Record object at 0x7f9479df4d30>, <__main__.Record object at 0x7f9479df4d90>, <__main__.Record object at 0x7f9479df4df0>, <__main__.Record object at 0x7f9479df4e50>, <__main__.Record object at 0x7f9479df4ee0>, <__main__.Record object at 0x7f9479df4f70>]
+INFO:     150.249.219.211:31885 - "GET /records HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3149]
