@@ -25,7 +25,11 @@ const ReadmeViewer = () =>{
             try{
                 const apiUrl = process.env.React_APP_API_URL || "http://localhost:32102";
                 // const response = await axios.get(`${apiUrl}/files/${filename}`);
-                const url = `http://localhost:32102/files/${filename}`;
+                const url = process.env.NODE_ENV === 'development' 
+                ? 'http://localhost:32102' 
+                : 'http://www.druggableprotein.com:32102';
+
+                
                 const response = await axios.get(url);
                 console.log("url is ", url)
                 setContent(marked.parse(response.data.content));

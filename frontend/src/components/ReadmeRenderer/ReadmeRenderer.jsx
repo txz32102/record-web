@@ -9,8 +9,12 @@ const ReadmeRenderer = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+
+        const url = process.env.NODE_ENV === 'development' 
+        ? 'http://localhost:32102' 
+        : 'http://www.druggableprotein.com:32102';
+console.log('Request URL:', baseURL); 
         const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:32102";
-        const url = `http://localhost:32102/files`
         const response = await axios.get(url);
         console.log(url);
         if (Array.isArray(response.data.files)) {
