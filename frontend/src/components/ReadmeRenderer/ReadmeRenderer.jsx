@@ -13,7 +13,6 @@ const ReadmeRenderer = () => {
         const url = process.env.NODE_ENV === 'development' 
         ? 'http://localhost:32102' 
         : 'http://www.druggableprotein.com:32102';
-console.log('Request URL:', baseURL); 
         const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:32102";
         const response = await axios.get(url);
         console.log(url);
