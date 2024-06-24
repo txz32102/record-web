@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Header from './Header';
 import './View.css';
 import { Helmet } from 'react-helmet';
@@ -25,18 +26,18 @@ const View = () => {
               <span className="nav__logo-name">Bedimcode</span>
               <a href="#" className="nav__link active"></a>
             </a>
-            <a href="#" className="nav__link active">
-          <span className="nav__name">Home</span>
-        </a>
+            <Link to="/" className="nav__link active">
+              <span className="nav__name">Home</span>
+            </Link>
 
             <div className="nav__list">
               <div className="nav__items">
                 <h3 className="nav__subtitle">Profile</h3>
 
-                <a href="#" className="nav__link active">
+                <Link to="/" className="nav__link active">
                   <img src={aGif} alt="Home" className="nav__icon" />
                   <span className="nav__name">Home</span>
-                </a>
+                </Link>
 
                 <div className="nav__dropdown">
                   <a href="#" className="nav__link">
@@ -88,6 +89,10 @@ const View = () => {
                   <i className='bx bx-bookmark nav__icon'></i>
                   <span className="nav__name">Saved</span>
                 </a>
+                <Link to="/readme" className="nav__link">
+                  <i className='bx bx-world nav__icon'></i>
+                  <span className="nav__name">readme</span>
+                </Link>
               </div>
             </div>
           </div>
