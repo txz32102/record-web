@@ -22,20 +22,17 @@ const ReadmeViewer = () =>{
     useEffect(() =>{
         const fetchContent = async () =>{
             console.log("Fetching content for:", filename);
+            const url = process.env.NODE_ENV === 'development' 
+            ? `http://localhost:32102/files/${filename}` 
+            : `http://www.druggableprotein.com:32102/files/${filename}`;
             try{
-                const apiUrl = process.env.React_APP_API_URL || "http://localhost:32102";
-                // const response = await axios.get(`${apiUrl}/files/${filename}`);
-                const url = process.env.NODE_ENV === 'development' 
-                ? 'http://localhost:32102' 
-                : 'http://www.druggableprotein.com:32102';
-
-                
                 const response = await axios.get(url);
-                console.log("url is ", url)
+                console.log("the md url is ", url)
                 setContent(marked.parse(response.data.content));
                 console.log("content is ", content)
                 setError(null);
             } catch (error){
+                console.log("the md url is ", url)
                 console.error(error);
                 setError(error);
             }

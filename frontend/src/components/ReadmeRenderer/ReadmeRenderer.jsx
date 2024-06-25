@@ -11,11 +11,13 @@ const ReadmeRenderer = () => {
       try {
 
         const url = process.env.NODE_ENV === 'development' 
-        ? 'http://localhost:32102' 
-        : 'http://www.druggableprotein.com:32102';
+        ? 'http://localhost:32102/files' 
+        : 'http://www.druggableprotein.com:32102/files';
         const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:32102";
+        // const url = 'http://www.druggableprotein.com:32102';
         const response = await axios.get(url);
         console.log(url);
+        console.log(response.data.files)
         if (Array.isArray(response.data.files)) {
           setFiles(response.data.files);
           console.log(response.data.files)
