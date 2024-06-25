@@ -7,7 +7,6 @@ from sqlalchemy.orm import sessionmaker
 from pydantic import BaseModel
 import os
 from datetime import datetime
-import markdown
 
 app = FastAPI()
 
@@ -62,8 +61,7 @@ def read_file(filename: str):
     try:
         with open(file_path, "r", encoding="utf-8") as file:
             content = file.read()
-        html_content = markdown.markdown(content)
-        return FileResponse(content=html_content)
+        return FileResponse(content=content)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
