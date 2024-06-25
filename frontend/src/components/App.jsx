@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import View from './BaseView/View';
 import Moment from './Moment/Moment';
-import Readme from './ReadmeRenderer/ReadmeRenderer';
+import ReadmeList from './ReadmeRenderer/ReadmeList';
 import ReadmeViewer from './ReadmeRenderer/ReadmeViewer';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <View />
         <Routes>
            <Route path="/" element={<Moment />} />
-          <Route path="/readme" element={<Readme />} />
+          <Route path="/readme" element={<ReadmeList />} />
           <Route path="/readme/:filename" element={<ReadmeViewer />} />
         </Routes>
       </div>
