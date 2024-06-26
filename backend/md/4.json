@@ -1,0 +1,1019 @@
+[
+    {
+        "options": [
+            "A、只能对数据库进行查询，不能进行修改",
+            "B、只能对数据库进行修改，不能进行查询",
+            "C、需要指定对数据库的操作步骤和方法",
+            "D、不需要指定对数据库的操作步骤和方法"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "2. The data（）includes the function of updating data on a database， and retrieving data from a database.",
+        "options": [
+            "A、management",
+            "B、storage",
+            "C、analysis",
+            "D、communication"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "3. （ ）has become a fact of modern life， with millions of people now shopping on-line.",
+        "options": [
+            "A、E-mail",
+            "B、E-commerce",
+            "C、",
+            "E-learning",
+            "D、E-communication"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "4. （ ）of database refers to the protection  of data against unauthorized  disclosure， alteration，or destruction.",
+        "options": [
+            "A、Security",
+            "B、Access",
+            "C、",
+            "Backup",
+            "D、Creation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "5. When all modules have been completed and tested, （）is performed to ensure that the modules operate together correctly.",
+        "options": [
+            "A、unit",
+            "testing",
+            "B、integration",
+            "testing",
+            "C、system",
+            "testing",
+            "D、acceptance",
+            "testing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "6. （）is the delivery of different services through the Internet, including data storage, servers, databases, networking, and software.",
+        "options": [
+            "A、AI",
+            "B、Blockchain",
+            "C、Cloud",
+            "Computing",
+            "D、Big",
+            "Data"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "7. As each application module is completed, it undergoes （ ） to ensure that it operates correctly and reliably.",
+        "options": [
+            "A、unit",
+            "testing",
+            "B、integration",
+            "testing",
+            "C、system",
+            "testing",
+            "D、acceptance",
+            "testing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "8. The line of computing jobs waiting to be run on a computer system might be a （）．The jobs are serviced in the order of their arrival， that is， the first in is the first out．",
+        "options": [
+            "A、queue",
+            "B、stack",
+            "C、array",
+            "D、record"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "9. In（）programming ， the user determines the sequence of instructions to be executed， not the programmer.",
+        "options": [
+            "A、top-down",
+            "B、structure",
+            "C、data-driven",
+            "D、event-driven"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "10. Integration （ ）is the process of verifying that the components of a system work together as described in the program design and system design specifications.",
+        "options": [
+            "A、trying",
+            "B、checking",
+            "C、testing",
+            "D、coding"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "11. （）：The process of identifying and correcting errors in a program.",
+        "options": [
+            "A、Debug",
+            "B、Bug",
+            "C、Fault",
+            "D、Default"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "12. （）：A location where data can be temporarily store（D）",
+        "options": [
+            "A、Area",
+            "B、Disk",
+            "C、Buffer",
+            "D、File"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "13. （ ）：A graphical bar with buttons that perform some of the most common commands.",
+        "options": [
+            "A、Title",
+            "bar",
+            "B、Tool",
+            "bar",
+            "C、Status",
+            "bar",
+            "D、",
+            "Scroll",
+            "bar"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "14. 软件工程是指（）。",
+        "options": [
+            "A、用工程化的方法开发软件",
+            "B、用软件实现工程设计",
+            "C、用软件管理工程项目",
+            "D、用工程技术制造软件"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "15. 一组无逻辑关系的语句在程序中多处出现，为了节省存储空间，把这些语句放在一个模块中，该模块的内聚是（）。",
+        "options": [
+            "A、逻辑内聚",
+            "B、偶然内聚",
+            "C、过程内聚",
+            "D、通信内聚"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "16. 软件工程的基本目标是（ ）。",
+        "options": [
+            "A、消除软件固有的复杂性",
+            "B、开发高质量的软件",
+            "C、努力发挥开发人员的创造性潜能",
+            "D、更好地维护正在使用的软件产品"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "17. 在软件生存周期中,时间最长、所花费的精力和费用也最多的阶段是（）。",
+        "options": [
+            "A、详细设计",
+            "B、概要设计",
+            "C、维护",
+            "D、测试"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "18. 软件生存周期是指（）。",
+        "options": [
+            "A、开发软件的全部时间",
+            "B、使用软件的全部时间",
+            "C、开发和使用软件的全部时间",
+            "D、从形成概念开始到最后淘汰让位于新的软件产品的时间"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "19. 通过程序设计活动求解问题时，通常可分为问题建模、算法设计、编写代码和编译调试四个阶段。（ ）阶段的工作与所选择的程序语言密切相关。",
+        "options": [
+            "A、问题建模和算法设计",
+            "B、算法设计和编写代码",
+            "C、问题建模和编译调试",
+            "D、编写代码和编译调试"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "20. 某模块中各个处理元素都密切相关于同一功能且必须顺序执行，前一处理元素的输出就是下一处理元素的输入，则该模块的内聚类型为（）内聚。",
+        "options": [
+            "A、过程",
+            "B、时间",
+            "C、顺序",
+            "D、逻辑"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "21. 某开发小组为某企业开发较大规模的项目，该开发小组已经为同一行业的其他企业开发过类似的项目，且该项目需求变化很少，则最适宜采用（ ）开发过程模型。",
+        "options": [
+            "A、瀑布",
+            "B、演化",
+            "C、螺旋",
+            "D、",
+            "喷泉"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "22. 螺旋模型是一种（）的软件开发模型。",
+        "options": [
+            "A、增量式",
+            "B、迭代式",
+            "C、瀑布式",
+            "D、原型式"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "23. 通常企业在信息化建设时需要投入大量的资金，成本支出项目多且数额大。在企业信息化建设的成本支出项目中，系统切换费用属于（）。",
+        "options": [
+            "A、设施费用",
+            "B、设备购置费用",
+            "C、开发费用",
+            "D、系统运行维护费用"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "24. 软件工程项目质量管理不包括 （）。",
+        "options": [
+            "A、质量计划",
+            "B、质量保证",
+            "C、质量控制",
+            "D、质量评级"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "25. 软件开发过程中，项目管理的目标不包括（ ）。",
+        "options": [
+            "A、有效地控制产品的质量",
+            "B、保证项目按预定进度完成",
+            "C、合理利用各种资源，尽量减少浪费和闲置",
+            "D、提高软件开发团队各成员的水平"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "26. 在Java语言中，类名应该使用（）命名法。",
+        "options": [
+            "A、驼峰式",
+            "B、下划线式",
+            "C、大写式",
+            "D、小写式"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "27. 在C语言中，函数名应该使用（ ）命名法。",
+        "options": [
+            "A、驼峰式",
+            "B、下划线式",
+            "C、大写式",
+            "D、小写式"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "28. 在任何语言中，变量名应该（ ）。",
+        "options": [
+            "A、尽可能长一些，有助于可读性",
+            "B、尽可能有意义",
+            "C、尽可能用些数字描述",
+            "D、尽可能使用本国语言描述"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "29. （）不属于良好的编码风格。",
+        "options": [
+            "A、恰当使用缩进、空行以改善清晰度",
+            "B、利用括号使逻辑表达式或算术表达式的运算次序清晰直观",
+            "C、用短的变量名使得程序更紧凑",
+            "D、保证代码和注释的一致性"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "30. 良好的编程（）使阅读代码更容易。",
+        "options": [
+            "A、测试",
+            "B、风格",
+            "C、编译器",
+            "D、排错"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "31. 编码规范是指（）。",
+        "options": [
+            "A、程序员编写代码的技巧和方法",
+            "B、程序员编写代码的标准和规则",
+            "C、程序员编写代码的风格和习惯",
+            "D、程序员编写代码的工具和环境"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "32. 行内注释是指（）。",
+        "options": [
+            "A、在代码行之前添加的注释",
+            "B、在代码行之后添加的注释",
+            "C、在代码行中间添加的注释",
+            "D、在代码行上方添加的注释"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "33. 注释规范是指（）。",
+        "options": [
+            "A、程序员在代码中添加的说明和解释",
+            "B、程序员在代码中添加的标记和提示",
+            "C、程序员在代码中添加的规范和要求",
+            "D、程序员在代码中添加的问题和建议"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "34. 文件注释是指（）。",
+        "options": [
+            "A、在文件开头添加的注释",
+            "B、在文件结尾添加的注释",
+            "C、在文件中间添加的注释",
+            "D、在文件外部添加的注释"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "35. 文档规范是指（）。",
+        "options": [
+            "A、程序员在代码中添加的注释",
+            "B、程序员在代码外部编写的说明",
+            "C、程序员在代码中使用的格式",
+            "D、程序员在代码外部使用的工具"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "36. 文档规范的好处有（）。",
+        "options": [
+            "A、提高程序的可读性和可维护性",
+            "B、提高程序的可靠性和可测试性",
+            "C、提高程序的可用性和可交付性",
+            "D、提高程序的效率和性能"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "37. 文档规范的类型有（）。",
+        "options": [
+            "A、需求文档和设计文档",
+            "B、测试文档和用户文档",
+            "C、维护文档和交付文档",
+            "D、项目文档和系统文档"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "38. 系统实施的目的是（）。",
+        "options": [
+            "A、完成系统测试",
+            "B、实现系统评价",
+            "C、构建系统的物理模型",
+            "D、将逻辑设计转化为物理实际系统"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "39. 系统转换最安全的方式是（）。",
+        "options": [
+            "A、平行转换",
+            "B、分段转换",
+            "C、直接转换",
+            "D、批量转换"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "40. 系统日常运行管理内容中的（ ）是指系统中设置了自动记录功能，能通过自动记录的信息发现或判明系统的问题和原因。",
+        "options": [
+            "A、系统运行情况的记录",
+            "B、系统资源的管理",
+            "C、审查应急措施的落实",
+            "D、审计踪迹"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "41. 信息系统维护的主要内容包括系统应用程序维护、（）、代码维护、硬件设备维护和文档维护。",
+        "options": [
+            "A、数据维护",
+            "B、软件维护",
+            "C、模块维护",
+            "D、结构维护"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "42. 信息系统维护的最主要内容之一（），它是指对相应的应用软件及有关文档进行的修改和完善。",
+        "options": [
+            "A、数据维护",
+            "B、系统应用程序维护",
+            "C、代码维护",
+            "D、硬件设备维护"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "43. 系统应用程序维护中的（ ）指的是，使应用软件适应外界环境变化和管理需求变化而进行的修改。",
+        "options": [
+            "A、正确性维护",
+            "B、完善性维护",
+            "C、适应性维护",
+            "D、预防性维护"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "44. 系统维护的重点是系统应用软件的维护工作，按照软件维护的不同性质划分为四种类型，即（）。",
+        "options": [
+            "A、纠错性维护、适应性维护、扩充性维护和预防性维护",
+            "B、纠错性维护、扩充性维护、完善性性维护和可靠性维护",
+            "C、纠错性维护、适应性维护、完善性性维护和可靠性维护",
+            "D、纠错性维护、适应性维护、完善性性维护和预防性维护"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "45. 为了进一步改善软件系统的可维护性和可靠性，并为以后的改进奠定基础的软件维护称为（）。",
+        "options": [
+            "A、预防性维护",
+            "B、纠错性维护",
+            "C、适应性维护",
+            "D、完善性性维护"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "46. 根据对各种维护工作分布情况的统计结果，软件维护工作的最主要部分是（）。",
+        "options": [
+            "A、纠错性维护",
+            "B、完善性维护",
+            "C、适应性维护",
+            "D、预防性维护"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "47. （）的目的是为了估计系统的技术能力、工作性能和系统的利用率等，其度量了系统当前的性能并为进一步改善未来的系统提供依据。",
+        "options": [
+            "A、系统维护",
+            "B、系统验收",
+            "C、系统评价",
+            "D、系统设计"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "48. 在评价一个信息系统时，最重要的是建立评价指标体系，它既包括了信息系统开发运行者，也就是信息系统主体，也包括信息系统的直接用户即信息系统的客体，更包括（ ）。",
+        "options": [
+            "A、科学管理既制度完备与实施",
+            "B、系统安全可靠性",
+            "C、领导对系统建设与运维的支持",
+            "D、对外部社会即环境的影响"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "49. 信息系统的安全保密性评价一般属于系统评价技术指标中的（）评价。",
+        "options": [
+            "A、可靠性",
+            "B、高效性",
+            "C、适应性",
+            "D、可维护性"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "50. 一个优秀的概念设计不包含（   ）。",
+        "options": [
+            "A、用客户语言编写",
+            "B、描述系统功能",
+            "C、描述软件构件的层次和功能",
+            "D、与需求文档链接"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "51. 属于程序设计语言的类型的选项是（）。",
+        "options": [
+            "A、面向对象语言",
+            "B、面向图形语言",
+            "C、面向音频语言",
+            "D、面向网络语言"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "52. 用（）来描述算法时，可以采用类似于程序设计语言的语法结构，也易于转换为程序。",
+        "options": [
+            "A、自然语言",
+            "B、流程图",
+            "C、N-S盒图",
+            "D、伪代码"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "53. 用某高级程序设计语言编写的源程序通常被保存为（ ）。",
+        "options": [
+            "A、位图文件",
+            "B、文本文件",
+            "C、二进制文件",
+            "D、动态链接库文件"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "54. 将多个目标代码文件装配成一个可执行程序的程序称为（）。",
+        "options": [
+            "A、编译器",
+            "B、解释器",
+            "C、汇编器",
+            "D、链接器"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "55. 程序代码编写方案是指（）。",
+        "options": [
+            "A、程序员在编写代码之前制定的计划和步骤",
+            "B、序员在编写代码之后进行的检查和评估",
+            "C、程序员在编写代码过程中使用的工具和环境",
+            "D、程序员在编写代码时遵循的规范和标准"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "56. 程序代码编写方案的好处有（）。",
+        "options": [
+            "A、提高程序的可读性和可维护性",
+            "B、提高程序的可靠性和可测试性",
+            "C、提高程序的可用性和可交付性",
+            "D、提高程序的效率和性能"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "57. 程序代码编写方案的类型有（）。",
+        "options": [
+            "A、自上而下和自下而上",
+            "B、结构化和面向对象",
+            "C、模块化和组件化",
+            "D、递归和迭代"
+        ],
+        "correct_answer": "B?"
+    },
+    {
+        "question": "58. 自上而下的程序设计方案是指（ ）。",
+        "options": [
+            "A、先确定程序的总体目标，再细化为具体的子目标",
+            "B、先确定程序的具体细节，再组合为整体目标",
+            "C、先确定程序的输入输出，再确定中间过程",
+            "D、先确定程序的功能模块，再确定接口关系"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "59. 面向对象的程序设计方案是指（ ）。",
+        "options": [
+            "A、把程序看作是由多个对象组成的系统，每个对象有自己的属性和方法",
+            "B、把程序看作是由多个函数组成的系统，每个函数有自己的参数和返回值",
+            "C、把程序看作是由多个数据结构组成的系统，每个数据结构有自己的类型和操作",
+            "D、把程序看作是由多个过程组成的系统，每个过程有自己的输入输出和控制流"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "60. 模块化的程序设计方案是指（ ）。",
+        "options": [
+            "A、把程序分解为多个相互独立的模块，每个模块完成一个特定功能",
+            "B、把程序分解为多个相互依赖的模块，每个模块完成一个通用功能",
+            "C、把程序分解为多个相互重复的模块，每个模块完成一个备用功能",
+            "D、把程序分解为多个相互冲突的模块，每个模块完成一个竞争功能"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "61. 所谓（）就是可以自由而且免费的使用该软件，并拷贝给别人，而且不必支付任何费用给程序的作者，使用上也不会出现任何日期的限制或是软件使用上的限制。",
+        "options": [
+            "A、绿色软件",
+            "B、共享软件",
+            "C、开源软件",
+            "D、免费软件"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "62. 当您拷贝免费软件给别人的时候，必须将完整的软件档案拷贝给他人，同时（）。",
+        "options": [
+            "A、不得收取任何的费用或转为其它商业用途",
+            "B、可以收取费用但不得转为其它商业用途",
+            "C、不得收取任何的费用但可以转为其它商业用途",
+            "D、可以收取费用或转为其它商业用途"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "63. 免费软件使用上（ ）。",
+        "options": [
+            "A、会出现免费试用期限和免费试用功能限制",
+            "B、不会出现任何日期的限制或是软件使用上的限制",
+            "C、不会出现任何软件使用上的限制，但提供一定的免费试用期限",
+            "D、不会出现任何日期的限制，但会出现免费试用功能限制"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "64. 以“先使用后付费”的方式销售的享有版权的软件是（）。",
+        "options": [
+            "A、免费软件",
+            "B、绿色软件",
+            "C、共享软件",
+            "D、开源软件"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "65. 共享软件使用上（）。",
+        "options": [
+            "A、不会出现任何日期的限制或是软件使用上的限制",
+            "B、仅会出现免费试用期限，绝不会出现免费试用功能限制",
+            "C、仅会出现免费试用功能限制，绝不会出现免费试用期限",
+            "D、会出现免费试用期限或免费试用功能限制"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "66. 按照软件的授权方式，可以分为商业软件、共享软件和（ ）。",
+        "options": [
+            "A、自由软件",
+            "B、绿色软件",
+            "C、免费软件",
+            "D、开源软件"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "67. （）被定义为描述其源码可以被公众使用的软件，并且此软件的使用，修改和分发也不受许可证的限制。",
+        "options": [
+            "A、免费软件",
+            "B、开源软件",
+            "C、共享软件",
+            "D、绿色软件"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "68. 开源软件的开发方式通常是（）。",
+        "options": [
+            "A、闭源协作，即只有核心开发者可以参与开发",
+            "B、开放协作，即任何有能力的用户都可以参与开发",
+            "C、独立协作，即每个开发者都自行开发自己的版本",
+            "D、竞争协作，即每个开发者都试图超越其他开发者"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "69. 开源软件的优势有（）。",
+        "options": [
+            "A、提高软件的质量和安全性",
+            "B、提高软件的创新和多样性",
+            "C、提高软件的适应性和可定制性",
+            "D、提高软件的效率和性能"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "70. 软件许可证是一种（），由软件作者与用户签订，用以规定和限制软件用户使用软件或其源代码的权利，以及作者应尽的义务。",
+        "options": [
+            "A、格式合同",
+            "B、著作权证书",
+            "C、版权证书",
+            "D、登记证"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "71. 一旦与软件开发商达成协议，签订合同后可终身无限制的使用该软件的许可证是（）。",
+        "options": [
+            "A、年度许可证",
+            "B、终身许可证",
+            "C、BSD许可证",
+            "D、GPL许可证"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "72. 商业软件许可证是指（ ）。",
+        "options": [
+            "A、软件开发者向软件用户出售或授权使用软件的协议",
+            "B、软件开发者向软件用户免费或捐赠使用软件的协议",
+            "C、软件开发者向软件用户限制或禁止使用软件的协议",
+            "D、软件开发者向软件用户公开或共享使用软件的协议"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "73. 计算机信息系统的安全保护，应当保障（），运行环境的安全，保障信息的安全，保障计算机功能的正常发挥，以维护计算机信息系统的安全运行。",
+        "options": [
+            "A、计算机的安全",
+            "B、计算机及其相关的和配套的设备、设施含网络的安全",
+            "C、计算机硬件的系统安全",
+            "D、计算机操作人员的安全"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "74. 互联网上的（）是指互联网上一切可能对现存法律秩序和其他公序良俗造成破坏或者威胁的数据、新闻和知识等信息。",
+        "options": [
+            "A、有害内容",
+            "B、有害数据",
+            "C、有害信息",
+            "D、有害游戏"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "75. （ ）是指编制或者在计算机程序中插入的破坏计算机功能或者毁坏数据，影响计算机使用，并能自我复制的一组计算机指令或者程序代码。",
+        "options": [
+            "A、计算机程序",
+            "B、计算机系统文件",
+            "C、计算机应用软件",
+            "D、计算机病毒"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "76. 涉及（）的计算机信息系统，不得直接或间接地与国际互联网或其他公共信息网络相连接，必须实行物理隔离。",
+        "options": [
+            "A、国家秘密",
+            "B、用户数据",
+            "C、企业秘密",
+            "D、财务数据"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "77. 《互联网信息服务管理办法》对经营性和非经营性互联网信息服务实行以下制度：（ ）。",
+        "options": [
+            "A、对经营性互联网信息服务实行许可制度，对非经营性互联网信息服务实行备案制度",
+            "B、对经营性和非经营性互联网信息服务均实行许可制度",
+            "C、对经营性和非经营性互联网信息服务均实行备案制度信息服务实行许可制度",
+            "D、对经营性互联网信息服务实行备案制度，对非经营性互联网信息服务实行许可制度"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "78. 我国计算机信息系统实行（）保护。",
+        "options": [
+            "A、第一责任人制",
+            "B、专人负责制",
+            "C、安全等级",
+            "D、专职人员资格"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "79. 通过（ ）方式是可以合法收集个人信息的。",
+        "options": [
+            "A、未经用户同意，擅自收集用户信息",
+            "B、通过欺骗手段获取用户信息",
+            "C、经过用户明确同意，按照相关法律法规收集用户信息",
+            "D、通过非法渠道购买用户信息"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "80. 在公共场所安装图像采集、个人身份识别设备所收集的个人图像、身份识别信息只能用于（）的目的，不得用于其他目的；取得个人单独同意的除外。",
+        "options": [
+            "A、客户识别",
+            "B、客流量统计",
+            "C、维护公共安全",
+            "D、客户分析"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "81. 以下哪一项收集个人信息的途径是合法的（）。",
+        "options": [
+            "A、以误导的方式",
+            "B、隐瞒产品或服务所具有的收集个人信息的功能",
+            "C、收集个人信息主体自行向社会公众公开的个人信息",
+            "D、从非法渠道购买个人信息"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "82. 非法获取、出售公民个人信息，情节严重的（）。",
+        "options": [
+            "A、处以3年以下有期徒刑或者拘役",
+            "B、行政警告即可",
+            "C、承担民事责任",
+            "D、拘留2日释放"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "83. 非法收集个人信息的处罚是（ ）。",
+        "options": [
+            "A、最高可处以5000元的罚款或者5年以下的监禁",
+            "B、最高可处以500万美元的罚款或者5%的年营业额",
+            "C、最高可处以5000万人民币的罚款或者5%的年营业额",
+            "D、最高可处以500万卢比的罚款或者3年以下的监禁"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "84. 设立用于非法获取、出售或者提供公民个人信息违法犯罪活动的网站、通讯群组，情节严重的，以非法利用信息网络罪定罪处罚；同时构成侵犯公民个人信息罪的，以（）处罚。",
+        "options": [
+            "A、非法利用信息网络罪",
+            "B、非法获取公民个人信息罪",
+            "C、侵犯公民个人信息罪",
+            "D、非法经营罪"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "85. 恶意代码传播速度最快、最广的途径是（）。",
+        "options": [
+            "A、安装系统软件时",
+            "B、通过U盘复制来传播文件时",
+            "C、通过光盘复制来传播文件时",
+            "D、通过网络来传播文件时"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "86. 病毒和木马的出现证明在无线平台上生产恶意代码是有可能的，而且病毒在无线环境下可能传播更快，这属于移动商务面临的（）威胁。",
+        "options": [
+            "A、窃取和丢失",
+            "B、恶意代码",
+            "C、业务抵赖",
+            "D、信息陈旧"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "87. （）不足以说明病毒是网络攻击的有效载体。",
+        "options": [
+            "A、网络攻击程序可以通过病毒经由多种渠道传播",
+            "B、攻击程序可以通过病毒的隐蔽性来逃避检测程序",
+            "C、病毒的潜伏性和可触发性使网络攻击防不胜防",
+            "D、黑客直接通过病毒对目标主机发起攻击"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "88. 网页恶意代码通常利用（）来实现植入并进行攻击。",
+        "options": [
+            "A、U盘工具",
+            "B、IE浏览器的漏洞",
+            "C、口令攻击",
+            "D、拒绝服务攻击"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "89. （）病毒没有自我复制功能。",
+        "options": [
+            "A、特洛伊木马",
+            "B、蠕虫",
+            "C、细菌",
+            "D、病毒"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "90. 为了防止电子邮件中的恶意代码，应该由（）方式阅读电子邮件。",
+        "options": [
+            "A、纯文本",
+            "B、网页",
+            "C、程序",
+            "D、会话"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "91. （）选项不属于恶意代码分析方法。",
+        "options": [
+            "A、静态分析",
+            "B、动态分析",
+            "C、人工智能分析",
+            "D、同源分析"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "92. （ ）信息不是特洛伊木马所窃取的。",
+        "options": [
+            "A、计算机名字",
+            "B、硬件信息",
+            "C、QQ用户密码",
+            "D、系统文件"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "93. （ ）选项属于恶意代码静态分析技术。",
+        "options": [
+            "A、在沙箱中运行恶意代码",
+            "B、检查可执行文件但不查看具体指令",
+            "C、使用调试器检查恶意代码运行时刻的内部状态",
+            "D、运行恶意代码并观察系统上的行为"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "94. 应用安全防护技术，主要包括工业互联网（）安全防护技术和工业应用软件安全防护技术。",
+        "options": [
+            "A、网络",
+            "B、数据",
+            "C、设备",
+            "D、平台"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "95. 下面哪项不属于应用安全（）",
+        "options": [
+            "A、编程语言平台",
+            "B、程序",
+            "C、应用软件系统",
+            "D、操作系统"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "96. 工业互联网安全防护内容具体包括：设备安全、控制安全、网络安全、（）和数据安全。",
+        "options": [
+            "A、传输安全",
+            "B、技术安全",
+            "C、应用安全",
+            "D、存储安全"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "97. 云存储系统通过集群应用和分布式存储技术将大量不同类型的存储设备集合起来协调工作，提供企业级数据存储、管理、业务访问、高效协同的应用系统及存储解决方案。对云存储系统的要求不包括（ ）。",
+        "options": [
+            "A、统一存储，协同共享",
+            "B、多端同步，实时高效",
+            "C、标准格式，存取自由",
+            "D、安全稳定，备份容灾"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "question": "98. 数字信封技术能够（）。",
+        "options": [
+            "A、保证数据在传输过程中的安全性",
+            "B、隐藏发送者的真实身份",
+            "C、对发送者和接收者的身份进行认证",
+            "D、防止交易中的抵赖发生"
+        ],
+        "correct_answer": "A?"
+    },
+    {
+        "question": "99. 若连接数据库过程中需要指定用户名和密码，则这种安全措施属于（ ）。",
+        "options": [
+            "A、授权机制",
+            "B、视图机制",
+            "C、数据加密",
+            "D、用户标识与鉴别"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "100. 网络安全的基本目标包括（）。",
+        "options": [
+            "A、保密性、完整性和可用性",
+            "B、保密性、完整性和可靠性",
+            "C、保密性、完整性和可控性",
+            "D、保密性、完整性和可信性"
+        ],
+        "correct_answer": "A"
+    }
+]

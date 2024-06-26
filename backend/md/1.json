@@ -1,0 +1,802 @@
+[
+    {
+        "question": "1. 职业道德是从业者在职业活动中应该遵循的符合自身职业特点的职业行为规范。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "2. 社会主义职业道德的指导原则是为人民服务。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "3. 职业道德与个人品德是互相影响、互相促进的正相关关系。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "4. “爱国守法、明礼诚信、团结友善、勤俭自强、敬业奉献”的公民基本道德规范育“爱岗敬业、诚实守信、办事公道、服务群众、奉献社会”的职业道德规范没有内在关系。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "5. 爱岗敬业、忠于职守就要干一行，爱一行，终身只能从事某职业。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "6. 服务群众最终要达到的最佳效果是优质服务。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "7. 奉献社会，不光是为了名和利，也为了有益于他人，有益于国家和社会。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "8. 创新是个人事业成功的保障，创新蕴含着巨大的经济价值和社会价值。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "9. 精通业务与职业道德无关。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "10. 产品质量、安全生产有相应的法律规定，因此不属于职业道德规范。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "11. 维护公共秩序和保护生态环境应该从我做起，勿以恶小而为之。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "12. 现代企业的团队精神属于行业职业道德规范之一。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "13. 勤俭节约只是我国的传统美德，只是体现在家庭美德上，和职业道德没有关系。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "14. 计算机程序设计员对其同行应持团结协作、互帮互助的态度。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "15. 语法是指由程序设计语言的基本符号组成程序中的各个语法成分的一组规则，其中由基本字符构成的符号书写规则称为词法规则，由符号构成语法成分的规则称为语法规则。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "16. 逻辑型语言是一类以形式逻辑为基础的语言，其代表是建立在关系理论和一阶谓词理论基础上的PASCAL。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "17. 按照程序运行时数据的值能否改变，将数据分为常量和变量；按作用域可将变量分为全局变量和局部变量。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "18. 函数的声明与函数的定义形式上十分相似，都需要开辟内存，但声明不包含函数体。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "19. 数据结构是带“结构”的数据元素的集合，即相互之间存在一种且只有一种特定关系的数据元素的集合。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "20. 线性结构中所有数据元素均有唯一的“后继”。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "21. 有一个以上根结点的数据结构一定是非线性结构。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "22. 概念模型使设计者的注意力能够从最重要的信息的组织结构和处理模式上解脱出来，而只集中在复杂的实现细节中。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "23. 数据库逻辑结构设计的结果是唯一的。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "24. 宿主语言，是开发宿主环境的程序语言，比方说你用VC做数据库，那么SQL就是宿主语言，它是C++的宿主。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "25. 过程化SQL基本结构是块，块可以嵌套，每个块完成一个逻辑操作。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "26. Operating system first appeared during the third computer generation.（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "27. When writing data to memory,the CPU first outputs the data onto the data bus,then outputs the address onto the address bus.（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "28. A virus infected computer may lose its data.（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "29. 软件产品的发布时间应由测试团队来决定。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "30. 软件生存周期是从软件开始开发到开发结束的整个时期。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "31. 程序设计的一般原则包括先进行内部设计，再设计外部接口。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "32. 软件开发过程中为确保软件质量所采取的措施中，不包括用户应参与开发全过程，并监督开发质量。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "33. 涉及物理状态或含有物理意义的常量，提倡直接使用数字，因为这些是众所周知的，没有必要再进行常量的定义。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "34. 建议把多个短语句写在一行便于阅读。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "35. 只有一些复杂的代码需要注释说明。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "36. 信息系统运行方式可采取全内部方式、全外包方式和部分外包方式，不同形式的采取主要取决于企业的业务主流、技术储备和经济考虑。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "37. 信息系统数据维护主要包括数据库维护、数据文件维护和信息编码维护等内容。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "38. 信息系统评价方法主要有定量/定性方法和动态/静态方法。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "39. 在对高级语言编写的源程序进行编译时，可发现源程序中的全部语法错误和全部语义错误。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "40. 为提高程序的可读性，程序中的注释应重点解释程序中各语句的语义。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "41. 编译是将高级语言源代码转换成目标代码的过程，解释是将高级语言源代码转换为目标代码的过程。在编译方式下，用户程序运行的速度更快。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "42. 免费软件可以未经程序作者的同意，自由修改该软件的程序代码。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "43. 共享软件受版权法保护。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "44. 开源软件就是代码公开的软件。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "45. 常用的软件许可证包括：GPL许可证、BSD许可证、私权软件许可证等。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "46. 计算机病毒疫情，是指某种计算机病毒爆发、流行的时间、范围、破坏特点、破坏后果等情况的报告或者预报。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "47. 计算机信息系统实行安全等级保护，安全等级的划分标准和安全等级保护的具体办法，由工信部会同有关部门制定。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "48. 网络服务提供者和其他企业事业单位在业务活动中收集、使用公民个人电子信息，应当遵循合法、正当、必要的原则，明示收集、使用信息的目的、方式和范围，并经被收集者同意，不得违反法律、法规的规定和双方的约定收集、使用信息。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "49. 违反国家有关规定，通过购买、收受、交换等方式获取公民个人信息，或者在履行职责、提供服务过程中超范围收集公民个人信息的，均可能构成侵犯公民个人信息罪。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "50. 通过修改某种已知计算机病毒的代码，使其能够躲过现有计算机病毒检测程序时，可以称这种新出现的计算机病毒是原来计算机病毒的变形（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "51. 木马程序通常称为木马，恶意代码等，是指潜伏在电脑中，可接收外部用户控制以窃取本机信息或控制权的程序。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "52. 恶意代码检测申请人定期组织常规性恶意代码检测工作。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "53. 安全预评价是指在项目建设前应用安全评价的原理和方法对系统的危险性、危害性进行预测性评价（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "54. 数据的安全性是指保护信息和信息系统不受到未经授权的获取、使用、泄漏、毁坏、更改或破坏。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "55. DES是共享密钥加密算法。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "56. 任何个人和组织不得从事非法入侵他人网络、干扰他人网络正常功能、窃取网络数据等危害网络安全的活动。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "57. 网络运营者应当对其收集的用户信息严格保密，并建立完善用户信息保护制度。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "58. 作者的传播权包括表演者权、录制者权、广播组织权、出版者权。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "59. 在我国，注册商标在期满前6个月内没有申请续展注册的，可以给予9个月的宽展期。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "60. 概要设计的主要任务是把需求分析得到的 DFD 转换为软件结构和数据结构。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "61. 软件设计说明书是软件概要设计的主要成果。（  ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "62. 概要设计的过程也就是将需求分析之中产生的功能模型、数据模型和行为模型等分析结论进行转换，由此产生设计结论的过程。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "63. 概要设计需要注意用来检查设计的模块是否完整，保证每一个功能都有对应的模块来实现。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "64. 概要设计要遵循的原则有：模块化；抽象；自顶向下，逐步细化；信息隐蔽；模块独立性。其中，模块独立性是最核心的原则。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "65. SD法是一种面向数据结构的设计方法，强调程序结构与问题结构相对应。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "66. 模块结构图是用于描述系统模块结构的图形工具，不仅描述了系统的子系统结构与分层的模块结构，还清楚地表示了每个模块的功能。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "67. 层次图又叫H图，适于在自顶向下设计软件的过程中使用。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "68. HIPO法既是需求分析方法，又是软件设计方法。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "69. 面向对象方法是一种把面向对象的思想应用于软件开发过程中，指导开发活动的系统方法，简称OO，是建立在“对象”概念基础上的方法学。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "70. 面向对象设计思想包括设计对象重构，抽象基础设计，继承化设计和多态性设计。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "71. 逻辑视图设计的首要准则是在全系统中保持单一、一致的对象模型，避免在此引入不同场景和处理过程中产生各种类和机制的特例化。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "72. 进程视图侧重于系统的运行特性，主要关注一些非功能性需求。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "73. 开发视图和逻辑视图之间可能存在一定的映射关系。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "74. 场景视图是其他视图的冗余，但作为一项驱动因素来发现架构设计过程中的架构元素。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "75. 详细设计对应于集成测试，是设计集成测试用例的主要依据；概要设计对应于单元测试，是设计单元测试用例的主要依据。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "76. 软件详细设计要确定接口的细节，为每一个模块设计出一组测试用例。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "77. 详细设计阶段是为每个模块完成的功能进行具体的描述，要把功能描述转变为精确的、结构化的过程描述。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "78. 结构化程序设计采用的思想是递归法。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "79. 详细设计处理过程常用三种工具：图形、表格和语言。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "80. 盒图是最悠久、使用最广泛的描述过程设计的方法。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "81. PAD图用二维树形结构表示。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "82. N-S图包括顺序结构、条件结构、循环结构。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "83. 判定树的作用是以图形的形式描述复杂的条件组合与对应处理之间的关系。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "84. PDL是一种用于描述功能模块的算法设计和加工细节的语言。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "85. Jackson图只能表达程序结构，不能表达数据结构。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "86. 在程序流程图中，用标有名字的箭头表示控制流。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "87. mccabe度量基于一个程序模块的程序图中环路的个数。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "88. Halstead方法是根据程序中的运算符和分支的总数来度量程序的复杂程度。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "89. 在设计软件的模块结构时, 完善模块的功能不能改进设计质量。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "90. 需求分析阶段研究的对象是软件项目的工程要求。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "91. 控制系统总体方案的确定包括确定控制系统方案、选择开闭环控制、选择测量元件和选择执行机构。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "92. 接口不可以继承类。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "93. 数据库设计的过程中，通常需要先进行需求分析，然后进行概念结构设计，再进行逻辑结构设计，最后进行物理结构设计。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "94. 系统出错处理的目的是提高系统的可靠性和可用性，而不是提高系统的性能和效率。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "95. 结构化查询语言SQL是非关系型数据库的标准语言。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "96. MySQL允许定义任意级别的字符集和校对规则，支持服务器、数据库、表、列等级别的字符集和校对规则。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "97. MySQL中，可以使用SHOW CREATE DATABASE database_name;命令来查看创建数据库时的SQL语句。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "98. 如果在ALTER语句中忽略了数据库的名称，则默认修改当前数据库。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "question": "99. DROP DATABASE 会删除数据库的系统目录项，但不会删除包含数据的文件目录。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "100. MySQL中，可以使用CREATE TABLE IF NOT EXISTS table_name;命令来创建一个表，如果该表已经存在，就不会创建，也不会报错。（ ）",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "correct_answer": "A"
+    }
+]
