@@ -25,7 +25,7 @@ class FileResponse(BaseModel):
 @app.get("/files", response_model=dict)
 def list_files():
     try:
-        files = [f for f in os.listdir(MD_DIR) if f.endswith(".md")]
+        files = [f for f in os.listdir(MD_DIR)]
         return {"files": files}  # Return the list of files wrapped in a dictionary
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
