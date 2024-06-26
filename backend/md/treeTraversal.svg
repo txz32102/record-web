@@ -1,55 +1,6 @@
-# tree basic
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-# leetcode
-https://leetcode.com/problems/same-tree/
-```c++
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
-    bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(!p && !q)
-            return true;
-        if(p && q && q->val == p->val)
-            return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
-        return false; 
-    }
-};
-```
-https://leetcode.com/problems/symmetric-tree/solutions/3290112/easy-solutions-in-java-python-and-c-look-at-once/
-
-Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).</br>
-Input: root = [1,2,2,3,4,4,3]</br>
-Output: true</br>
-Input: root = [1,2,2,null,3,null,3]</br>
-Output: false</br>
-```c++
-class Solution {
-public:
-    bool isMirror(TreeNode* left, TreeNode* right) {
-        if (!left && !right) return true;
-        if (!left || !right) return false;
-        return (left->val == right->val) && isMirror(left->left, right->right) && isMirror(left->right, right->left);
-    }
-
-    bool isSymmetric(TreeNode* root) {
-        if (!root) return true;
-        return isMirror(root->left, root->right);
-    }
-
-};
-```
-
-https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=daily-question&envId=2024-06-26
 <svg
    width="206mm"
    height="207mm"
@@ -903,49 +854,3 @@ https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=
     </g>
   </g>
 </svg>
-
-```c++
-class Solution {
-public:
-    TreeNode* balanceBST(TreeNode* root) {
-	vector<int> data;
-	inorder(root, data);
-	int size = data.size();
-	return createBST(data, 0, size - 1);
-    }
-
-    TreeNode* createTree(){
-        TreeNode* root = new TreeNode(1);
-        root->right = new TreeNode(2);
-        root->right->right = new TreeNode(3);
-        root->right->right->right = new TreeNode(4);
-        return root;
-    }
-
-    void inorder(TreeNode* root, vector<int>& data){
-        if(root == nullptr)
-            return;
-        inorder(root->left, data);
-	data.push_back(root->val);
-        inorder(root->right, data);
-    }
-
-    // 这个是跟着教程敲的.....纯纯学习学习
-    TreeNode* createBST(const vector<int>& data, int start, int end){
-    	if(start > end)
-		return nullptr;
-	int mid = start + (end - start) / 2;
-
-	TreeNode* leftSubtree = createBST(data, start, mid - 1);
-	TreeNode* rightSubtree = createBST(data, mid + 1, end);
-	return new TreeNode(data[mid], leftSubtree, rightSubtree);
-    }
-
-    void printVector(vector<int> data){
-    	for(auto i : data)
-		cout << i << " ";
-	cout << "\n";
-    }
-
-};
-```

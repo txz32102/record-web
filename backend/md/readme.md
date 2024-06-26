@@ -270,7 +270,178 @@ int main() {
 ```
 dijkstra
 
-<img src="public/graph.svg" alt="Description">
+<svg
+   width="160mm"
+   height="130mm"
+   viewBox="0 0 160 130"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="绘图.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69575617"
+     inkscape:cx="396.6907"
+     inkscape:cy="216.31141"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     transform="matrix(0.26458333,0,0,0.26458333,-78.562382,-22.949417)"
+     id="g13">
+    <path
+       d="m 545,152 c 0,-24.301 21.266,-44 47.5,-44 26.234,0 47.5,19.699 47.5,44 0,24.301 -21.266,44 -47.5,44 -26.234,0 -47.5,-19.699 -47.5,-44 z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path1" />
+    <text
+       fill="#ffffff"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="59px"
+       transform="translate(576.849,171)"
+       id="text1">0</text>
+    <path
+       d="m 324,307.5 c 0,-24.024 21.266,-43.5 47.5,-43.5 26.234,0 47.5,19.476 47.5,43.5 0,24.024 -21.266,43.5 -47.5,43.5 -26.234,0 -47.5,-19.476 -47.5,-43.5 z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path2" />
+    <text
+       fill="#ffffff"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="59px"
+       transform="translate(355.43,326)"
+       id="text2">1</text>
+    <path
+       d="m 747,299 c 0,-24.301 21.266,-44 47.5,-44 26.234,0 47.5,19.699 47.5,44 0,24.301 -21.266,44 -47.5,44 -26.234,0 -47.5,-19.699 -47.5,-44 z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path3" />
+    <text
+       fill="#ffffff"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="59px"
+       transform="translate(779.172,318)"
+       id="text3">2</text>
+    <path
+       d="m 516,508 c 0,-24.301 21.266,-44 47.5,-44 26.234,0 47.5,19.699 47.5,44 0,24.301 -21.266,44 -47.5,44 -26.234,0 -47.5,-19.699 -47.5,-44 z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path4" />
+    <text
+       fill="#ffffff"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="59px"
+       transform="translate(547.43,527)"
+       id="text4">3</text>
+    <path
+       d="M 0,0 140.359,124.333"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(-1,0,0,1,545.359,152)"
+       id="path5" />
+    <path
+       d="M 515.516,507.387 371,351"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="M 0,0 184.258,165.161"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(-1,0,0,1,795.258,343)"
+       id="path7" />
+    <path
+       d="M 794.839,254.71 640,152"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="M 0,0 328.774,8.77417"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(-1,0,0,1,747.774,299)"
+       id="path9" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="53px"
+       transform="translate(452.955,238)"
+       id="text9">7</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="53px"
+       transform="translate(720.826,221)"
+       id="text10">3</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="53px"
+       transform="translate(564.955,299)"
+       id="text11">1</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="53px"
+       transform="translate(428.181,464)"
+       id="text12">2</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="53px"
+       transform="translate(727.019,405)"
+       id="text13">0</text>
+  </g>
+</svg>
+
 
 ```c++
 void dijkstra(vector<vector<int>> data, vector<int> weights){
@@ -480,3 +651,6 @@ public:
 https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/editorial/?envType=daily-question&envId=2024-06-23
 
 说是medium题目，但我感觉难度偏高，意义不大，今天看得多的还是树相关的
+
+# 6-26
+因为短学期，几天没刷leetcode了
