@@ -398,6 +398,8 @@ Question: 100. MySQL中，可以使用CREATE TABLE IF NOT EXISTS table_name;命�
 Options: A、正确 B、错误
 Correct Answer: A
 
+
+
 Question: 1. MySQL中，可以使用CHAR和VARCHAR数据类型来存储字符串，其中CHAR是定长的，VARCHAR是变长的。（ ）
 Options: A、正确 B、错误
 Correct Answer: A?
@@ -797,6 +799,8 @@ Correct Answer: B
 Question: 100. 边界值分析法是一种典型的白盒测试法。（ ）
 Options: A、正确 B、错误
 Correct Answer: B
+
+
 
 Question: 1. 错误推测法的缺点是难以系统化，并且过度依赖个人能力。（ ）
 Options: A、正确 B、错误
@@ -1198,6 +1202,8 @@ Question: 100. 过程化SQL程序的基本结构是（）。
 Options: A、变量 B、游标 C、块 D、常量
 Correct Answer: C
 
+
+
 Question: 1. 过程话SQL的特点是（ ）。
 Options: A、只能对数据库进行查询，不能进行修改 B、只能对数据库进行修改，不能进行查询 C、需要指定对数据库的操作步骤和方法 D、不需要指定对数据库的操作步骤和方法
 Correct Answer: C
@@ -1597,4 +1603,1212 @@ Correct Answer: D
 Question: 100. 网络安全的基本目标包括（）。
 Options: A、保密性、完整性和可用性 B、保密性、完整性和可靠性 C、保密性、完整性和可控性 D、保密性、完整性和可信性
 Correct Answer: A
+
+
+
+Question: 1. （ ）攻击方式是利用网络协议的缺陷或者设计漏洞进行的。
+Options: A、拒绝服务攻击 B、中间人攻击 C、恶意软件攻击 D、社会工程学攻击
+Correct Answer: B
+
+Question: 2. （）加密算法是一种对称加密算法。
+Options: A、RSA B、DES C、ECC D、SHA
+Correct Answer: B
+
+Question: 3. 国家建立和完善网络（）。
+Options: A、网络安全标准体系 B、网络安全管理体系 C、网络安全防御体系 D、网络安全战略体系
+Correct Answer: A
+
+Question: 4. 网络运营者应当对其收集的用户信息（），并建立健全用户信息保护制度。
+Options: A、严格保护 B、严格保密 C、严格保障 D、严格防护
+Correct Answer: B
+
+Question: 5. （）是指通过网络收集、存储、传输、处理和产生的各种电子数据。
+Options: A、网络数据 B、信息数据 C、传统数据 D、个人数据
+Correct Answer: A
+
+Question: 6. 网络产品、服务的提供者不得设置（）；发现其网络产品、服务存在安全缺陷、漏洞等风险时，应当立即采取补救措施，按照规定及时告知用户并向有关主管部门报告。
+Options: A、恶意代码 B、恶意程序 C、病毒程序 D、病毒代码
+Correct Answer: B
+
+Question: 7. 国家支持企业、研究机构、高等学校、（）组织参与网络安全国家标准、行业标准的指定。
+Options: A、电信相关行业 B、通信相关行业 C、信息相关行业 D、网络相关行业
+Correct Answer: D
+
+Question: 8. 关键信息基础设施的运营者违反网络安全法第三十五条规定，使用未经安全审查或者安全审查未通过的网络产品或者服务的，由有关主管部门责令停止使用，处采购金额在（ ）罚款；对直接负责的主管人员和其他直接责任人员处一万元以上十万元一下罚款。
+Options: A、一倍以上十倍以下 B、三倍以上五倍以下 C、三倍以上十倍以下 D、五倍以上十倍以下
+Correct Answer: A
+
+Question: 9. 通过继承取得著作权的人，不能享有的权利是（）。
+Options: A、署名权 B、使用权 C、发表权 D、出版权
+Correct Answer: A
+
+Question: 10. 专利权的地域性是指在（）拥有法律保护。
+Options: A、权利人所在的民族区域 B、申请地所在的国家或者地区 C、权利人所在国家的建交国家或地球 D、权利人的国籍国或地区
+Correct Answer: B
+
+Question: 11. 含有保护期限不受时间限制的知识产权的是（）。
+Options: A、商标权 B、著作权 C、实用新型专利权 D、发明专利权
+Correct Answer: B
+
+Question: 12. 知识产权法的渊源一般分为两类，是指（）。
+Options: A、国际条约、国际惯例 B、国内法、国际法 C、法律、国际条约 D、法律、法规
+Correct Answer: B
+
+Question: 13. 发明专利的保护期是20年，起算日期为（）。
+Options: A、申请日 B、发明完成日 C、专利权生效日 D、专利申请文件公开日
+Correct Answer: A
+
+Question: 14. 一项发明或实用新型获得专利授权的实质条件是（）。
+Options: A、创造性、新颖性、技术性 B、新颖性、美观性、实用性 C、新颖性、创造性、实用性 D、创造性、合法性、新颖性
+Correct Answer: C
+
+Question: 15. 软件设计包括（）两个阶段。
+Options: A、接口设计和结构设计 B、概要设计和详细设计 C、数据设计和概要设计 D、结构设计和过程设计
+Correct Answer: B
+
+Question: 16. 概要设计的目的是确定整个系统的（）。
+Options: A、测试方案 B、规模 C、费用 D、功能及模块结构
+Correct Answer: D
+
+Question: 17. 数据流图用于抽象描述一个软件的逻辑模型,数据流图由一些特定的图符构成。不属于数据流图合法图符的是（）。
+Options: A、加工 B、控制流 C、源点和终点 D、数据存储
+Correct Answer: A?
+
+Question: 18. 概要设计的主要成果是（）。
+Options: A、用户的界面要求 B、系统总体方案 C、概要设计说明书 D、用户的分析方案
+Correct Answer: C
+
+Question: 19. 系统流程图是描述（）的工具。
+Options: A、逻辑系统 B、系统程序 C、体系结构 D、物理系统
+Correct Answer: D
+
+Question: 20. 在数据库设计中，用E-R图来描述信息结构但不涉及信息在计算机中的表示，它是数据库设计的（）阶段。
+Options: A、需求分析 B、概念设计 C、逻辑设计 D、物理设计
+Correct Answer: B
+
+Question: 21. 需求分析是分析员经了解用户的要求,认真细致地调研、分析,最终建立目标系统的逻辑模型并写出（ ）的过程。
+Options: A、项目开发计划 B、合同文档 C、模块说明书 D、软件规格说明
+Correct Answer: D
+
+Question: 22. E-R图是数据库设计的工具之一，它适用于建立数据库的（）。
+Options: A、概念模型 B、逻辑模型 C、结构模型 D、物理模型
+Correct Answer: A
+
+Question: 23. 螺旋模型是一种将瀑布模型和（）结合起来的软件开发模型。
+Options: A、喷泉模型 B、变换模型(原型模型) C、专家系统 D、增量模型
+Correct Answer: B
+
+Question: 24. 数据耦合和控制耦合相比,则（）成立。
+Options: A、两者的耦合性相当 B、控制耦合的耦合性强 C、数据耦合的耦合性强 D、两者的耦合性需要根据具体情况分析
+Correct Answer: B
+
+Question: 25. 瀑布模型不适合用于（）的软件开发。
+Options: A、需求模糊不清 B、开发人员对业务知识不熟悉 C、用户不能参与开发 D、用户对计算机不了解
+Correct Answer: A
+
+Question: 26. 下面不属于软件设计原则的是（）。
+Options: A、模块化 B、自底向上 C、信息隐蔽 D、抽象
+Correct Answer: B
+
+Question: 27. 当一个模块直接使用另一个模块的内部数据时,这种模块之间的耦合为（）。
+Options: A、标记耦合 B、公共耦合 C、内容耦合 D、数据耦合
+Correct Answer: C
+
+Question: 28. 概要设计与详细设计衔接的图形工具是（ ）。
+Options: A、DFD图 B、SC图 C、程序流程图PFD D、PAD图
+Correct Answer: C
+
+Question: 29. SD方法是建立良好程序结构的方法，它提出衡量模块结构质量的标准、块间联系与块内联系，SD方法的最终目标是（）。
+Options: A、块间联系大，块内联系大 B、块间联系小，块内联系大 C、块间联系大，块内联系小 D、块间联系小，块内联系小
+Correct Answer: B
+
+Question: 30. 在SD方法中全面指导模块划分的最重要的原则是（）。
+Options: A、程序模块化 B、模块高内聚 C、模块低耦合 D、模块独立性
+Correct Answer: D
+
+Question: 31. 结构化设计方法是一种基于模块化和自顶向下的设计原则的软件设计方法，它主要使用（ ）图形工具来表示软件结构。
+Options: A、结构图和数据流图 B、结构图和数据字典 C、数据流图和数据字典 D、 数据流图和状态转换图
+Correct Answer: A
+
+Question: 32. 结构化程序设计的一种基本方法是（）。
+Options: A、筛选法 B、递归法 C、归纳法 D、逐步求精法
+Correct Answer: D
+
+Question: 33. 结构化分析方法（SA法）使用的主要描述工具有（）。
+Options: A、数据库 B、模块结构图 C、PAD图 D、分层的DFD图
+Correct Answer: D
+
+Question: 34. 软件结构图的形态特征能反映程序复用率的是（）。
+Options: A、深度 B、宽度 C、扇入 D、扇出
+Correct Answer: C
+
+Question: 35. 软件层次图（H图）中一个方形的方块代表一个（）。
+Options: A、模块 B、数据元素 C、调用关系 D、组成关系
+Correct Answer: A
+
+Question: 36. 模块间的调用关系，用联结两模块的（ ）表示。
+Options: A、曲线 B、实心圆箭头 C、直线 D、空心圆箭头
+Correct Answer: C
+
+Question: 37. 层次图用来描绘软件的层次结构，很适于在（）设计软件的过程中使用。
+Options: A、从外到内 B、自顶向下 C、从内到外 D、自底向上
+Correct Answer: B
+
+Question: 38. 结构化设计是一种面向数据流的设计方法，以下不属于结构化设计工具的是（）。
+Options: A、盒图 B、HIPO图 C、顺序图 D、程序流程图
+Correct Answer: C
+
+Question: 39. HIPO图中的H图称为（）图。
+Options: A、高层图 B、海图 C、顶层图 D、层次图
+Correct Answer: D
+
+Question: 40. 绘制HIPO图时（ ）步骤是不正确的。
+Options: A、用一个方块代表一个模块，模块内要标识模块号 B、模块之间的调用关系用带箭头的直线表示 C、采用自顶向下扩展的方法逐层分解 D、在系统设计完成后开始编写HIPO图
+Correct Answer: D
+
+Question: 41. 在面向对象设计中，（）是用来描述具有相同的属性和方法的对象的集合
+Options: A、对象 B、类 C、继承 D、封装
+Correct Answer: B
+
+Question: 42. （）开发方法能够兼顾功能和数据。
+Options: A、功能分解法 B、结构化方法 C、信息建模法 D、面向对象方法
+Correct Answer: D
+
+Question: 43. 在面向对象软件开发方法中，类与类之间主要有（）结构关系。
+Options: A、继承和聚集 B、继承和一般 C、聚集和消息传递 D、继承和方法调用
+Correct Answer: A
+
+Question: 44. 面向对象设计中，“设计抽象的接口”的含义是（）。
+Options: A、向用户暴露尽可能多的系统实现细节 B、向用户暴露尽可能少的实现细节 C、不仅仅考虑用户的业务需求，还要考虑设计约束 D、让用户决定接口的定义，减少开发人员的决策负担
+Correct Answer: B
+
+Question: 45. 面向对象设计的核心是使用（）来进行程序设计。
+Options: A、对象、类、继承、封装、聚合、关联、消息、多态性等基本概念 B、数据结构、算法、流程控制、函数调用等基本概念 C、变量、常量、运算符、表达式等基本概念 D、模块、包、命名空间、异常处理等基本概念
+Correct Answer: A
+
+Question: 46. 面向对象设计方法中，开闭原则的含义是（ ）。
+Options: A、软件实体在更改性方面应该是开放的，在扩展性方面应该是封闭的 B、要尽可能多地使用接口进行封装，利用多态技术，扩展时不需修改源代码 C、尽可能多定义类的继承关系，运用抽象机制 D、采用契约式设计
+Correct Answer: B
+
+Question: 47. 面向对象的特征中，（）是指在确定系统的某一部分内容时，应考虑到其它部分的信息及联系都在这一部分的内部进行，外部各部分之间的信息联系应尽可能的少。
+Options: A、抽象 B、继承 C、封装 D、多态
+Correct Answer: A
+
+Question: 48. 以面向对象的特征中，（）是指不同类的对象对同一消息做出不同的响应，或者说，同一个方法在不同的对象中有不同的实现方式。
+Options: A、抽象 B、继承 C、封装 D、多态
+Correct Answer: D
+
+Question: 49. （）是表达系统类及其相互联系的图示，它是面向对象设计的核心，建立状态图、协作图和其他图的基础。
+Options: A、对象图 B、组件图 C、类图 D、配置图
+Correct Answer: C
+
+Question: 50. 对象实现了数据和操作的结合，使数据和操作（）于对象的统一体中。
+Options: A、结合 B、隐藏 C、封装 D、抽象
+Correct Answer: C
+
+Question: 51. 对象的（）是对象的动态特征。
+Options: A、特征 B、属性 C、关系 D、操作
+Correct Answer: D
+
+Question: 52. （ ）不属于面向对象分析模型。
+Options: A、用例图 B、类图 C、实体关系图 D、顺序图
+Correct Answer: C
+
+Question: 53. 开发视图描述软件在开发环境下的（）。
+Options: A、静态组织 B、动态组织 C、活动组织 D、分布设计
+Correct Answer: A
+
+Question: 54. 开发视图关注程序包，不仅包括要编写的（ ），还包括可以直接使用的第三方SDK和现成框架、类库，以及开发的系统将运行于其上的系统软件或中间件。
+Options: A、框架 B、源程序 C、库 D、包
+Correct Answer: B
+
+Question: 55. 开发视图一般使用（）、类图和组件来画。
+Options: A、序列图 B、状态图 C、活动图 D、包图
+Correct Answer: D
+
+Question: 56. 场景视图，又称“（）视图”，它综合所有的视图。
+Options: A、用例 B、活动 C、并发 D、静态
+Correct Answer: A
+
+Question: 57. 场景表示法与组件逻辑视图非常相似，但它使用（）的连接符来表示对象之间的交互，对象实例使用实线来表达。
+Options: A、逻辑视图 B、物理视图 C、进程视图 D、开发视图
+Correct Answer: C
+
+Question: 58. 场景视图用于刻画构件之间的（），将四个视图有机地联系起来。
+Options: A、静态关系 B、相互关系 C、对应关系 D、动态关系
+Correct Answer: B
+
+Question: 59. 概要设计的主要任务是把需求分析得到的系统扩展用例图转换为软件结构和数据结构，建立的是目标系统的（ ）模型。
+Options: A、逻辑 B、物理 C、进程 D、开发
+Correct Answer: A
+
+Question: 60. 为了防止软件概要设计的错误传播到开发的后续阶段，在概要设计文档完后，要进行（）。
+Options: A、软件测试 B、软件评审 C、软件维护 D、耦合
+Correct Answer: B
+
+Question: 61. 软件概要设计阶段通常得到（）。
+Options: A、流程图 B、N-S图 C、PAD图 D、软件结构图
+Correct Answer: D
+
+Question: 62. 软件详细设计阶段任务是（）。
+Options: A、算法设计和数据结构 B、功能设计 C、调用关系设计 D、输入/输出设计
+Correct Answer: A
+
+Question: 63. 软件详细设计阶段属于软件生存周期的（）。
+Options: A、需求阶段 B、软件设计 C、编码 D、软件维护
+Correct Answer: B
+
+Question: 64. 详细设计与概要设计衔接的图形工具是（）。
+Options: A、DFD图 B、程序图 C、PAD图 D、SC图
+Correct Answer: D
+
+Question: 65. 软件详细设计阶段采用自左向右的二维图形结构描述算法的是（ ）。
+Options: A、IPO B、JSP C、PAD D、JSD
+Correct Answer: C
+
+Question: 66. 结构化程序设计主要强调的是（）。
+Options: A、程序的规模 B、程序的效率 C、程序设计语言的先进性 D、程序易读性
+Correct Answer: D
+
+Question: 67. 详细设计的结果基本决定了最终程序的（）。
+Options: A、代码的规模 B、运行速度 C、质量 D、可维护性
+Correct Answer: C
+
+Question: 68. 一般来说，详细设计的方法包括结构化设计方法、（）和Jackson方法。
+Options: A、PAD图 B、判定树 C、面向对象设计法 D、程序流程图
+Correct Answer: C
+
+Question: 69. Jackson方法是以（）为基本依据的程序算法设计方法。
+Options: A、对象 B、数据结构 C、数据流 D、控制流
+Correct Answer: B
+
+Question: 70. Jackson方法可以实现（ ）。
+Options: A、从模块结构中导出数据结构 B、从模块结构中导出程序结构 C、从数据流图中导出初始的结构图 D、从结构图导出程序结构
+Correct Answer: D
+
+Question: 71. （ ）不是详细设计时使用的工具。
+Options: A、系统流程图 B、盒图 C、PAD图 D、判定树
+Correct Answer: A
+
+Question: 72. 在详细设计阶段，经常采用的工具有（）。
+Options: A、PAD B、SA C、SC D、DFD
+Correct Answer: A
+
+Question: 73. （）工具在软件详细设计过程中不采用。
+Options: A、判定表 B、IPO图 C、PDL D、DFD图
+Correct Answer: D
+
+Question: 74. 程序流程图中的“→”代表（）。
+Options: A、数据流 B、控制流 C、顺序流 D、调用
+Correct Answer: B
+
+Question: 75. 程序流程图中的一般包括三种基本结构，（）结构不属于其基本结构。
+Options: A、顺序结构 B、条件结构 C、选择结构 D、逻辑结构
+Correct Answer: D
+
+Question: 76. 程序流程图中的菱形表示的是（）。
+Options: A、变量 B、调用 C、逻辑条件 D、加工步骤
+Correct Answer: C
+
+Question: 77. （）不属于盒图的用途。
+Options: A、最小值 B、下四分位数 C、平均值 D、上四分位数
+Correct Answer: C
+
+Question: 78. 盒图中，（ ）结构可以实现先执行后判断的循环。
+Options: A、条件结构 B、多路选择结构 C、当型循环结构 D、直到型循环结构构
+Correct Answer: D
+
+Question: 79. （）是用作详细设计的工具。
+Options: A、层次图 B、数据流图 C、模块结构图 D、盒图
+Correct Answer: D
+
+Question: 80. PAD图为（）提供了有力的工具
+Options: A、自动分析数据 B、测试软件 C、系统分析 D、软件的自动化生成
+Correct Answer: D
+
+Question: 81. 在PAD图中，（）符号属于PAD图的基本符号。
+Options: A、FOR型循环 B、顺序 C、DO型循环 D、REPEAT型循环
+Correct Answer: B
+
+Question: 82. 在PAD图中，（）符号不属于PAD图的基本符号。
+Options: A、顺序 B、选择 C、CASE多分支 D、FOR型循环
+Correct Answer: D
+
+Question: 83. 程序流程图、N-S图和PAD图是（）使用的表达工具。
+Options: A、设计阶段的概要设计 B、设计阶段的详细设计 C、编码阶段 D、测试阶段
+Correct Answer: B
+
+Question: 84. PAD图表示的程序结构的执行顺序是 （ ）。
+Options: A、自最左边的竖线的上端开始，自上而下，自左向右 B、 自最右边的竖线的上端开始，自上而下，自右向左 C、自最左边的竖线的下端开始，自下而上，自左向右 D、自最右边的竖线的下端开始，自下而上，自右向左
+Correct Answer: A
+
+Question: 85. 在N-S流程图中，输入/输出、数据处理、条件判断等都由（）框来表示。
+Options: A、平行四边形 B、菱形 C、矩形 D、正方形
+Correct Answer: C
+
+Question: 86. 定表是分析和表达 （） 的工具。
+Options: A、多逻辑条件下执行不同操作 B、多输入变量下输出结果 C、多条件组合下的等价类 D、多条件组合下的边界
+Correct Answer: A
+
+Question: 87. 判定表中贯穿条件项和动作项的一列称为 （）。
+Options: A、规则 B、简化 C、组合 D、逻辑
+Correct Answer: A
+
+Question: 88. 判定表中用符号“-”表示 （）。
+Options: A、无关条件 B、取反条件 C、缺省条件 D、错误条件流
+Correct Answer: A
+
+Question: 89. 判定树是用一种 （） 来表示多个条件、多个取值所应采取的动作。
+Options: A、表格 B、图形 C、文字 D、公式
+Correct Answer: B
+
+Question: 90. 判定树中每个非终端结点包含一个 （ ），对应一次比较。
+Options: A、条件 B、动作 C、规则 D、结果
+Correct Answer: A
+
+Question: 91. 判定树与判定表相比，其优点是 （ ）。
+Options: A、 能把所有条件组合充分地表达出来 B、不需要任何的说明，一眼能够看出其中的含义 C、化繁为简，能够精简、准确的输出测试用例数据 D、条件的排列顺序不会也不应影响执行的操作
+Correct Answer: B
+
+Question: 92. PDL（过程设计语言）是描述处理过程（）。
+Options: A、做什么 B、为什么做 C、怎么做 D、对谁做
+Correct Answer: C
+
+Question: 93. 过程设计语言(简称PDL)，也称程序描述语言，又称为（）。
+Options: A、编程语言 B、代码 C、高级语言 D、伪码
+Correct Answer: D
+
+Question: 94. 过程设计语言是一种用于描述软件系统的行为和结构的语言，它可以分为（ ）。
+Options: A、图形化的过程设计语言和文本化的过程设计语言 B、结构化的过程设计语言和面向对象的过程设计语言 C、静态的过程设计语言和动态的过程设计语言 D、通用的过程设计语言和专用的过程设计语言
+Correct Answer: A
+
+Question: 95. JACKSON图中一般不包括（ ）。
+Options: A、表头 B、表体 C、表名 D、表尾
+Correct Answer: D
+
+Question: 96. Jackson图上下层之间的关系是（）。
+Options: A、调用关系 B、组成关系 C、继承关系 D、嵌套关系
+Correct Answer: B
+
+Question: 97. Jackson程序设计方法是一种面向（）的设计方法。
+Options: A、数据结构 B、数据流图 C、IPO图 D、系统流程图
+Correct Answer: A
+
+Question: 98. 在流图中，用（）表示语句。
+Options: A、菱形 B、矩形 C、圆 D、点
+Correct Answer: C
+
+Question: 99. 在流图中，用（）表示判断。
+Options: A、菱形 B、矩形 C、圆 D、点
+Correct Answer: A
+
+Question: 100. 程序流图中箭头代表的是（）。
+Options: A、数据流 B、控制流 C、调用关系 D、组成关系
+Correct Answer: B
+
+
+
+Question: 1. McCabe方法根据程序控制流的复杂程度定量度量程序的复杂程度这样度量出的结果称为程序的（ ）复杂度。
+Options: A、菱形 B、矩形 C、圆形 D、环形
+Correct Answer: D
+
+Question: 2. mccabe度量法是一种衡量（ ）复杂度的测量方法。
+Options: A、软件设计 B、架构 C、空间 D、时间
+Correct Answer: A
+
+Question: 3. mccabe复杂性度量又称为（）。
+Options: A、环路度量 B、时间复杂度 C、空间复杂度 D、分支度量
+Correct Answer: A
+
+Question: 4. Halstead方法是根据程序中的运算符和（）的总数来度量程序的复杂程度。
+Options: A、操作数 B、分支 C、循环 D、代码量
+Correct Answer: A
+
+Question: 5. Halstead给出了称为（）度量的模型。
+Options: A、代码复杂性 B、时间复杂性 C、空间复杂性 D、文本复杂性
+Correct Answer: D
+
+Question: 6. halstead方法是一种（ ）度量方法。
+Options: A、架构复杂度 B、时间复杂度 C、空间复杂度 D、程序复杂度
+Correct Answer: D
+
+Question: 7. Woodward方法是基于（）的度量方法。
+Options: A、数据流 B、控制流 C、时间复杂度 D、空间复杂度
+Correct Answer: B
+
+Question: 8. Woodward根据技术复杂度将生产技术分（）类。
+Options: A、三 B、四 C、五 D、六
+Correct Answer: A
+
+Question: 9. Woodward方法是一种（）度量方法。
+Options: A、架构复杂度 B、时间复杂度 C、空间复杂度 D、程序复杂度
+Correct Answer: D
+
+Question: 10. SQL语句中修改表结构的命令是（）。
+Options: A、MODIFY TABLE B、MODIFY STRUCTURE C、ALTER TABLE D、ALTER STRUCTURE
+Correct Answer: C
+
+Question: 11. 某关系表有：员工（部门编号，部门名称，员工编号，姓名，性别，年龄），则其主码为（ ）。
+Options: A、部门编号、员工编号 B、员工编号 C、姓名 D、部门编号
+Correct Answer: A
+
+Question: 12. 数据库做join操作时，至少要涉及到（）张表。
+Options: A、3 B、1 C、2 D、4
+Correct Answer: B
+
+Question: 13. 模块详细设计说明书是一种用于描述模块内部结构和逻辑的文档，它通常包括（ ）。
+Options: A、模块标识、模块接口、模块功能和模块测试 B、模块标识、模块接口、模块算法和模块测试 C、模块标识、模块接口、模块功能和模块算法 D、模块标识、模块功能、模块算法和模块测试
+Correct Answer: C
+
+Question: 14. 在设计软件的模块结构时,（）不能改进设计质量。
+Options: A、模块的作用范围应在其控制范围之内 B、模块的大小适中 C、避免或减少使用病态连接(从中部进入或访问一个模块) D、模块的功能越单纯越好
+Correct Answer: D
+
+Question: 15. 在模块详细设计说明书中，模块接口部分主要描述了（ ）内容。
+Options: A、模块的输入和输出数据 B、模块的调用关系和参数传递 C、模块的功能和性能要求 D、模块的伪代码和流程图
+Correct Answer: B
+
+Question: 16. 系统详细需求分析的目的是分析系统在功能上需要 （）。
+Options: A、做什么 B、怎么做 C、为什么做 D、什么时候做
+Correct Answer: A
+
+Question: 17. 系统详细需求分析的过程中，需要评估和分拣客户提出的需求点，将其分类纳入功能模块、业务场景中。这个步骤叫做 （）。
+Options: A、需求识别 B、需求获取 C、需求定义 D、需求验证
+Correct Answer: A
+
+Question: 18. 系统详细需求分析的过程中，可以采用不同的分析方法对功能模块逐一分析，如功能分解法、快速原型法、建模分析法等。其中，采用UML进行建模的方法叫做 （）。
+Options: A、面向对象分析法 B、结构化分析法 C、数据流分析法 D、实体关系分析法
+Correct Answer: A
+
+Question: 19. 系统总体方案中,系统开发计划应当确定:系统开发方法、实施阶段的划分、某阶段投入资源的预算和系统开发的（）。
+Options: A、组织 B、原则 C、方式 D、项目管理
+Correct Answer: C
+
+Question: 20. 确定系统的总体结构方案和开发次序的是（）阶段。
+Options: A、可行性分析 B、系统规划 C、初步调查 D、详细调查
+Correct Answer: B
+
+Question: 21. 确定系统的总体方案、开发顺序、资源分配等是在（）阶段完成。
+Options: A、系统设计 B、系统规划 C、系统实施 D、系统分析
+Correct Answer: C
+
+Question: 22. 接口设计是软件设计的一个重要方面，它主要包括（ ）的接口设计。
+Options: A、系统接口设计和用户接口设计 B、系统接口设计和模块接口设计 C、用户接口设计和模块接口设计 D、用户接口设计和硬件接口设计
+Correct Answer: B
+
+Question: 23. 在系统接口设计中，通常使用（）图形工具来表示系统之间的交互关系。
+Options: A、用例图 B、顺序图 C、协作图 D、状态图
+Correct Answer: B
+
+Question: 24. 在用户接口设计中，通常使用（ ）图形工具来表示用户界面的布局和元素。
+Options: A、窗体图 B、 界面原型图 C、 界面流程图 D、界面结构图
+Correct Answer: B
+
+Question: 25. 在数据库设计中，用E-R 图来描述信息结构但不涉及信息在计算机中的表示，它是数据库设计的（）阶段。
+Options: A、需求分析 B、概念设计 C、逻辑设计 D、物理设计
+Correct Answer: B
+
+Question: 26. 在关系数据库设计中，设计关系模式是（ ）阶段的任务 。
+Options: A、需求分析 B、概念设计 C、逻辑设计 D、物理设计
+Correct Answer: C
+
+Question: 27. 数据库概念设计的E-R方法中，用属性描述实体的特征,属性在E-R图中,用（）表示。
+Options: A、矩形 B、四边形 C、菱形 D、椭圆形
+Correct Answer: D
+
+Question: 28. 系统性能设计的过程中，需要进行性能测试来获取系统的性能指标。常用的性能指标有响应时间、并发数、吞吐量和 （）。
+Options: A、性能计数器 B、性能优化器 C、性能分析器 D、性能监控器
+Correct Answer: A
+
+Question: 29. 系统性能设计的过程中，需要进行性能测试来获取系统的性能指标。常用的性能测试工具有 （ ）。
+Options: A、Jmeter B、Postman C、Selenium D、Eclipse
+Correct Answer: A
+
+Question: 30. 系统性能设计的过程中，可以使用缓存技术来提高系统的读性能。常用的缓存技术有 （）。
+Options: A、Redis B、Kafka C、Hadoop D、MySQL
+Correct Answer: A
+
+Question: 31. 当系统出错时，应该采取的一般步骤是（）。
+Options: A、忽略错误，继续运行 B、记录错误信息，尝试恢复 C、重启系统，清除错误 D、报告错误信息，终止运行
+Correct Answer: B
+
+Question: 32. 系统出错处理的目的是（ ）。
+Options: A、提高系统的可靠性和可用性 B、提高系统的性能和效率 C、提高系统的安全性和保密性 D、提高系统的兼容性和扩展性
+Correct Answer: A
+
+Question: 33. 系统出错处理的难点在于（）。
+Options: A、预测和避免所有可能的错误情况 B、定位和诊断错误的原因和影响 C、恢复和补偿错误造成的损失和影响 D、通知和反馈错误的信息和建议
+Correct Answer: C
+
+Question: 34. 在数据库中存储的是（）。
+Options: A、数据 B、数据模型 C、数据及数据之间的联系 D、信息
+Correct Answer: C
+
+Question: 35. 在数据库中，产生数据不一致的根本原因是（）。
+Options: A、数据存储量太大 B、没有严格保护数据 C、未对数据进行完整性控制 D、数据冗余
+Correct Answer: D
+
+Question: 36. 在MySQL中，能够创建数据库的SQL语句是（）。
+Options: A、ALTER DATABASE B、DROP DATABASE C、COPY DATABASE D、CREATE DATABASE
+Correct Answer: D
+
+Question: 37. 在MySQL创建数据库过程中，一个数据库可以有（）个主数据库文件。
+Options: A、0 B、有且只有一个 C、多个 D、一个或多个
+Correct Answer: B
+
+Question: 38. 在MySQL数据库中，使用CREATE命令创建数据库时，FILENAME选项定义的是（）。
+Options: A、文件增长量 B、文件大小 C、逻辑文件名 D、物理文件名
+Correct Answer: D
+
+Question: 39. 在MySQL数据库中，创建数据库后，使用（）命令可打开指定数据库。
+Options: A、USE DATABASE B、SHOW DATABASE C、OPEN DATABASE D、UPDATA DATABASE
+Correct Answer: A
+
+Question: 40. 在MySQL数据库中，使用（）命令可以查看正在使用的数据库。
+Options: A、SHOW DATABASES B、SELECT DATABASE() C、HELP DATABASE D、SHOW STATUS
+Correct Answer: B
+
+Question: 41. MySQL中，可以使用（ ）命令来查看当前服务器上的所有数据库。
+Options: A、SHOW DATABASES; B、LIST DATABASES; C、SELECT DATABASES; D、DESCRIBE DATABASES;
+Correct Answer: A
+
+Question: 42. 在数据库创建后，可以使用（）命令来修改数据库的参数。
+Options: A、UPDATA DATABASE B、INSERT DATABASE C、ALTER DATABASE D、USE DATABASE
+Correct Answer: C
+
+Question: 43. ALTER DATABASE用于更改数据库的全局特性，上述所有特性是存储在数据库目录的（）文件中。
+Options: A、stu.sdi B、stu.idb C、stu.frm D、d（B）opt
+Correct Answer: D
+
+Question: 44. 在MySQL数据库中，用户必须有对数据库进行修改的权限，才可以使用（）修改数据库参数。
+Options: A、DELETE B、ALTER C、SELECT D、INSERT
+Correct Answer: B
+
+Question: 45. MySQL8.0 在删除数据库时为防止出现错误，应加入（）语句。
+Options: A、IF EXISTS B、IF  NO EXISTS C、EXISTS D、NO EXISTS
+Correct Answer: A
+
+Question: 46. 在MySQL数据库中，如果需要删除已创建的数据库，可以使用（）命令。
+Options: A、CLEAR B、DROP C、DELETE D、REMOVE
+Correct Answer: B
+
+Question: 47. MySQL中，可以使用（ ）命令来删除一个数据库。
+Options: A、DROP DATABASE database_name; B、DELETE DATABASE database_name; C、REMOVE DATABASE database_name; D、ERASE DATABASE database_name;
+Correct Answer: A
+
+Question: 48. 在MySQL数据库中，，建立表用的命令是 ( )。
+Options: A、ALTER TABLE B、CREATE TABLE C、UPDATE TABLE D、SELECT TABLE
+Correct Answer: B
+
+Question: 49. MySQL中，可以使用（）命令来创建一个名为student的表，包含id、name、age三个字段。
+Options: A、CREATE TABLE student (id INT, name VARCHAR(20), age INT); B、CREATE TABLE student (id, name, age); C、CREATE TABLE student (id INT PRIMARY KEY, name VARCHAR(20), age INT); D、CREATE TABLE student AS (id INT, name VARCHAR(20), age INT);
+Correct Answer: A
+
+Question: 50. MySQL中，可以使用（ ）命令来创建一个名为teacher的表，包含id、name、salary三个字段，并根据另一个已存在的表employee的结构来创建。
+Options: A、CREATE TABLE teacher LIKE employee; B、CREATE TABLE teacher AS employee; C、CREATE TABLE teacher AS SELECT * FROM employee; D、CREATE TABLE teacher SELECT * FROM employee;
+Correct Answer: A
+
+Question: 51. MySQL中，可以使用（）数据类型来存储一个日期，格式为YYYY-MM-DD。
+Options: A、DATE B、DATETIME C、TIMESTAMP D、TIME
+Correct Answer: A
+
+Question: 52. MySQL中，可以使用（）数据类型来存储一个日期和时间，格式为YYYY-MM-DD HH:MM:SS。
+Options: A、DATE B、DATETIME C、TIMESTAMP D、TIME
+Correct Answer: B
+
+Question: 53. MySQL中，可以使用（）数据类型来存储一个日期和时间，格式为YYYY-MM-DD HH:MM:SS，并且会根据时区和系统时间自动更新。
+Options: A、DATE B、DATETIME C、TIME D、TIMESTAMP
+Correct Answer: D
+
+Question: 54. 在MySQL数据库中，查看表结构，可以使用（）关键字。
+Options: A、FIND B、SELECT C、ALTER D、DESC
+Correct Answer: D
+
+Question: 55. 在MySQL数据库中，修改数据库表结构，可以使用（）关键字。
+Options: A、UPDATE B、CREATE C、SELECT D、ALTER
+Correct Answer: D
+
+Question: 56. 在MySQL数据库中，使用（）语句可以查看表中列的信息。
+Options: A、SHOW B、DESCRIBE C、SELECT D、FIND
+Correct Answer: B
+
+Question: 57. 在MySQL数据库中，若要在基本表S中增加一列CN（课程名），可用（）。
+Options: A、ADD TABLE S（CN CHAR（８）） B、ADD TABLE S ALTER（CN CHAR（８）） C、ALTER TABLE S ADD（CN CHAR（８） D、ALTER TABLE S ADD COLUMN CN CHAR（8）
+Correct Answer: D
+
+Question: 58. 在MySQL数据库中，如果要修改表的结构，应该使用SQL语言的命令（）。
+Options: A、UPDATE TABLE B、MODIFY TABLE C、ALTER TABLE D、CHANGE TABLE
+Correct Answer: C
+
+Question: 59. 在MySQL数据库中，能为数据库中表重命名的是（ ）。
+Options: A、ALTER TABLE a1 RENAME TO a2 B、ALTER TABLE a1 RENAME AS  a2 C、RENAME TABLE a1 a2 D、RENAME TABLE TABLE a1 TO a2
+Correct Answer: A
+
+Question: 60. 在MySQL数据库中，若要删除数据库中已经存在的表S，可用（）命令。
+Options: A、DELETE TABLE S B、DELETE S C、DROP TABLE S D、DROP S
+Correct Answer: C
+
+Question: 61. 在MySQL数据库中，无法实现删除表对象或表中数据的语句是（ ）。
+Options: A、TRUNCATE TABLE STU B、DROP TABLE TU C、DELETE * FROM TU D、DELETE FROM  STU
+Correct Answer: C
+
+Question: 62. 在MySQL数据库中，在使用DROP命令删除表后，那么该表将会（）。
+Options: A、表的描述、完整性约束、索引及表相关的权限都被删除 B、表的描述、完整性约束、索引及表相关的权限都不被删除 C、用户对该表的权限不会被删除 D、索引不会被删除
+Correct Answer: A
+
+Question: 63. 在MySQL数据库中，如果要从数据库中删除触发器，应该使用SQL语言的命令（） 。
+Options: A、DELETE  TRIGGER B、DROP  TRIGGER C、REMOVE  TRIGGER D、DISABLE  TRIGGER
+Correct Answer: B
+
+Question: 64. 为数据表创建索引的目的是（ ）。
+Options: A、提高查询的检索性能 B、创建唯一索引 C、创建主键 D、归类
+Correct Answer: A
+
+Question: 65. （）约束用来禁止输入重复值。
+Options: A、UNIQUE B、NULL C、DEFAULT D、FOREIGN KEY
+Correct Answer: A
+
+Question: 66. 在MySQL语法中，用来插入数据的命令是（）。
+Options: A、CREATE B、INSERT C、DELETE D、UPDATE
+Correct Answer: B
+
+Question: 67. MySQL中，如果要向一个名为student的表中插入一条数据，包含id、name、age三个字段的值，并且要指定插入的位置，可以使用（）命令。
+Options: A、INSERT INTO student VALUES (1,‘Alice’,18) AT FIRST; B、INSERT INTO student VALUES (1,‘Alice’,18) AT LAST; C、INSERT INTO student VALUES (1,‘Alice’,18) AFTER id; D、INSERT INTO student VALUES (1,‘Alice’,18) BEFORE name;
+Correct Answer: D
+
+Question: 68. MySQL中，如果要向一个名为course的表中插入一条数据，包含id、name、credit三个字段的值，并且要使用子查询来提供值，可以使用（ ）命令。
+Options: A、INSERT INTO course VALUES ((SELECT id FROM teacher WHERE name =‘Tom’),‘Math’, 3); B、INSERT INTO course SELECT id,‘Math’,3 FROM teacher WHERE name =‘Tom’; C、INSERT INTO course (id, name,credit) SELECT id, ‘Math’,3 FROM teacher WHERE name =‘Tom’; D、INSERT INTO course (id, name,credit) VALUES ((SELECT id FROM teacher WHERE name =‘Tom’), ‘Math’, 3);
+Correct Answer: C
+
+Question: 69. 在SQL语言命令中，（）命令属于数据查询功能的命令。
+Options: A、SELECT B、INSERT C、SHOW D、DROP
+Correct Answer: A
+
+Question: 70. 在SELECT语句指定列的位置上，使用（）时，表示选择表中所有的列。
+Options: A、% B、_ C、* D、[]
+Correct Answer: C
+
+Question: 71. 当在查询结果中的列使用自己所选择的列标题时，可在列名后使用（）子句来更改查询的列名。
+Options: A、WHERE B、RENAME C、CHANGE D、AS
+Correct Answer: D
+
+Question: 72. 查询数据时可用（ ）代替数据表中的所有字段名。
+Options: A、* B、% C、- D、.
+Correct Answer: A
+
+Question: 73. 在SQL语句中，可使用的通配符“_”表示（ ）。
+Options: A、一个字符 B、纯数字 C、纯文本 D、多个字符
+Correct Answer: A
+
+Question: 74. 在SELECT语句的WHERE子句的条件表达式中，可以匹配0个到多个字符的通配符是（）。
+Options: A、_ B、? C、* D、%
+Correct Answer: D
+
+Question: 75. MySQL中，可以使用（）关键字来去除查询结果中的重复记录。
+Options: A、UNIQUE B、DISTINCT C、DIFFERENT D、SEPARATE
+Correct Answer: B
+
+Question: 76. DISTINCT子句的作用是（）。
+Options: A、去掉DISTINCT词后边列的重复值 B、去掉数据库中的重复行数据 C、去掉查询结果中的重复行数据 D、去掉一个列的数据
+Correct Answer: C
+
+Question: 77. MySQL中，如果要对多个字段进行去重，可以使用（）语法。
+Options: A、SELECT DISTINCT field1, field2 FROM table; B、SELECT DISTINCT (field1, field2) FROM table; C、SELECT DISTINCT field1 FROM table GROUP BY field2; D、SELECT DISTINCT field1, DISTINCT field2 FROM table;
+Correct Answer: A
+
+Question: 78. MySQL中，可以使用（ ）关键字来指定查询条件。
+Options: A、WHERE B、HAVING C、FILTER D、LIMIT
+Correct Answer: A
+
+Question: 79. MySQL中，可以使用（）比较运算符来进行查询条件的比较。
+Options: A、=, <>, >, <, >=, <= B、==, !=, >, <, >=, <= C、=, !=, >, <, >=, <= D、=, <>, >, <, =>, =<
+Correct Answer: A
+
+Question: 80. 如果想查询出所有姓张且出生日期为空的学生的信息，则WHERE条件应为（）。
+Options: A、姓名 LIKE '张_' AND 出生日期 = NULL B、姓名 LIKE '张_' AND 出生日期 IS NULL C、姓名 LIKE '张%' AND 出生日期 IS NULL D、姓名 LIKE '张()' AND 出生日期 = NULL
+Correct Answer: C
+
+Question: 81. MySQL中，可以使用（ ）关键字来限制查询结果的数量。
+Options: A、LIMIT B、TOP C、ROWS D、COUNT
+Correct Answer: A
+
+Question: 82. 在MySQL中，执行“SELECT * FROM TABLE LIMIT 5,10”的结果是（）。
+Options: A、获取第6-10条记录 B、获取第5-10条记录 C、获取第6-15条记录 D、获取第5-15条记录
+Correct Answer: C
+
+Question: 83. MySQL中，如果要查询出学生表中最后一条记录，可以使用（）语法。
+Options: A、SELECT * FROM student ORDER BY id DESC LIMIT 1; B、SELECT * FROM student ORDER BY id ASC LIMIT 1; C、SELECT * FROM student LIMIT 1 OFFSET (SELECT COUNT(*) FROM student) - 1; D、SELECT * FROM student WHERE id = (SELECT MAX(id) FROM student);
+Correct Answer: A
+
+Question: 84. 在MySQL的运算符中，优先级最高的是（）。
+Options: A、！ B、^ C、+ D、&
+Correct Answer: A
+
+Question: 85. MySQL中，可以使用（ ）运算符来进行字符串的连接。
+Options: A、+ B、& C、|| D、CONCAT
+Correct Answer: D
+
+Question: 86. 在MySQL中，假如“<>”操作符的两则数据不等，则返回结果为（）。
+Options: A、true B、false C、1 D、0
+Correct Answer: C
+
+Question: 87. 通过（）SQL语句可以按照id升序排序，且按price字段降序排序。
+Options: A、SELECT * FROM TABLE ORDER BY price DESC，id B、SELECT * FROM TABLE ORDER BY price ，id C、SELECT * FROM TABLE ORDER BY id，price DESC D、SELECT * FROM TABLE ORDER BY id DESC，price
+Correct Answer: C
+
+Question: 88. 通过（ ）SQL语句可以按照name字段的降序来排序test1表中的数据。
+Options: A、SELECT * FROM test1 ORDER BY name; B、SELECT * FROM test1 ORDER BY name DESC; C、SELECT * FROM test1 ORDER BY name ASC; D、SELECT * FROM test1 ORDER BY DESC name;
+Correct Answer: B
+
+Question: 89. 在MySQL的SELECT语句中，通过（）关键字可对查询数据进行排序。
+Options: A、SELECT B、ORDER BY C、LIMIT D、GROUP BY
+Correct Answer: B
+
+Question: 90. 在MySQL中，使用（）统计函数可以返回表中的行数，不管字段中包含的是NULL值还是非NULL值。
+Options: A、COUNT(*) B、COUNT(字段名) C、SUM(字段名) D、AVG(字段名)
+Correct Answer: A
+
+Question: 91. 在MySQL中，执行COUNT（*）的作用是（）。
+Options: A、统计有多少个*号 B、统计记录总行数 C、计算*号列的合计值 D、计算*号行的合计值
+Correct Answer: B
+
+Question: 92. 在MySQL中，使用（）统计函数可以返回指定字段的平均值，忽略NULL值。
+Options: A、COUNT(字段名) B、SUM(字段名) C、AVG(字段名) D、MAX(字段名)
+Correct Answer: C
+
+Question: 93. 在MySQL中,（ ）操作符可以用来合并两个或多个select语句的结果集合，并保留重复值。
+Options: A、UNION B、UNION ALL C、UNION DISTINCT D、UNION CROSS
+Correct Answer: B
+
+Question: 94. 在MySQL中，（）条件是使用union操作符的必要条件。
+Options: A、每个select语句必须具有相同的列数 B、每个select语句必须具有相同的列名 C、每个select语句必须具有相同的数据类型 D、每个select语句必须具有相同的排序方式
+Correct Answer: A
+
+Question: 95. 在MySQL中,（）操作符可以用来合并两个或多个select语句的结果集合，并删除重复值。
+Options: A、UNION B、UNION ALL C、UNION IN D、UNION CROSS
+Correct Answer: A
+
+Question: 96. 现在MySQL中,（ ）函数可以用来统计分组后的记录数。
+Options: A、COUNT() B、SUM() C、AVG() D、MAX()
+Correct Answer: A
+
+Question: 97. 在MySQL中,（）关键字可以用来对分组后的结果进行过滤。
+Options: A、WHERE B、HAVING C、GROUP BY D、ORDER BY
+Correct Answer: B
+
+Question: 98. 在MySQL中,（ ）语句可以用来对emp表按照部门编号进行分组，并统计每个部门的平均工资。
+Options: A、SELECT deptno, AVG(sal) FROM emp GROUP BY deptno; B、SELECT deptno, AVG(sal) FROM emp ORDER BY deptno; C、SELECT deptno, SUM(sal) FROM emp GROUP BY deptno; D、SELECT deptno, SUM(sal) FROM emp ORDER BY deptno;
+Correct Answer: A
+
+Question: 99. 在SELECT语句中只能与GROUP  BY子句配合使用的子句是（ ）。
+Options: A、HAVING B、ORDER BY C、LIMIT D、COUNT
+Correct Answer: A
+
+Question: 100. 在MySQL的分组语句中，（）说法能正确地描述了having子句的作用。
+Options: A、having子句用于指定一组行或聚合的过滤条件。 B、having子句用于指定每个行或聚合的过滤条件。 C、having子句用于指定分组后的排序条件。 D、having子句用于指定分组前的排序条件。
+Correct Answer: A
+
+
+
+Question: 1. 在MySQL的GROUP BY中语句中，（）说法正确地描述了having子句和where子句的区别。
+Options: A、having子句可以与聚合函数一起使用，而where子句不能。 B、having子句可以与聚合函数一起使用，而where子句可以。 C、having子句不能与聚合函数一起使用，而where子句可以。 D、having子句不能与聚合函数一起使用，而where子句也不能。
+Correct Answer: A
+
+Question: 2. CREATE TABLE 与（）一起使用可为新建表复制已有的表的结构。
+Options: A、AS B、IS C、LIKE D、SELECT
+Correct Answer: C
+
+Question: 3. 如果要修改数据表的某一列的默认值，需使用（）命令子句。
+Options: A、CHANGE COLUMN B、MODIFY COLUMN C、RENAME COLUMN D、ALTER COLUMN
+Correct Answer: D
+
+Question: 4. SQL集数据查询、数据操纵、数据定义和数据控制等功能为一体，语句ALTER TABLE实现（ ）类功能。
+Options: A、数据查询 B、数据操纵 C、数据定义 D、数据控制
+Correct Answer: C
+
+Question: 5. 在MySQL中有一张表S的结构为：S（SN，CN，grade），其中SN为学生名，CN为课程名，二者均为字符型；grade为成绩，数值型，取值范围0－100。若要更正王二的化学成绩为85分，则可用（ ） 。
+Options: A、UPDATE S SET grade＝85 WHERE SN＝‘王二’ AND CN＝‘化学’; B、UPDATE S SET grade＝‘85’ WHERE SN＝‘王二’ AND CN＝‘化学’; C、UPDATE grade＝85 WHERE SN＝‘王二’ AND CN＝‘化学’ ; D、UPDATE grade＝‘85’ WHERE SN＝‘王二’ AND CN＝‘化学’;
+Correct Answer: A
+
+Question: 6. 在MySQL中，条件更新的作用是（）。
+Options: A、条件更新是指根据某些条件来决定是否更新某些行或列的值 B、条件更新是指根据某些条件来决定是否更新整个表的结构或数据 C、条件更新是指根据某些条件来决定是否更新数据库的配置或权限 D、条件更新是指根据某些条件来决定是否更新数据库的版本或引擎
+Correct Answer: A
+
+Question: 7. 订单号为6的客户因某种情况退回2本书，请在Sell表中修改订购册数并在退回后，将Book表中该图书的数量增加2本，则可用（ ）。
+Options: A、UPDATE Sell Book SET Sell.订购册数=订购册数-2,Book.数量=数量+2 WHERE Sell.图书编号=Book.图书编号 AND Sell.订单号='6' B、UPDATE Sell Book  WHERE Sell.图书编号=Book.图书编号 AND Sell.订单号='6' SET Sell.订购册数=订购册数-2,Book.数量=数量+2 C、UPDATE Sell,Book  WHERE Sell.图书编号=Book.图书编号 AND Sell.订单号='6' SET Sell.订购册数=订购册数-2,Book.数量=数量+2 D、UPDATE Sell,Book SET Sell.订购册数=订购册数-2,Book.数量=数量+2 WHERE Sell.图书编号=Book.图书编号 AND Sell.订单号='6'
+Correct Answer: D
+
+Question: 8. 如果DELETE语句中，省略了WHRE子句，则语句执行结果会是（）。
+Options: A、删除表中所有行 B、删除指定数据表中的第一行 C、不删除表中任何行 D、删除指定数据表中的最后一行
+Correct Answer: A
+
+Question: 9. Drop、Delete 和 Truncate都有删除表的作用，三者区别在于（）。
+Options: A、Drop和 Truncate 仅删除表数据，Delete  连表数据和表结构一起删除 B、Delete 和Drop 仅删除表数据，Truncate 连表数据和表结构一起删除 C、Delete 和 Truncate 仅删除表数据，Drop 连表数据和表结构一起删除 D、Delete 、Drop和Truncat不 仅删除表数据，还删除了表结构
+Correct Answer: C
+
+Question: 10. 当需要删除一个表时，可以使用（）语句。
+Options: A、DELETE TABLE B、ALTER TABLE C、DROP TABLE D、TRUNCATETABLE
+Correct Answer: C
+
+Question: 11. （ ）说法能正确地描述了条件删除和无条件删除的区别。
+Options: A、条件删除是指只删除满足某些条件的行，无条件删除是指删除所有行。 B、条件删除是指只删除满足某些条件的列，无条件删除是指删除所有列。 C、条件删除是指只删除满足某些条件的表，无条件删除是指删除所有表。 D、条件删除是指只删除满足某些条件的数据库，无条件删除是指删除所有数据库。
+Correct Answer: A
+
+Question: 12. （）说法能正确地描述了删除语句的作用。
+Options: A、删除语句用于从表中移除已存在的行。 B、删除语句用于从表中移除不存在的行。 C、删除语句用于从表中移除已存在的列 D、删除语句用于从表中移除不存在的列。
+Correct Answer: A
+
+Question: 13. 当需要删除表中所有记录，且记录有很多条时，可以使用（）命令来快速实现。
+Options: A、DROP B、DELETE C、TRUNCATE D、ALTER
+Correct Answer: C
+
+Question: 14. 在MySQL中，（）函数可返回表中指定字段的平均值。
+Options: A、MAX（） B、MIN（） C、AVG（） D、COUNT（）
+Correct Answer: C
+
+Question: 15. 在MySQL中，（ ）函数属于比较运算函数。
+Options: A、RAND（） B、POW（） C、CEIL（） D、IN（）
+Correct Answer: D
+
+Question: 16. SELECT ROUND（3.14,3）执行的结果是（）。
+Options: A、3.140 B、3.14 C、3 D、4
+Correct Answer: A
+
+Question: 17. 在MySQL中，（）函数能实现多个字符串连接操作。
+Options: A、JOIN（） B、CONCAT（） C、REPLACE（） D、SUBSTRING（）
+Correct Answer: B
+
+Question: 18. 在MySQL中，（）函数属于字符串处理函数。
+Options: A、YEAR B、ABS C、RIGHT D、MIN
+Correct Answer: C
+
+Question: 19. 在MySQL中，执行 SELECT UPPER("hello"),LOWER("Hello") FROM STU语句后，运行结果是（）。
+Options: A、hello hello B、HELLO HELLO C、hello HELLO D、HELLO hello
+Correct Answer: D
+
+Question: 20. 在MySQL常用日期函数中，（）返回当前的日期和时间。
+Options: A、CURDATE() B、NOW() C、CURTIME() D、DATE()
+Correct Answer: B
+
+Question: 21. 在MySQL中，执行（ ）SQL语句可以返回指定日期的星期几的名称。
+Options: A、SELECT DAYNAME (‘2021-12-25’); B、SELECT WEEKDAY (‘2021-12-25’); C、SELECT DAYOFWEEK (‘2021-12-25’); D、SELECT WEEKNAME (‘2021-12-25’);
+Correct Answer: A
+
+Question: 22. 执行SELECT DATEDIFF('2023-02-05','2018-05-16') AS DifferDate语句后，返回（）。
+Options: A、'2018-05-16' B、'2023-02-05' C、'2023-02-05','2018-05-16' D、1726
+Correct Answer: D
+
+Question: 23. 在MySQL中，用于创建一个带有条件判断的循环过程的语句是（）。
+Options: A、LOOP语句 B、ITERATE语句 C、REPEAT语句 D、QUIT语句
+Correct Answer: C
+
+Question: 24. 在MySQL中，进行循环操作不具备判断功能的是（）。
+Options: A、REPEAT语句 B、CASE语句 C、LOOP语句 D、WHILE语句
+Correct Answer: C
+
+Question: 25. 在MySQL中，执行SELECT  IF(2*4>9-5,'是','否')后，会返回（）。
+Options: A、是 B、否 C、1 D、0
+Correct Answer: A
+
+Question: 26. 在MySQL中，对两张表进行连接查询时，其笛卡尔积的列数、行数分别是（ ）。
+Options: A、行数是两表的列数之和、列数是两表的行数之积 B、列数是两表的列数之和、行数是两表的行数之积 C、行数是两表的列数之和、列数是两表的行数之和 D、列数是两表的列数之积、行数是两表的行数之积
+Correct Answer: B
+
+Question: 27. 在MySQL中执行（）SQL语句可以产生笛卡尔积。
+Options: A、SELECT * FROM table1 CROSS JOIN table2; B、SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id; C、SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id; D、SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;
+Correct Answer: A
+
+Question: 28. 表A中的每一个元素，都对表B中的所有元素做连接运算是（）连接。
+Options: A、内连接 B、外连接 C、笛卡尔积连接 D、自连接
+Correct Answer: C                                                                                                                                                                                                                
+
+Question: 29. 在MySQL多表查询时，指定了（）关键字的连接就是内连接。
+Options: A、JOIN B、INNER C、OUTER D、ON
+Correct Answer: B
+
+Question: 30. 在MySQL中，正确使用内连接来连接多于两张的表的语法是（ ）。
+Options: A、在FROM子句后使用逗号分隔的表列表 B、在ON子句中使用嵌套子查询 C、在FROM子句中使用多个INNER JOIN子句 D、 在SELECT子句后使用UNION子句
+Correct Answer: C
+
+Question: 31. 内连接是在FROM子句产生的中间结果中应用（）条件后，所得到的结果。
+Options: A、USING B、ON C、JOIN D、IN
+Correct Answer: B
+
+Question: 32. MySQL中使用左连接时，如果右表中没有匹配的记录，那么结果集中会显示（）。
+Options: A、左表中的记录和右表中的默认值 B、左表中的记录和右表中的NULL值 C、只显示左表中的记录 D、不显示任何记录
+Correct Answer: B
+
+Question: 33. 在MySQL中，左外连接查询时，使用（ ）设置主表和从表连接的条件。
+Options: A、WHERE B、ON C、USING D、HAVING
+Correct Answer: B
+
+Question: 34. 在MySQL中，（）不属于连接类型。
+Options: A、左外连接 B、内连接 C、中间连接 D、交叉连接
+Correct Answer: C
+
+Question: 35. 使用交叉连接后，每条记录中含有的字段数等于（）。
+Options: A、CROSS JOIN左侧表的字段 B、CROSS JOIN右侧表的字段 C、参与交叉连接表的字段和 D、参与交叉连接表的字段乘积
+Correct Answer: C
+
+Question: 36. 现有三个表，TABLE 1中有10行、TABLE 2中有2行、TABLE 3中有6行，那么这三个表进行交叉连接后，结果集中共用（）行数据。
+Options: A、20 B、60 C、18 D、120
+Correct Answer: D
+
+Question: 37. 多个表交叉连接时，在 FROM 后连续使用（）即可。
+Options: A、INNER JOIN B、LEFT JOIN C、RIGHT JOIN D、CROSS JOIN
+Correct Answer: D
+
+Question: 38. MySQL中使用自连接时，必须给表起（）。
+Options: A、别名 B、索引 C、主键 D、外键
+Correct Answer: A
+
+Question: 39. MySQL中使用自连接时，可以使用（ ）连接类型。
+Options: A、只能使用内连接 B、只能使用外连接 C、可以使用内连接或外连接 D、不能使用任何连接类型
+Correct Answer: C
+
+Question: 40. MySQL中使用自连接时，可以在ON子句中使用（）运算符。
+Options: A、只能使用等于运算符 (=) B、可以使用等于运算符 (=) 或不等于运算符 (<>) C、可以使用任何比较运算符 (=, <>, >, <, >=, <=) D、不能使用任何运算符
+Correct Answer: C
+
+Question: 41. 条件子查询可以嵌套在（）子句中。
+Options: A、SELECT B、FROM C、WHERE D、GROUP BY
+Correct Answer: C
+
+Question: 42. （）子查询用于进行一个给定值是否在子查询结果集中的判断。
+Options: A、EXISTS B、IN C、ALL D、WHERE
+Correct Answer: B
+
+Question: 43. 条件子查询可以嵌套（）层。
+Options: A、1层 B、2层 C、3层 D、不限层数判断题
+Correct Answer: D
+
+Question: 44. 在MySQL中，FROM子查询可以返回（）类型的结果。
+Options: A、单行单列 B、单行多列 C、多行单列 D、多行多列
+Correct Answer: D
+
+Question: 45. FROM子查询必须给子查询结果起一个（ ）。
+Options: A、别名 B、索引 C、主键 D、外键
+Correct Answer: A
+
+Question: 46. FROM子查询是指在（）子句中使用子查询作为数据源。
+Options: A、SELECT B、FROM C、WHERE D、GROUP BY
+Correct Answer: B
+
+Question: 47. 相关子查询的特点是（）。
+Options: A、子查询的执行依赖于外部查询 B、子查询的执行不依赖于外部查询 C、子查询的结果可以作为外部查询的数据源 D、子查询的结果可以作为外部查询的条件
+Correct Answer: A
+
+Question: 48. 在SQL语句中，子查询的作用是（）。
+Options: A、选取单表中字段子集的查询语句 B、选取多表中子集的查询语句 C、返回单表中数据子集的查询语句 D、嵌入到另一个查询语句之中的查询语句。
+Correct Answer: D
+
+Question: 49. 相关子查询通常在（）子句中引用了外部查询的表。
+Options: A、SELECT B、FROM C、WHERE D、GROUP BY
+Correct Answer: C
+
+Question: 50. 使用 EXISTS关键字，判断子查询结果为空时，返回（ ）。
+Options: A、true B、false C、1 D、0
+Correct Answer: B
+
+Question: 51. 只要子查询中至少返回一个值，则EXISTS语句的值就为（）。
+Options: A、true B、false C、1 D、0
+Correct Answer: A
+
+Question: 52. 使用EXISTS语句可以测试集合是否为空，EXISTS语句通常与（）结合在一起使用。
+Options: A、子查询 B、FROM子句 C、WHERE子句 D、SELECT子句
+Correct Answer: A
+
+Question: 53. Java语言中,集合类都位于（）包中。
+Options: A、java.util B、java.lang C、java.array D、java.collections
+Correct Answer: A
+
+Question: 54. List接口是Java集合框架中的一个重要组成部分，它继承自（）接口。
+Options: A、Collection B、Iterable C、Set D、Map
+Correct Answer: A
+
+Question: 55. ArrayList是List接口的一个实现类，它使用数组来存储元素，它的初始容量是（）。
+Options: A、0 B、1 C、10 D、16
+Correct Answer: C
+
+Question: 56. ArrayList类的底层数据结构是（）。
+Options: A、数组结构 B、链表结构 C、哈希表结构 D、红黑树结构
+Correct Answer: A
+
+Question: 57. ArrayList提供了一些用于操作数组元素的方法，其中（）方法可以将一个集合中的所有元素添加到ArrayList的末尾。
+Options: A、addAll(Collection<? extends E> c) B、addAll(int index, Collection<? extends E> c) C、appendAll(Collection<? extends E> c) D、appendAll(Collection<? extends E> c)
+Correct Answer: A
+
+Question: 58. LinkedList除了实现了List接口，还实现了（）两个接口。
+Options: A、Queue和Deque B、Stack和Queue C、Set和Map D、Collection和Iterable
+Correct Answer: A
+
+Question: 59. 在Java中，用于创建链表数据结构的对象的类是（）。
+Options: A、LinkedList B、ArrayList C、Collection D、HashMap
+Correct Answer: A
+
+Question: 60. LinkedList提供了一些用于操作链表元素的方法，其中（）方法可以将一个元素插入到链表的头部。
+Options: A、addFirst(E e) B、addLast(E e) C、push(E e) D、pop(E e)
+Correct Answer: A
+
+Question: 61. 使用Iterator时,（）方法是用来判断是否存在下一个元素。
+Options: A、hasNext() B、hash() C、hasPrevious() D、next()
+Correct Answer: A
+
+Question: 62. Iterator接口是Java集合框架中的一个重要组成部分，它用于遍历集合中的元素，它有（ ）两个基本方法。
+Options: A、next()和hasNext() B、get()和set() C、add()和remove() D、find()和replace()
+Correct Answer: A
+
+Question: 63. Iterator接口有一个扩展接口ListIterator，它可以遍历List接口的实现类，它有（）额外的方法可以实现双向遍历。
+Options: A、previous() B、backward() C、reverse() D、back()
+Correct Answer: A
+
+Question: 64. Set接口是Java集合框架中的一个重要组成部分，它用于存储不重复的元素，它继承自（）接口。
+Options: A、Iterable B、Collection C、List D、Map
+Correct Answer: B
+
+Question: 65. Set接口有多种实现类，其中（）实现类是基于哈希表的，可以保证元素的插入顺序。
+Options: A、HashSet B、LinkedHashSet C、TreeSet D、EnumSet
+Correct Answer: B
+
+Question: 66. 要想在集合中保存没有重复的元素并且按照一定的顺序排序，可以使用（）集合。
+Options: A、LinkedList B、ArrayList C、HashSet D、TreeSet
+Correct Answer: D
+
+Question: 67. 下列集合中的核心接口中，用于存储一组键值对象,提供键到值的映射的是（）
+Options: A、Collection B、List C、Set D、Map
+Correct Answer: D
+
+Question: 68. HashMap是（ ）。
+Options: A、一种数据结构 B、一种算法 C、一种编程语言 D、一种操作系统
+Correct Answer: A
+
+Question: 69. HashMap的底层实现的数据结构是（）。
+Options: A、数组 B、链表 C、树 D、数组+链表/红黑树
+Correct Answer: D
+
+Question: 70. Java泛型的本质是（）。
+Options: A、参数化类型 B、多态类型 C、抽象类型 D、动态类型
+Correct Answer: A
+
+Question: 71. 在泛型方法中，类型参数声明部分放在（）。
+Options: A、方法返回类型之前 B、方法返回类型之后 C、方法参数列表之前 D、方法参数列表之后
+Correct Answer: A
+
+Question: 72. Java泛型中的通配符?表示（）。
+Options: A、任意类型 B、不确定的类型 C、空类型 D、基本类型
+Correct Answer: B
+
+Question: 73. 下面类或者接口中，（ ）不属于集合框架中的容器。
+Options: A、java.util.Collections B、java.util.Map C、java.util.Vector D、java.util.Hashtable
+Correct Answer: A
+
+Question: 74. Map接口有多种实现类，其中（）实现类是基于哈希表的，可以保证键值对的插入顺序。
+Options: A、HashMap B、LinkedHashMap C、TreeMap D、EnumMap
+Correct Answer: B
+
+Question: 75. Map接口提供了一些用于操作映射关系的方法，其中（）方法可以返回一个包含所有键的Set视图。
+Options: A、keySet() B、values() C、entrySet() D、keys()
+Correct Answer: A
+
+Question: 76. Java输入、输出流相关的接口和类都位于（）包中。
+Options: A、java.util B、java.io C、java.lang D、java.sql
+Correct Answer: B
+
+Question: 77. Java的IO是（）。
+Options: A、一种抽象的数据结构，可以表示任何形式的数据 B、一种特殊的变量，可以存储任何类型的值 C、一种动态的数据源，可以根据需要生成或消耗数据 D、一种顺序的数据通道，可以按照一定的规则读取或写入数据
+Correct Answer: D
+
+Question: 78. Java的IO概念是指（ ）
+Options: A、Java的输入输出概念，是指Java程序与外部设备或数据源之间的数据交换 B、Java的内外概念，是指Java程序内部和外部的数据结构和算法 C、Java的进出概念，是指Java程序的执行流程和控制逻辑 D、Java的上下概念，是指Java程序的层次结构和模块化设计
+Correct Answer: A
+
+Question: 79. 在Java的File类常用方法中，（）方法是用来用来判断File对象对应的文件或目录是否是绝对路径。
+Options: A、booleancanWrite() B、booleanisAbsolute() C、booleanisFile() D、booleanisDirectory()
+Correct Answer: B
+
+Question: 80. File类的listFiles()方法的返回值是（）类型。
+Options: A、String[] B、File[] C、List<String> D、List<File>
+Correct Answer: B
+
+Question: 81. File类的createNewFile()方法的作用是（）。
+Options: A、创建一个新的文件，如果文件已存在，则返回false B、创建一个新的文件，如果文件已存在，则覆盖原文件 C、创建一个新的文件，如果文件已存在，则抛出异常 D、创建一个新的文件，如果文件已存在，则不做任何操作
+Correct Answer: A
+
+Question: 82. 字节流的基类是（）两个类。
+Options: A、InputStream和OutputStream B、Reader和Writer C、FileInputStream和FileOutputStream D、FileReader和FileWriter
+Correct Answer: A
+
+Question: 83. 在OutputStream类的常用方法中，向输出流写入一个字节的是（ ）方法。
+Options: A、void flush() B、void close() C、void write(int b) D、void write(byte[] b)
+Correct Answer: C
+
+Question: 84. Java中FileInputStream类的父类是（）。
+Options: A、File B、FileOutput C、OutputStream D、InputStream
+Correct Answer: D
+
+Question: 85. 字符流的基类是（）两个类。
+Options: A、InputStream和OutputStream B、Reader和Writer C、FileInputStream和FileOutputStream D、FileReader和FileWriter
+Correct Answer: B
+
+Question: 86. FileReader和FileWriter的构造方法有（）参数。
+Options: A、File对象，String对象，boolean值 B、File对象，String对象，int值 C、File对象，char[]数组，boolean值 D、File对象，char[]数组，int值
+Correct Answer: A
+
+Question: 87. FileReader和FileWriter是（）类型的流。
+Options: A、字节流 B、字符流 C、转换流 D、缓冲流
+Correct Answer: B
+
+Question: 88. BufferedWriter是（）类型的流。
+Options: A、字节流 B、字符流 C、转换流 D、缓冲流
+Correct Answer: D
+
+Question: 89. BufferedReader有（）特有的方法
+Options: A、readLine()和markSupported() B、readLine()和mark(int readAheadLimit) C、readLine()和reset() D、readLine()和skip(long n)
+Correct Answer: B
+
+Question: 90. BufferedWriter有（）特有的方法。
+Options: A、writeLine()和markSupported() B、writeLine()和mark(int readAheadLimit) C、writeLine()和reset() D、writeLine()和flush()
+Correct Answer: D
+
+Question: 91. I/O异常的常见子类有（）。
+Options: A、FileNotFoundException, EOFException, SocketException B、FileNotFoundException, EOFException, NullPointerException C、FileNotFoundException, ArithmeticException, SocketException D、FileNotFoundException, ArithmeticException, NullPointerException
+Correct Answer: A
+
+Question: 92. 在异常处理时,进行释放资源、关闭文件等操作需要的语句是（）。
+Options: A、try B、catch C、finally D、throw
+Correct Answer: C
+
+Question: 93. I/O异常的基类是（ ）类。
+Options: A、 Exception B、 IOException C、 RuntimeException D、 Error
+Correct Answer: B
+
+Question: 94. 进程和线程的区别是（）。
+Options: A、进程是程序的执行，线程是进程的分支 B、进程是程序的执行，线程是程序的最小单位 C、进程是程序的最小单位，线程是进程的执行 D、进程是程序的最小单位，线程是进程的分支
+Correct Answer: A
+
+Question: 95. 在Java中，创建线程的两种常见方式是（）
+Options: A、实现Runnable接口和扩展Thread类 B、实现Thread类和扩展Runnable接口 C、实现Runnable接口和使用匿名内部类 D、实现Thread类和使用匿名内部类
+Correct Answer: A
+
+Question: 96. java中控制线程的状态的方法有（ ）。
+Options: A、 start(), stop(), sleep(), wait(), notify() B、 start(), stop(), sleep(), suspend(), resume() C、 start(), run(), sleep(), join(), yield() D、 start(), run(), sleep(), wait(), notify()
+Correct Answer: C
+
+Question: 97. 使用继承Thread类的方式创建线程时，必须重写（）方法。
+Options: A、start() B、run() C、call() D、main()
+Correct Answer: B
+
+Question: 98. 使用实现Callable接口的方式创建线程时，必须实现（）方法。
+Options: A、start() B、run() C、call() D、main()
+Correct Answer: C
+
+Question: 99. 使用实现Runnable接口的方式创建线程时，必须实现（）方法。
+Options: A、start() B、run() C、call() D、main()
+Correct Answer: B
+
+Question: 100. 运行状态的线程调用（）方法后会进入等待状态。
+Options: A、sleep() B、wait() C、join() D、yield()
+Correct Answer: B
+
+
 
