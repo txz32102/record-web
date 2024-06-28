@@ -28,12 +28,14 @@ const ReadmeViewer = () =>{
             try{
                 const response = await axios.get(url);
                 console.log("the md url is ", url)
+                console.log("response.data.content is ", response.data.content)
                 setContent(marked.parse(response.data.content));
-                console.log("content is ", content)
                 setError(null);
+                console.log("content is ", content)
             } catch (error){
                 console.log("the md url is ", url)
                 console.error(error);
+                // console.log("content is ", content)
                 setError(error);
             }
         }
