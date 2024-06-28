@@ -6441,3 +6441,13 @@ INFO:     116.128.211.8:40932 - "GET /files HTTP/1.1" 200 OK
 INFO:     116.128.211.8:40932 - "GET /files/10.md HTTP/1.1" 200 OK
 INFO:     116.128.211.8:52466 - "GET /files HTTP/1.1" 200 OK
 INFO:     116.128.211.8:55536 - "GET /files/9.md HTTP/1.1" 200 OK
+/root/home/record-web/backend/main.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+INFO:     Started server process [4031]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+[<__main__.Record object at 0x7f6fee8b4bb0>, <__main__.Record object at 0x7f6fee8b4b50>, <__main__.Record object at 0x7f6fee8b4c70>, <__main__.Record object at 0x7f6fee8b4cd0>, <__main__.Record object at 0x7f6fee8b4d30>, <__main__.Record object at 0x7f6fee8b4d90>, <__main__.Record object at 0x7f6fee8b4df0>, <__main__.Record object at 0x7f6fee8b4e50>, <__main__.Record object at 0x7f6fee8b4ee0>, <__main__.Record object at 0x7f6fee8b4f70>]
+INFO:     150.249.219.211:7531 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:7531 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:7531 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
