@@ -6451,3 +6451,30 @@ INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
 INFO:     150.249.219.211:7531 - "GET /records HTTP/1.1" 200 OK
 INFO:     150.249.219.211:7531 - "GET /files HTTP/1.1" 200 OK
 INFO:     150.249.219.211:7531 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:3087 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+/root/home/record-web/backend/main.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+INFO:     Started server process [2100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+[<__main__.Record object at 0x7fbaa70b0bb0>, <__main__.Record object at 0x7fbaa70b0b50>, <__main__.Record object at 0x7fbaa70b0c70>, <__main__.Record object at 0x7fbaa70b0cd0>, <__main__.Record object at 0x7fbaa70b0d30>, <__main__.Record object at 0x7fbaa70b0d90>, <__main__.Record object at 0x7fbaa70b0df0>, <__main__.Record object at 0x7fbaa70b0e50>, <__main__.Record object at 0x7fbaa70b0ee0>, <__main__.Record object at 0x7fbaa70b0f70>]
+INFO:     150.249.219.211:14213 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:14213 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:17503 - "GET /files/10.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:14975 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fbaa727e710>, <__main__.Record object at 0x7fbaa727f580>, <__main__.Record object at 0x7fbaa727ee00>, <__main__.Record object at 0x7fbaa727fd00>, <__main__.Record object at 0x7fbaa727fca0>, <__main__.Record object at 0x7fbaa727db40>, <__main__.Record object at 0x7fbaa727db70>, <__main__.Record object at 0x7fbaa727ff70>, <__main__.Record object at 0x7fbaa727df90>, <__main__.Record object at 0x7fbaa727faf0>]
+INFO:     150.249.219.211:25629 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:1353 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:1353 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fbaa727fa60>, <__main__.Record object at 0x7fbaa727fa00>, <__main__.Record object at 0x7fbaa727fc10>, <__main__.Record object at 0x7fbaa727dba0>, <__main__.Record object at 0x7fbaa727dae0>, <__main__.Record object at 0x7fbaa727d6c0>, <__main__.Record object at 0x7fbaa727e170>, <__main__.Record object at 0x7fbaa727e6b0>, <__main__.Record object at 0x7fbaa727e740>, <__main__.Record object at 0x7fbaa727dc90>]
+INFO:     150.249.219.211:29347 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:29347 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:29347 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fbaa727f3a0>, <__main__.Record object at 0x7fbaa727f550>, <__main__.Record object at 0x7fbaa727f490>, <__main__.Record object at 0x7fbaa727f5b0>, <__main__.Record object at 0x7fbaa727f610>, <__main__.Record object at 0x7fbaa727f670>, <__main__.Record object at 0x7fbaa727f6d0>, <__main__.Record object at 0x7fbaa727f2e0>, <__main__.Record object at 0x7fbaa727d900>, <__main__.Record object at 0x7fbaa727fe80>]
+INFO:     150.249.219.211:23963 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:3727 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:8361 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:4421 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:13687 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:12958 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
