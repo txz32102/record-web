@@ -648,10 +648,6 @@ Question: 62. 在开源项目管理软件中，（）禅道是比较流行的缺
 Options: A、禅道 B、SilkTest C、QTP D、LoadRunner
 Correct Answer: A
 
-Question: 62. 在开源项目管理软件中，（）禅道是比较流行的缺陷管理系统之一。
-Options: A、禅道 B、SilkTest C、QTP D、LoadRunner
-Correct Answer: A
-
 
 
 Question: 1. MySQL中，可以使用CHAR和VARCHAR数据类型来存储字符串，其中CHAR是定长的，VARCHAR是变长的。（ ）

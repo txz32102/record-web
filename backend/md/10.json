@@ -620,15 +620,5 @@
             "D、LoadRunner"
         ],
         "correct_answer": "A"
-    },
-    {
-        "question": "62. 在开源项目管理软件中，（）禅道是比较流行的缺陷管理系统之一。",
-        "options": [
-            "A、禅道",
-            "B、SilkTest",
-            "C、QTP",
-            "D、LoadRunner"
-        ],
-        "correct_answer": "A"
     }
 ]
