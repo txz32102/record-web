@@ -364,7 +364,7 @@ Correct Answer: A
 
 Question: 92. 接口不可以继承类。（ ）
 Options: A、正确 B、错误
-Correct Answer: B
+Correct Answer: A
 
 Question: 93. 数据库设计的过程中，通常需要先进行需求分析，然后进行概念结构设计，再进行逻辑结构设计，最后进行物理结构设计。（ ）
 Options: A、正确 B、错误
@@ -400,9 +400,263 @@ Correct Answer: A
 
 
 
+Question: 1. 错误推测法又叫（ ）。
+Options: A、探索性测试方法 B、边界值分析法 C、等价类划分法 D、因果图法
+Correct Answer: A
+
+Question: 2. 因果图法是一种适合于描述对于多种输入条件组合的测试方法，根据（），分析输入条件的各种组合情况，从而设计测试用例的方法
+Options: A、输入条件的因果关系、约束关系和输出条件的组合 B、输出条件的组合、约束关系和输入条件的因果关系 C、输入条件的组合、约束关系和输出条件的因果关系 D、约束关系的组合、输入条件和输出条件的因果关系
+Correct Answer: C
+
+Question: 3. 根据输出对输入的依赖关系设计测试用例的方法是（）。
+Options: A、路径测试 B、等价类 C、边界值 D、因果图
+Correct Answer: D
+
+Question: 4. 从用自然语言书写的程序规格说明的描述中找出因和果，从而通过因果图转换为（）。
+Options: A、判定表 B、输入表 C、因果图表 D、输出表
+Correct Answer: A
+
+Question: 5. （）是分析和表达多逻辑条件下执行不同操作的情况的工具。
+Options: A、等价类划分法 B、判定表驱动法 C、错误推测法 D、边界值分析法
+Correct Answer: B
+
+Question: 6. 判定表是由条件桩、动作桩、条件项和（ ）组成的。
+Options: A、规则 B、操作项 C、动作项 D、行动项
+Correct Answer: C
+
+Question: 7. 判定表的建立包括以下步骤：确定规则的个数；（）；填入条件项；填入动作项，制定初始判定表；简化、合并相似规则或者相同动作。
+Options: A、列出所有的条件桩和动作桩 B、列出所有的条件桩 C、列出所有的动作桩 D、列出所有的规则
+Correct Answer: A
+
+Question: 8. 正交试验法是研究多因素、多水平组合的一种试验法，它是利用（ ）来对试验进行设计。
+Options: A、试验表 B、因果图 C、判定表 D、正交表
+Correct Answer: D
+
+Question: 9. （）就是为多因素试验、寻求最优水平组合的一种高效率的试验设计方法。
+Options: A、等价类划分法 B、因果图法 C、正交试验法 D、场景法
+Correct Answer: C
+
+Question: 10. （）是黑盒技术设计测试用例的方法之一。
+Options: A、循环覆盖 B、逻辑覆盖 C、场景法 D、基本路径测试
+Correct Answer: C
+
+Question: 11. 场景法一般包含基本流和（ ）。
+Options: A、主流程 B、备选流 C、副流程 D、备用流
+Correct Answer: D
+
+Question: 12. 在任何情况下都必须使用（）。经验表明，用这种方法设计出的测试用例发现程序错误的能力最强。
+Options: A、等价类划分法 B、边界值分析方法 C、因果图法 D、场景法
+Correct Answer: B
+
+Question: 13. 对于参数配置类的软件，要用（）选择较少的组合方式达到最佳效果。
+Options: A、正交试验法 B、等价类划分法 C、因果图法 D、场景法
+Correct Answer: A
+
+Question: 14. 对于业务流清晰的系统，可以利用（ ）贯穿整个测试案例过程。
+Options: A、正交试验法 B、等价类划分法 C、因果图法 D、场景法
+Correct Answer: D
+
+Question: 15. 测试的“深度”与（ ）的数量成比例。
+Options: A、测试用例 B、用户文档 C、开发文档 D、测试计划
+Correct Answer: A
+
+Question: 16. （）构成了设计和制定测试过程的基础。
+Options: A、测试方案 B、测试用例 C、测试计划 D、测试报告
+Correct Answer: B
+
+Question: 17. （）是测试工作的指导，是软件测试必须遵守的准则，更是软件测试质量稳定的根本保障。
+Options: A、测试方案 B、测试计划 C、测试用例 D、测试报告
+Correct Answer: C
+
+Question: 18. 测试用例的（）指输入用户实际数据以验证系统是否满足需求规格说明书的要求；测试用例中的测试点应首先保证要至少覆盖需求规格说明书中的各项功能，并且正常。
+Options: A、全面性 B、可操作性 C、连贯性 D、正确性
+Correct Answer: D
+
+Question: 19. 用例执行粒度尽量保持每个用例都有测点，不能同时覆盖很多功能点，否则执行起来牵连太大，所以每个用例间保持（） 很重要。
+Options: A、连贯性 B、正确性 C、全面性 D、可判定性
+Correct Answer: A
+
+Question: 20. 测试执行结果的正确性是（ ）  的，每一个测试用例都有相应的期望结果。
+Options: A、可操作 B、可判定 C、可理解 D、可预期
+Correct Answer: B
+
+Question: 21. 测试用例的（），列举执行测试用例的所有输入内容或者条件。
+Options: A、输入条件 B、输入规范 C、输入说明 D、输入要求
+Correct Answer: C
+
+Question: 22. 测试用例内容包括测试目标、测试环境、（ ）、测试步骤、预期结果、测试脚本等。
+Options: A、数据格式 B、输出数据 C、数据结构 D、输入数据
+Correct Answer: D
+
+Question: 23. 测试用例可以分为基本事件、（） 和异常事件。
+Options: A、备选事件 B、主事件 C、后备事件 D、次事件
+Correct Answer: A
+
+Question: 24. 测试用例设计必须明确（）和测试分类的程度。
+Options: A、标准 B、粒度 C、范围 D、复杂度
+Correct Answer: B
+
+Question: 25. 测试结果的可判定性,即测试执行结果的正确性是可判定的，每一个测试用例都应有相应的（ ）。
+Options: A、输出结果 B、理想结果 C、期望结果 D、测试结果
+Correct Answer: C
+
+Question: 26. 设计的用例除对测试点本身的测试外，还需考虑用户实际使用的情况、与其他部分关联使用的情况、（） 操作和环境设置等。
+Options: A、正常情况 B、输入 C、输出 D、非正常情况
+Correct Answer: D
+
+Question: 27. 覆盖率是度量测试（） 的一个手段，是测试有效性的一个度量。
+Options: A、完整性 B、全面性 C、科学性 D、规范化
+Correct Answer: A
+
+Question: 28. 测试覆盖指测试系统覆盖被测试系统的程度，一项给定测试或一组测试对某个给定系统或构件的所有指定（）进行处理所达到的程度。
+Options: A、测试记录 B、测试用例 C、测试结果 D、测试计划
+Correct Answer: B
+
+Question: 29. 测试覆盖是由测试需求和（）的覆盖或已执行代码的覆盖表示的。
+Options: A、测试内容 B、测试项目 C、测试用例 D、测试结果
+Correct Answer: C
+
+Question: 30. 测试用例按（ ）顺序执行。
+Options: A、复杂度 B、时间 C、随机 D、优先级
+Correct Answer: D
+
+Question: 31. 在测试前提符合的情况下，依照（），每一个测试用例都能够顺利地使程序运行，同时呈现相应的期望结果。
+Options: A、测试步骤 B、测试说明 C、测试用例 D、测试要求
+Correct Answer: A
+
+Question: 32. 测试用例（）越高，被执行的时间越早，执行的频率越高。
+Options: A、复杂度 B、优先级 C、编制时间 D、对应问题的严重级别
+Correct Answer: B
+
+Question: 33. 在测试过程中发现测试用例未覆盖全部需求时，需要（）测试用例。
+Options: A、修改 B、变更 C、补充 D、删除
+Correct Answer: C
+
+Question: 34. 如果存在两个或更多测试用例对一组相同的输入和输出进行测试，则需要对其进行（ ）。
+Options: A、修改 B、变更 C、新增 D、删除
+Correct Answer: D
+
+Question: 35. 测试用例的维护是一个（）的过程，也是一个不断改进和完善的过程。
+Options: A、长期 B、短期 C、变化 D、稳定
+Correct Answer: A
+
+Question: 36. 通过手工测试无法做到覆盖所有（）。
+Options: A、软件功能 B、代码路径 C、业务流程 D、菜单项
+Correct Answer: B
+
+Question: 37. 许多与时序、（）、资源冲突、多线程等有关的错误通过手工测试很难捕捉到。
+Options: A、资源 B、功能 C、流程 D、死锁
+Correct Answer: D
+
+Question: 38. （ ）是由测试工程师手动测试软件各项功能以发现缺陷的过程。
+Options: A、手工测试 B、自动化测试 C、功能测试 D、性能测试
+Correct Answer: A
+
+Question: 39. （ ）是把以人为驱动的测试行为转化为机器执行的一种过程。
+Options: A、手工测试 B、自动化测试 C、功能测试 D、性能测试
+Correct Answer: B
+
+Question: 40. 实施自动化测试之前需要对（）进行分析，以观察其是否适合使用自动化测试。
+Options: A、软件需求过程 B、软件设计过程 C、软件开发过程 D、软件测试过程
+Correct Answer: C
+
+Question: 41. 为了节省人力、时间或硬件资源，提高（），便引入了自动化测试的概念。
+Options: A、测试效率 B、设计效率 C、开发效率 D、项目进度
+Correct Answer: A
+
+Question: 42. 自动化软件测试工具是用软件来代替一些人工输入，其存在的价值是为了提高（）。
+Options: A、产品质量 B、测试质量 C、测试准确度 D、测试效率
+Correct Answer: D
+
+Question: 43. 测试管理工具是为了复用（ ），提高软件测试的价值。
+Options: A、测试方案 B、测试计划 C、测试用例 D、测试报告
+Correct Answer: C
+
+Question: 44. 一个好的软件测试工具和测试管理工具结合起来使用将会使软件（）大大的提高。
+Options: A、开发质量 B、测试效率 C、测试准确度 D、文档质量
+Correct Answer: B
+
+Question: 45. 按测试工具的收费方式，可分为（）。
+Options: A、集成测试和单元测试 B、白盒测试和黑盒测试 C、商业测试工具和开源测试工具 D、白盒测试和静态测试
+Correct Answer: C
+
+Question: 46. 软件测试工具按照其用途，可分为测试管理、自动化功能测试工具、（）、白盒测试工具。
+Options: A、手工测试工具 B、开源测试工具 C、商业测试工具 D、性能测试工具
+Correct Answer: D
+
+Question: 47. 一般针对代码进行测试，测试中发现的缺陷可以定位到代码级的测试工具是（ ）。
+Options: A、白盒测试工具 B、开源测试工具 C、商业测试工具 D、黑盒测试工具
+Correct Answer: A
+
+Question: 48. 测试工具的选择是（）的一个重要步骤之一。
+Options: A、手工测试 B、自动化测试 C、功能测试 D、性能测试
+Correct Answer: B
+
+Question: 49. 自动化测试的成功主要在于为不同的需求确定（ ）的工具。
+Options: A、合适 B、功能强大 C、知名度高 D、价格高
+Correct Answer: A
+
+Question: 50. 在选择测试工具时，不仅要考虑性能价格比、产品的成熟度，还要考虑测试工具引入的（）。
+Options: A、效率 B、安全性 C、连续性 D、可靠性
+Correct Answer: C
+
+Question: 51. 一般来说，GUI功能测试工具的测试过程包括（）。
+Options: A、录制测试脚本、编辑测试脚本、执行、调试测试脚本、分析测试结果 B、录制测试脚本、调试测试脚本、执行、导出测试脚本、分析测试结果 C、录制测试脚本、调试测试脚本、编辑测试脚本、执行、分析测试结果 D、录制测试脚本、编辑测试脚本、调试测试脚本、执行、分析测试结果
+Correct Answer: D
+
+Question: 52. （）是一个用于Web应用程序自动化测试工具。
+Options: A、禅道 B、Selenium C、LoadRunner D、Burp suite
+Correct Answer: B
+
+Question: 53. JMeter 能够对应用程序做功能测试与回归测试，通过创建带有（ ）的脚本来验证程序是否返回了期望结果。
+Options: A、数据 B、断言 C、逻辑 D、巡检
+Correct Answer: B
+
+Question: 54. 压力测试（StressTesting）又称强度测试，其目标是（）。
+Options: A、检测系统可以处理目标内确定的数据容量 B、度量系统的性能和预先定义的目标有多大差距 C、测试各种资源在超负荷的情况下的运行情况 D、验证系统从软件或者硬件失效中恢复的能力
+Correct Answer: C
+
+Question: 55. （）是一种适用于各种体系架构的自动负载测试工具，它能预测系统行为并优化系统性能。
+Options: A、QTP B、SilkTest C、Selenium D、LoadRunner
+Correct Answer: D
+
+Question: 56. JMeter能够对HTTP和FTP服务器进行压力和性能测试，也可以通过JDBC对任何（）进行同样的测试。
+Options: A、数据库 B、接口 C、网络 D、Web安全
+Correct Answer: A
+
+Question: 57. （）是一个可以用于攻击Web应用程序的集成平台。
+Options: A、Burp suite B、SilkTest C、QTP D、LoadRunner
+Correct Answer: A
+
+Question: 58. （）可以支持的常见故障排除问题包括程序包丢失,潜在问题和恶意网络活动。
+Options: A、SilkTest B、Wireshark C、QTP D、LoadRunner
+Correct Answer: B
+
+Question: 59. 安全测试是一个非常复杂的过程，安全测试所使用到的工具也非常多，例如（）、端口扫描工具、抓包工具、渗透工具等。
+Options: A、性能测试工具 B、功能测试工具 C、漏洞扫描工具 D、测试管理工具
+Correct Answer: C
+
+Question: 60. 缺陷跟踪管理系统主要完成对（ ）的记录、分析和状态更新等管理。
+Options: A、开发文档 B、测试计划 C、测试报告 D、缺陷报告
+Correct Answer: D
+
+Question: 61. （）缺陷跟踪系统的主要目标在于为改正那些应该改正的缺陷提供帮助。
+Options: A、漏洞扫描工具 B、功能测试工具 C、缺陷跟踪系统 D、测试管理工具
+Correct Answer: C
+
+Question: 62. 在开源项目管理软件中，（）禅道是比较流行的缺陷管理系统之一。
+Options: A、禅道 B、SilkTest C、QTP D、LoadRunner
+Correct Answer: A
+
+Question: 62. 在开源项目管理软件中，（）禅道是比较流行的缺陷管理系统之一。
+Options: A、禅道 B、SilkTest C、QTP D、LoadRunner
+Correct Answer: A
+
+
+
 Question: 1. MySQL中，可以使用CHAR和VARCHAR数据类型来存储字符串，其中CHAR是定长的，VARCHAR是变长的。（ ）
 Options: A、正确 B、错误
-Correct Answer: A?
+Correct Answer: A
 
 Question: 2. 在MySQL数据库中，DESC与DESCRIBE两者用法相同，都是用来显示已经建立的数据表文件。（ ）
 Options: A、正确 B、错误
@@ -410,11 +664,11 @@ Correct Answer: B
 
 Question: 3. 在MySQL数据库中，将一个Tab表中INTEGER列的名称从A修改成B，可以使用“ALTER TABLE Tab CHANGE A B INTEGER。（ ）
 Options: A、正确 B、错误
-Correct Answer: A?
+Correct Answer: A
 
 Question: 4. 在MySQL数据库中，同时删除多个数据表时，需要使用分号进行分割。（ ）
 Options: A、正确 B、错误
-Correct Answer: A?
+Correct Answer: B
 
 Question: 5. 外键是表中一列或多列的一组，其值能唯一地标识表中的每一行。（ ）
 Options: A、正确 B、错误
@@ -478,7 +732,7 @@ Correct Answer: A
 
 Question: 20. 在MySQL中，使用LENGTH()函数可以获取字符串的字符数，而不是字节数。（ ）
 Options: A、正确 B、错误
-Correct Answer: A?
+Correct Answer: B
 
 Question: 21. 在MySQL中，使用DATE_FORMAT()函数可以将日期或时间值格式化为指定的格式。（ ）
 Options: A、正确 B、错误
@@ -1430,7 +1684,7 @@ Correct Answer: D
 
 Question: 57. 程序代码编写方案的类型有（）。
 Options: A、自上而下和自下而上 B、结构化和面向对象 C、模块化和组件化 D、递归和迭代
-Correct Answer: B?
+Correct Answer: B
 
 Question: 58. 自上而下的程序设计方案是指（ ）。
 Options: A、先确定程序的总体目标，再细化为具体的子目标 B、先确定程序的具体细节，再组合为整体目标 C、先确定程序的输入输出，再确定中间过程 D、先确定程序的功能模块，再确定接口关系
@@ -1594,7 +1848,7 @@ Correct Answer: C
 
 Question: 98. 数字信封技术能够（）。
 Options: A、保证数据在传输过程中的安全性 B、隐藏发送者的真实身份 C、对发送者和接收者的身份进行认证 D、防止交易中的抵赖发生
-Correct Answer: A?
+Correct Answer: A
 
 Question: 99. 若连接数据库过程中需要指定用户名和密码，则这种安全措施属于（ ）。
 Options: A、授权机制 B、视图机制 C、数据加密 D、用户标识与鉴别
@@ -2808,6 +3062,810 @@ Correct Answer: B
 
 Question: 100. 运行状态的线程调用（）方法后会进入等待状态。
 Options: A、sleep() B、wait() C、join() D、yield()
+Correct Answer: B
+
+
+
+Question: 1. 新建状态的线程调用（）方法后会进入就绪状态。
+Options: A、start() B、run() C、resume() D、notify()
+Correct Answer: A
+
+Question: 2. 等待状态的线程调用（ ）方法后会进入就绪状态。
+Options: A、 start() B、 run() C、 resume() D、 notify()
+Correct Answer: D
+
+Question: 3. Java语言中提供了一个（）线程，自动回收动态分配的内存。
+Options: A、异步 B、消费者 C、守护 D、垃圾收集
+Correct Answer: D
+
+Question: 4. Java的线程优先级的默认值是（）。
+Options: A、MIN_PRIORITY B、NORM_PRIORITY C、MAX_PRIORITY D、MED_PRIORITY
+Correct Answer: B
+
+Question: 5. Java的线程调度是基于（）机制的。
+Options: A、时间片轮转 B、抢占式 C、优先级 D、公平
+Correct Answer: C
+
+Question: 6. Java的线程优先级可以用（ ）方法设置。
+Options: A、 setPriority(int newPriority) B、 setLevel(int newLevel) C、 setOrder(int newOrder) D、 setRank(int newRank)
+Correct Answer: A
+
+Question: 7. 下列锁机机制中，（）不能保证线程安全。
+Options: A、Lock B、Synchronized C、Volatile D、ReentrantLock
+Correct Answer: C
+
+Question: 8. Java的线程优先级可以用（）方法获取。
+Options: A、getPriority() B、getLevel() C、getOrder() D、getRank()
+Correct Answer: A
+
+Question: 9. 线程同步的目的是（）。
+Options: A、提高线程的执行效率 B、避免线程的死锁 C、保证线程的安全性 D、增加线程的交互性
+Correct Answer: C
+
+Question: 10. synchronized关键字可以修饰（ ）元素。
+Options: A、 方法，代码块，变量，类 B、 方法，代码块，变量，对象 C、 方法，代码块，类，对象 D、 方法，代码块，类，接口
+Correct Answer: C
+
+Question: 11. wait()和notify()方法属于（）类。
+Options: A、Thread B、Object C、Runnable D、Callable
+Correct Answer: B
+
+Question: 12. JDBC中负责驱动管理的是（ ）。
+Options: A、DriverManager B、Connection C、Statement D、RseultSet
+Correct Answer: A
+
+Question: 13. JDBC驱动程序是（）。
+Options: A、一种用于连接数据库的API B、一种用于实现JDBC接口的类库 C、一种用于转换数据格式的工具 D、一种用于管理数据库的软件
+Correct Answer: B
+
+Question: 14. 所有JDBC驱动程序必须实现的接口是（）。
+Options: A、Driver接口 B、Statement接口 C、PreparedStatement接口 D、ResultSet接口
+Correct Answer: A
+
+Question: 15. JDBC提供了一系列访问数据库的接口和类，其中（ ）用于加载JDBC驱动并创建与数据库的连接。
+Options: A、 ResultSet接口 B、 Statement接口 C、 Connection接口 D、 DriverManager类
+Correct Answer: D
+
+Question: 16. JDBC是（ ）的缩写。
+Options: A、 Java Database Connectivity B、 Java Data Communication C、 Java Database Component D、 Java Data Conversion
+Correct Answer: A
+
+Question: 17. （）不是JDBC驱动程序。
+Options: A、JDBC-ODBC桥驱动程序 B、本地 API驱动程序 C、网络互联驱动程序 D、本地协议驱动程序
+Correct Answer: C
+
+Question: 18. JDBC API使用（）驱动程序来连接数据库。
+Options: A、ODBC驱动程序 B、JDBC驱动程序 C、SQL驱动程序 D、DBMS驱动程序
+Correct Answer: B
+
+Question: 19. JDBC API主要位于（）包中。
+Options: A、java.sql B、javax.swing C、java.util D、java.awt
+Correct Answer: A
+
+Question: 20. JDBC API中，（）用来执行SQL语句。
+Options: A、ResultSet接口 B、Statement接口 C、Connection接口 D、DriverManager类
+Correct Answer: B
+
+Question: 21. PreparedStatement对象是通过（）方法创建的。
+Options: A、Connection.createStatement() B、Connection.prepareStatement() C、Connection.executeStatement() D、Connection.createPreparedStatement()
+Correct Answer: B
+
+Question: 22. PreparedStatement对象可以用来执行（）类型的SQL语句。
+Options: A、任何类型的SQL语句 B、只有查询语句 C、只有更新语句 D、带有参数的SQL语句
+Correct Answer: D
+
+Question: 23. PreparedStatement接口是（ ）接口的子接口。
+Options: A、 Connection B、 Statement C、 ResultSet D、 CallableStatement
+Correct Answer: B
+
+Question: 24. JDBC执行SQL查询语句的结果放在ResultSet对象中，调用方法（ ）可将指针从当前位置向下移动一行。
+Options: A、last B、getDate C、getInt D、next
+Correct Answer: D
+
+Question: 25. ResultSet对象是用来存储（）类型的数据的。
+Options: A、数据库表的数据 B、SQL语句的数据 C、数据库查询的结果集 D、数据库连接的信息
+Correct Answer: C
+
+Question: 26. ResultSet对象维护了一个指向当前行的（）。
+Options: A、游标 B、索引 C、指针 D、引用
+Correct Answer: A
+
+Question: 27. 在JDBC操作中，用于将参数化的SQL语句发送到数据库的方法是（ ）。
+Options: A、prepareCall(Stringsql) B、prepareStatement(Stringsql) C、registerDriver(Driverdriver) D、createStatement()
+Correct Answer: B
+
+Question: 28. 接口Statement中定义的executeUpdate方法的返回类型是（）。
+Options: A、ResultSet B、int C、boolean D、double
+Correct Answer: B
+
+Question: 29. 接口Statement中定义的execute方法的返回类型是（ ）。
+Options: A、 ResultSet B、 int C、 boolean D、 double
+Correct Answer: C
+
+Question: 30. executeQuery(Stringsql)用于执行SQL中的select语句返回值类型（）。
+Options: A、String B、int C、ResultSet D、char[]
+Correct Answer: C
+
+Question: 31. 可以获取结果集（ResultSet）的元数据的方法是（）。
+Options: A、Connection的getMetaData方法 B、ResultSet的getMetaData方法 C、Connection的getResultMetaData方法 D、ResultSet的getResultMetaData方法
+Correct Answer: B
+
+Question: 32. 在ResultSet接口内部有一个指向表格数据行的游标（或指针），ResultSet对象初始化时，游标在表格的第一行之前，调用（ ）方法可将游标移动到下一行。
+Options: A、before() B、after() C、next() D、last()
+Correct Answer: C
+
+Question: 33. 网络中计算机连接和通信时遵守的规则称为（ ）。
+Options: A、语法 B、语义 C、时序 D、协议
+Correct Answer: D
+
+Question: 34. 在Java中，通过（）类可以用来创建一个URL对象。
+Options: A、java.net.URL B、java.net.URI C、java.net.URLEncoder D、java.net.URLConnection
+Correct Answer: A
+
+Question: 35. （）是C类IP地址。
+Options: A、127.233.13.34 B、152.87.209.51 C、169.196.30.54 D、202.96.209.21
+Correct Answer: D
+
+Question: 36. 在网络协议中，面向连接的的协议是（）。
+Options: A、传输控制协议 B、用户数据报协议 C、网际协议 D、网际控制报文协议
+Correct Answer: A
+
+Question: 37. 在Java的InetAddress类中，获取本对象的IP地址,并存放在字节数组中的方法是（ ）。
+Options: A、InetAddress getLocalHost() B、byte[] getAddress() C、String getHostAddress() D、String getHostName()
+Correct Answer: B
+
+Question: 38. InetAddress类中（）方法可实现正向名称解析。
+Options: A、isReachable（） B、getHostAddress（） C、getHosstName（） D、getByName（）
+Correct Answer: B
+
+Question: 39. 在Socket类的常用方法中，用于获取创建Socket对象时指定的服务器的IP地址的是（）。
+Options: A、InetAddress getLocalAddress() B、intget Port() C、InetAddress getInetAddress() D、InputStream getInputStream()
+Correct Answer: C
+
+Question: 40. Java Socket编程中，客户端要连接服务器端，需要使用（）类的对象。
+Options: A、Socket B、ServerSocket C、InetAddress D、URL
+Correct Answer: A
+
+Question: 41. Java ServerSocket的监听方法accept( )方法的返回值类型是（）。
+Options: A、Socket B、void C、Object D、DatagramSocket
+Correct Answer: A
+
+Question: 42. 使用Java进行TCP编程时，双方通过Socket打开输入输出流读写数据，我们通过（）方法可以从Socket对象获取输入流。
+Options: A、getInputStream() B、getOutputStream() C、getReader() D、getWriter()
+Correct Answer: A
+
+Question: 43. 在开发基于TCP的SOCKET通讯模块时，一般需要编写服务端和（ ）模块。
+Options: A、客户端 B、配置文件 C、TCP D、SOCKET
+Correct Answer: A
+
+Question: 44. 在开发基于TCP的SOCKET通讯模块时，一般会用（）方法绑定把套接字。
+Options: A、add B、bind C、set D、binding
+Correct Answer: B
+
+Question: 45. 通过ServerSocket对象中的（ ）方法可以用于接收来自客户端的请求。
+Options: A、accept() B、getOutputStream() C、receive() D、get()
+Correct Answer: A
+
+Question: 46. 在ServerSocket类的构造方法中，以端口port创建ServerSocket对象,并等待客户端的连接请求的是（）。
+Options: A、ServerSocket(int port) B、ServerSocket() C、ServerSocket(int port,int backlog) D、ServerSocket(int port,int backlog, InetAddress bindAddr)
+Correct Answer: A
+
+Question: 47. 在用Java语言开发基于Socket的通讯程序时，在完成通讯后，应当在服务端和客户端调用套接字的（）方法来关闭套接字。
+Options: A、close B、clear C、delete D、free
+Correct Answer: A
+
+Question: 48. 套接字的类型包括流套接字、数据报文套接字和（ ）。
+Options: A、操作报文套接字 B、操作系统套接字 C、协议套接字 D、原始套接字
+Correct Answer: D
+
+Question: 49. Socket是（）。
+Options: A、一种网络协议 B、一种网络设备 C、一种网络通信的端点 D、一种网络通信的方式
+Correct Answer: C
+
+Question: 50. 不属于Socket的类型的是（）。
+Options: A、流式套接字 B、数据报套接字 C、原始套接字 D、网络套接字
+Correct Answer: D
+
+Question: 51. TCP和UDP的传输方式分别是（ ）。
+Options: A、流式传输，报文传输 B、报文传输，流式传输 C、流式传输，流式传输 D、报文传输，报文传输
+Correct Answer: A
+
+Question: 52. TCP和UDP的首部长度分别是（）字节。
+Options: A、20，8 B、8，20 C、16，8 D、8，16
+Correct Answer: A
+
+Question: 53. TCP和UDP分别属于TCP/IP协议簇中的（ ）层。
+Options: A、应用层，传输层 B、传输层，应用层 C、传输层，传输层 D、应用层，应用层
+Correct Answer: C
+
+Question: 54. 使用流式套接字编程时，为了向对方发送数据，则需要使用（）方法。
+Options: A、getInetAddress() B、getLocalPort() C、getOutputStream() D、getInputStream()
+Correct Answer: C
+
+Question: 55. 使用UDP协议通信时，需要使用（）类把要发送的数据打包，并且用该类对象接收数据。
+Options: A、Socket B、DatagramSocket C、DatagramPacket D、ServerSocket
+Correct Answer: C
+
+Question: 56. Java语言支持网络通信的软件都在（）包中。
+Options: A、java.lang.net B、java.net C、java.net.ftp D、java.net.www
+Correct Answer: B
+
+Question: 57. 在Java中，DatagramPacket类用来表示（）。
+Options: A、数据报包 B、数据流 C、数据帧 D、数据段
+Correct Answer: A
+
+Question: 58. 在Java中，DatagramPacket类的getAddress()方法作用是（ ）。
+Options: A、返回数据报包的数据 B、返回数据报包的长度 C、返回数据报包的目标地址 D、返回数据报包的源地址
+Correct Answer: C
+
+Question: 59. 在Java中进行UDP通信时，在接收端若要获得发送端的IP地址，可以使用DatagramPacket的（）方法。
+Options: A、getAddress() B、getPort() C、getName() D、getData()
+Correct Answer: A
+
+Question: 60. 在DatagramSocket类的常用方法中，（）方法用于发送 DatagramPacket数据报,将数据报中包含的报文发送到p指定的IP地址的主机。
+Options: A、void receive(DatagramPacket p) B、void setTimeout(int timeout) C、void send(DatagramPacket packet) D、void close()
+Correct Answer: C
+
+Question: 61. 使用UDP协议进行通信，在程序运行时，DatagramSocket的（ ）方法会发生阻塞。
+Options: A、send() B、receive() C、close() D、connect()
+Correct Answer: B
+
+Question: 62. 在Java中使⽤（）类建⽴⼀个socket，⽤于不可靠的数据报的传输。
+Options: A、Applet B、DatagramSocket C、InetAddress D、AppletContext
+Correct Answer: B
+
+Question: 63. 在TCP/IP模型中，应用层包含了所有的高层协议，在下列的一些应用协议中，能够实现本地与远程主机之间的文件传输工作的是（）
+Options: A、telnet B、FTP C、SNMP D、NFS
+Correct Answer: B
+
+Question: 64. TCP/IP通讯协议采用了4层的层级结构，其中包括应用层、传输层、网络层和（）。
+Options: A、表示层 B、会话层 C、数据链路层 D、网络接口层
+Correct Answer: D
+
+Question: 65. TCP/IP应用层的协议包括：TFTP、（）、SNMP、FTP、SMTP、DNS、Telnet等。
+Options: A、HTTP B、TCP C、UDP D、IP
+Correct Answer: A
+
+Question: 66. 在Java中，使用Socket对象进行TCP通信时，可以通过（ ）方法获取一个输出流，用于向对方发送数据
+Options: A、getOutputStream() B、getInputStream() C、getWriter() D、getOutput()
+Correct Answer: A
+
+Question: 67. 在Java中，使用Socket类创建客户端对象时，需要传入服务器端的（）。
+Options: A、IP地址，端口号 B、域名，端口号 C、IP地址，协议 D、域名，协议
+Correct Answer: A
+
+Question: 68. 在TCP/IP 网络中，为各种公共服务和系统保留的端口号范围是（）
+Options: A、0~65525 B、0~1024 C、0~1023 D、0~80
+Correct Answer: C
+
+Question: 69. Java死锁产生的四个必要条件是（）。
+Options: A、互斥使用、不可抢占、请求和保持、循环等待 B、互斥使用、可抢占、请求和保持、循环等待 C、互斥使用、不可抢占、请求和释放、循环等待 D、互斥使用、不可抢占、请求和保持、线性等待
+Correct Answer: A
+
+Question: 70. 使用（）命令来检测Java程序中是否存在死锁。
+Options: A、jstack B、jmap C、jstat D、jconsole
+Correct Answer: D
+
+Question: 71. 避免死锁的一个常用方法是（ ）。
+Options: A、使用多个线程 B、使用多个锁 C、使用同步代码块 D、使用相同的锁顺序
+Correct Answer: D
+
+Question: 72. 软件（）以及软件向各个结点的部署的工作被称为软件部署。
+Options: A、运行环境配置 B、功能开发 C、功能测试 D、项目验收
+Correct Answer: A
+
+Question: 73. 软件部署是一个复杂过程，包括从开发商发放产品，到应用者在他们的计算机上实际安装并维护应用的所有活动。这些活动包括开发商的软件打包，企业及用户对软件的安装、（）等。
+Options: A、修订、集成和验收 B、配置、修订和验收 C、配置、集成和更新 D、调试、修订和更新
+Correct Answer: C
+
+Question: 74. 软件部署存在着风险，一般由以下原因造成的：应用软件越来越复杂，包括许多构件、版本和变种；应用发展很快，相继两个版本的间隔很短；（）；构件的来源多样性等。
+Options: A、开发的不确定性 B、测试的不确定性 C、用户的不确定性 D、环境的不确定性
+Correct Answer: D
+
+Question: 75. 软件部署过程的主要特征有：过程覆盖度、（）和模型抽象。
+Options: A、过程可变更性、过程间协调 B、功能完成度、性能效率 C、功能完成度、过程间协调 D、过程可变更性、性能效率
+Correct Answer: A
+
+Question: 76. 抽象的软件部署模型，用于有效地指导部署过程，包括（ ）、企业模型、站点模型、策略模型和部署模型。
+Options: A、设计模型、开发模型 B、应用模型、产品模型 C、设计模型、产品模型 D、应用模型、开发模型
+Correct Answer: B
+
+Question: 77. 企业级软件部署一般可以通过组策略来为域内的用户与计算机部署软件，此类软件的部署分为（）两种。
+Options: A、分布与调试 B、配置与安装 C、指派与发布 D、安装与调试
+Correct Answer: C
+
+Question: 78. 通过组策略来为域内部署企业级软件主要包括：将软件指派给用户、将软件指派给计算机、将软件发布给用户、（）。
+Options: A、将软件发布给计算机和更新软件 B、将软件发布给计算机和自动修复软件 C、将软件发布给计算机和删除软件 D、自动修复软件和删除软件
+Correct Answer: D
+
+Question: 79. 在软件产品部署过程中，（）环节通常包括对用户进行培训和提供技术支持。
+Options: A、前期准备工作 B、硬件和网络环境配置 C、软件安装和配置 D、后期运维和维护
+Correct Answer: D
+
+Question: 80. （）架构可以理解为即将所需的主机资源集中到少数的机台大型服务器中。
+Options: A、本地化 B、集中式 C、分布式 D、混合式
+Correct Answer: B
+
+Question: 81. 集群技术的目的包括提高性能、降低成本、提高可扩展性、 增强（）。
+Options: A、先进性 B、便捷性 C、可靠性 D、易维护性
+Correct Answer: C
+
+Question: 82. （ ）架构的思想根基是根据业务功能、模块设计或者行政机构的不同，采用相对分散的中小型服务器。
+Options: A、集中式 B、本地化 C、混合式 D、分布式
+Correct Answer: D
+
+Question: 83. 软件产品集中部署其实就是将所有的应用软件都部署在服务器，客户（），通过远程登录应用，保留和本地相同的体验。
+Options: A、需安装客户端软件 B、不安装任何应用软件 C、需安装本地数据库 D、需部署本地服务器
+Correct Answer: B
+
+Question: 84. （）需要具有非常高的安全性，集中式部署可提供的硬件安全方案包括身份认证技术、防火墙、入侵防御系统等。
+Options: A、集中式部署 B、分布式部署 C、混合式部署 D、本地部署
+Correct Answer: A
+
+Question: 85. （）是将所有的应用软件都部署在服务器,客户不用安装任何软件客户通过远程登录应用,保留和本地相同的体验,实现任何时间、任何地点、采用任何设备、任何网络实时应用。
+Options: A、服务器 B、客户端部署 C、分布式部署 D、集中式部署
+Correct Answer: D
+
+Question: 86. 集中式部署的设计原则是先进性、（）、可靠性、灵活性。
+Options: A、便捷性 B、可移植性 C、安全性 D、稳定性
+Correct Answer: C
+
+Question: 87. 集中式部署的系统，要同时满足多个单位不同需求，需要在格式、流程、表单、权限等设置上具有（）。
+Options: A、先进性 B、安全性 C、可靠性 D、灵活性
+Correct Answer: D
+
+Question: 88. 由于系统一旦出现故障，将对整个系统的用户造成影响，要求系统具有很高的（ ），并有完整的应急措施，比如采用双机热备等。
+Options: A、先进性 B、安全性 C、可靠性 D、灵活性
+Correct Answer: C
+
+Question: 89. 集中式部署方案的特点是（）、快速集中部署、维护方便。
+Options: A、信息集中共享 B、管理上独立 C、访问速度快 D、大容量、大负荷能力
+Correct Answer: A
+
+Question: 90. 集中式部署方案的特点是信息集中共享、（）、维护方便。
+Options: A、管理上独立 B、快速集中部署 C、访问速度快 D、大容量、大负荷能力
+Correct Answer: B
+
+Question: 91. （）所有用户共用同一套系统，各种信息和文档的共享变得非常方便，任何个人都可以通过授权方便地获得相关的信息。
+Options: A、集中式部署 B、分布式部署 C、混合式部署 D、本地部署
+Correct Answer: A
+
+Question: 92. 软件产品集中式部署方案需要解决的关键技术是（）。
+Options: A、高速度 B、高可用 C、高并发 D、安全性
+Correct Answer: C
+
+Question: 93. 提高集中式部署可靠性的技术是（）。
+Options: A、身份认证技术 B、双机热备 C、RAID技术 D、防火墙技术
+Correct Answer: B
+
+Question: 94. （）的系统必须具有先进的技术架构及支撑大量用户访问的设计，包括大并发下的缓存技术、页面异步数据交换等互联网技术。
+Options: A、服务器 B、客户端部署 C、分布式部署 D、集中式部署
+Correct Answer: D
+
+Question: 95. 软件产品分布式部署是将（ ）分散的存储于多台独立的机器设备上，采用可扩展的系统结构，利用多台存储服务器分担存储负荷，利用位置服务器定位存储信息，不但解决了传统集中式存储系统中单存储服务器的瓶颈问题，还提高了系统的可靠性、可用性和扩展性。
+Options: A、数据 B、应用软件 C、镜像 D、日志
+Correct Answer: A
+
+Question: 96. （）不但解决了传统集中式存储系统中单存储服务器的瓶颈问题，还提高了系统的可靠性、可用性和扩展性。
+Options: A、服务器 B、客户端部署 C、分布式部署 D、集中式部署
+Correct Answer: C
+
+Question: 97. 软件产品分布式部署在实施过程中可以很方便地实行（），降低实施风险，可分单位逐步进行部署，可以在各独立系统上线运行成功的基础上，最后部署交换中心即可。
+Options: A、统一实施 B、分步实施 C、集中部署 D、分布部署
+Correct Answer: B
+
+Question: 98. 分布式部署的设计原则：（）、分布式交换、最小授权。
+Options: A、先进性 B、成熟性 C、可靠性 D、独立性
+Correct Answer: D
+
+Question: 99. 采用（），每个单位都需要部署一套独立的硬件系统和软件系统，前期相对投入较大。
+Options: A、服务器 B、客户端部署 C、分布式部署 D、集中式部署
+Correct Answer: C
+
+Question: 100. 分布式部署环境下，数据交换需要经过数据导出、（）、数据导入。
+Options: A、数据上报 B、数据分析 C、数据传输 D、数据下载
+Correct Answer: A
+
+
+
+Question: 1. （ ）部署不但解决了传统集中式存储系统中单存储服务器的瓶颈问题，还提高了系统的可靠性、可用性和扩展性。
+Options: A、服务器 B、客户端部署 C、集中式 D、分布式
+Correct Answer: D
+
+Question: 2. 分布式部署的特点是危险分散，（），访问速度快，大容量、大负荷能力。
+Options: A、管理上统一 B、管理上独立 C、快速集中部署 D、维护方便
+Correct Answer: B
+
+Question: 3. （）的最大优势在于对互联网依赖小、硬件要求较低。
+Options: A、服务器 B、客户端部署 C、分布式部署 D、集中式部署
+Correct Answer: C
+
+Question: 4. 实现分布式部署需要的关键技术是（）。
+Options: A、文件加密传输系统 B、高速网络系统 C、防火墙系统 D、双机热备系统
+Correct Answer: A
+
+Question: 5. 对称密钥加密算法支持（）。
+Options: A、RSA B、DES C、SHA-1 D、MD5
+Correct Answer: B
+
+Question: 6. 公钥加密算法支持（ ）。
+Options: A、DES B、3DES C、SSF33 D、RSA
+Correct Answer: D
+
+Question: 7. 如果调试器和被调试的程序位于不同的计算机系统中，并且它们通过以太网或其他网络进行通信，那么这种调试方法称为（）。
+Options: A、本地调试 B、远程调试 C、线下操作 D、其他调试
+Correct Answer: B
+
+Question: 8. 调试是开发过程很重要的过程，（）是相对于本地调试来讲的。
+Options: A、远程调试 B、远程操作 C、线下操作 D、其他调试
+Correct Answer: A
+
+Question: 9. 远程调试可以帮助我们节约时间并提高（），可以使程序运行更加平稳。
+Options: A、运行效率 B、测试效率 C、研发效率 D、需求调研效率
+Correct Answer: C
+
+Question: 10. 远程用户模式调试中（）是远程控制调试会话的计算机。
+Options: A、目标计算机 B、服务器 C、调试器 D、客户端
+Correct Answer: D
+
+Question: 11. 远程调试不仅仅是调试，还有（ ）的过程。
+Options: A、通信 B、测试 C、验证 D、确认
+Correct Answer: A
+
+Question: 12. 远程用户模式调试中（）是运行要调试的应用程序的计算机。
+Options: A、客户端 B、服务器 C、目标计算机 D、调试器
+Correct Answer: B
+
+Question: 13. （）通常需要在被调试程序所在的系统中运行调试服务器程序。
+Options: A、本地调试 B、线下操作 C、远程调试 D、其他调试
+Correct Answer: C
+
+Question: 14. 通过调试器进行远程调试时，实际执行调试的调试器称为调试（）。
+Options: A、客户端 B、调试器 C、目标计算机 D、服务器
+Correct Answer: D
+
+Question: 15. 通过调试器进行远程调试时，从距离控制会话的调试器称为调试（）。
+Options: A、客户端 B、服务器 C、目标计算机 D、调试器
+Correct Answer: A
+
+Question: 16. 直接通过（ ）进行远程调试通常是执行远程调试的最佳且最简单的方法。
+Options: A、客户端 B、服务器 C、目标计算机 D、调试器
+Correct Answer: D
+
+Question: 17. 使用调试器进行调试时，（）是最常用的调试技术之一。
+Options: A、中断 B、断点 C、打印 D、观察
+Correct Answer: B
+
+Question: 18. （）是在两台计算机之间中继数据的轻型代理服务器。
+Options: A、KD 连接服务器 B、进程服务器 C、中继器 D、调试器
+Correct Answer: C
+
+Question: 19. 远程调试工具主要用于在（）与实际平台间执行一些调试工作。
+Options: A、开发平台 B、测试平台 C、生产平台 D、调试平台
+Correct Answer: A
+
+Question: 20. （）提供功能强大的远程调试工具和功能,用于对在开发环境外部的其他计算机上运行的应用程序进行故障排除。
+Options: A、VMware B、Visual Studio C、MySQL D、Selenium
+Correct Answer: B
+
+Question: 21. （）具备开发和调试的高级特性，使其成为一个全面的工具。
+Options: A、MySQL B、VMware C、Eclipse IDE D、Selenium
+Correct Answer: C
+
+Question: 22. （ ）是指为了完成软件测试工作所必需的计算机硬件、软件、网络设备、历史数据的总称。
+Options: A、生产环境 B、开发环境 C、调试环境 D、测试环境
+Correct Answer: D
+
+Question: 23. 开发人员的测试环境通常为（）。
+Options: A、测试环境 B、开发环境 C、调试环境 D、生产环境
+Correct Answer: B
+
+Question: 24. 经过良好规划和管理的（），可以尽可能的减少环境的变动对测试工作的不利影响，并可以对测试工作的效率和质量的提高产生积极的作用。
+Options: A、测试环境 B、开发环境 C、调试环境 D、生产环境
+Correct Answer: A
+
+Question: 25. 配置测试环境是（）的一个重要阶段，测试环境适合与否会严重影响测试结果的真实性和正确性。
+Options: A、需求分析 B、详细设计 C、测试实施 D、开发编码
+Correct Answer: C
+
+Question: 26. 在单元测试和集成测试阶段，大部分测试工作是由（）完成的。
+Options: A、测试人员 B、用户 C、产品经理 D、开发人员
+Correct Answer: D
+
+Question: 27. 在系统测试和验收测试阶段，测试环境必须最大限度地接近（）。
+Options: A、测试环境 B、开发环境 C、调试环境 D、实际环境
+Correct Answer: D
+
+Question: 28. 配置测试环境应该满足5个基本要素是:硬件、软件、（ ）、数据准备、测试工具。
+Options: A、数据库 B、服务器 C、网络环境 D、打印机
+Correct Answer: C
+
+Question: 29. 硬件、（）是测试环境中的最基本的两个要素。
+Options: A、软件 B、网络环境 C、数据准备 D、测试工具
+Correct Answer: A
+
+Question: 30. 测试的数据很重要,数据准备包括数据量和（）两个方面。
+Options: A、正确性 B、真实性 C、随机性 D、完整性
+Correct Answer: B
+
+Question: 31. （）指通过软件模拟的具有完整硬件系统功能的、运行在一个完全隔离环境中的完整计算机系统。
+Options: A、虚拟机 B、测试机 C、服务器 D、客户端
+Correct Answer: A
+
+Question: 32. （）整合空闲的系统资源，充分利用硬件资源，节约能源和空间，并能提升系统的运作效率，有利于测试环境的建立和维护。
+Options: A、机器视觉技术 B、虚拟化技术 C、虚拟专用网技术 D、WIFI技术
+Correct Answer: B
+
+Question: 33. 流行的虚拟机软件有（ ）、Virtual Box和Virtual PC等。
+Options: A、禅道 B、MySQL C、Vmware D、Selenium
+Correct Answer: C
+
+Question: 34. 建立独立的测试实验室，不仅使（）更加专业化和规范化，而且可以充分利用资源，提高测试效率，降低测试成本。
+Options: A、测试文档管理 B、测试人员管理 C、测试设备管理 D、测试环境管理
+Correct Answer: D
+
+Question: 35. 通常一个较完善的测试环境均包括标准配置、最佳配置和（）的设备。
+Options: A、最低配置 B、中等配置 C、基准配置 D、最高配置
+Correct Answer: A
+
+Question: 36. 压力测试、性能测试、（）应该在标准配置及最佳配置的设备上运行。
+Options: A、功能性测试 B、用户界面测试 C、容量测试 D、接口测试
+Correct Answer: C
+
+Question: 37. 根据软件系统的（），获取并审查部署模型和相关信息，从而确定测试环境部署的要求和特点。
+Options: A、需求 B、架构 C、功能 D、安全
+Correct Answer: B
+
+Question: 38. 通过（）可以了解软件系统架构设计的细节。
+Options: A、项目合同 B、软件需求说明书 C、项目任务书 D、软件架构文档
+Correct Answer: D
+
+Question: 39. 软硬件资源到位以后，开始构建测试环境，有时需要较长时间的（ ），最终部署正在开发的系统。
+Options: A、调试 B、安装 C、配置 D、规划
+Correct Answer: A
+
+Question: 40. 在开发自动（）的时候，需要建立标准化的各种环境部署顺序。
+Options: A、调试脚本 B、部署脚本 C、测试脚本 D、工具
+Correct Answer: B
+
+Question: 41. 自动化部署的脚本具有良好的（），充分考虑到各种意外情况，回避各种问题的出现，保证自动部署的成功。
+Options: A、正确性 B、可靠性 C、容错性 D、易用性
+Correct Answer: C
+
+Question: 42. 自动化部署最理想的部署方式是做到（）。
+Options: A、半自动化部署 B、后台定时部署 C、事件触发部署 D、一键式自动部署
+Correct Answer: D
+
+Question: 43. 测试环境的维护和管理，不仅包括硬件设备的保养维护和软件版本的及时升级，更重要的是维护测试环境的（），定期检查软件和网络的配置，做好记录和跟踪，确保测试环境始终符合测试的实际要求。
+Options: A、正确性 B、真实性 C、随机性 D、完整性
+Correct Answer: A
+
+Question: 44. 为了做好测试环境的维护和管理，首先要建立测试环境的管理流程和规章制度，严格的管理流程能够保证和改善测试环境的正确性、（ ）。
+Options: A、真实性 B、稳定性 C、随机性 D、完整性
+Correct Answer: B
+
+Question: 45. 对测试环境的变更应当形成一个标准的流程，并保证每次变更都是（）和可控的。
+Options: A、可操作的 B、可信的 C、可追溯的 D、可理解的
+Correct Answer: C
+
+Question: 46. 软件测试按照软件从编写到交付的各个阶段按先后顺序可分为：单元测试、（）、确认测试、系统测试、验收测试。
+Options: A、功能测试 B、可靠性测试 C、性能测试 D、集成测试
+Correct Answer: D
+
+Question: 47. 在详细设计和概要设计阶段，确保集成测试计划和（）计划完成。
+Options: A、单元测试 B、确认测试 C、系统测试 D、验收测试
+Correct Answer: A
+
+Question: 48. （）是依据软件的需求规格说明书，指定测试计划和设计相应的测试用例。
+Options: A、单元测试计划 B、系统测试计划 C、集成测试计划 D、项目开发计划
+Correct Answer: B
+
+Question: 49. 对软件中的最小可测试单元进行检查和验证是（）。
+Options: A、系统测试 B、集成测试 C、单元测试 D、验收测试
+Correct Answer: C
+
+Question: 50. 静态分析就是对软件的（ ）进行研读，查找错误或收集一些度量数据，并不需要对代码进行编译和执行。
+Options: A、开发文档 B、应用程序 C、用户文档 D、源代码
+Correct Answer: D
+
+Question: 51. 单元测试用于模拟被测模块调用者的模块是（）。
+Options: A、驱动模块 B、桩模块 C、父模块 D、子模块
+Correct Answer: A
+
+Question: 52. 集成测试也叫做（），通常是在单元测试的基础上，将所有模块按照概要设计说明书和详细设计说明书的要求进行组装和测试的过程。
+Options: A、模块测试 B、组装测试 C、功能测试 D、接口测试
+Correct Answer: B
+
+Question: 53. 集成测试分为渐增式测试模块和（）。
+Options: A、混合策略模式 B、自顶向下集成模式 C、非渐增式测试模块 D、自底向上集成模式
+Correct Answer: C
+
+Question: 54. 集成测试计划的主要内容一般不包括（）。
+Options: A、测试的描述和范围 B、集成次序 C、测试环境 D、测试结果
+Correct Answer: D
+
+Question: 55. 确认测试的目的是要表明软件是可以工作的，并且符合（  ）中规定的全部功能和性能要求。
+Options: A、软件需求说明书 B、项目任务书 C、项目合同 D、详细设计规格说明
+Correct Answer: A
+
+Question: 56. 确认测试又称（ ）。
+Options: A、功能测试 B、有效性测试 C、集成测试 D、单元测试
+Correct Answer: B
+
+Question: 57. （）又称有效性测试。
+Options: A、功能测试 B、集成测试 C、确认测试 D、单元测试
+Correct Answer: C
+
+Question: 58. 系统测试的目的是（）。
+Options: A、检验被测代码的功能是否正确 B、验证最终软件系统是否满足用户规定的需求 C、验证软件源代码是否满足用户规定的需求 D、确保软件准备就绪，并且可以让最终用户将其用于执行软件的既定功能和任务。
+Correct Answer: B
+
+Question: 59. 比较常见的、典型的系统测试包括恢复测试、安全测试和（ ）。
+Options: A、源代码测试 B、文档检查 C、压力测试 D、规范性检查
+Correct Answer: C
+
+Question: 60. 验收测试是以（）文档作为测试的基础。
+Options: A、测试计划 B、测试方案 C、测试用例 D、需求规格说明书
+Correct Answer: D
+
+Question: 61. 验收测试是技术测试的最后一个阶段，需要和（）共同完成，而且需要在软件实际运行环境上进行测试。
+Options: A、用户 B、开发人员 C、系统架构师 D、系统管理员
+Correct Answer: A
+
+Question: 62. 对软件是否能达到用户所期望的要求的测试称为（）。
+Options: A、集成测试 B、验收测试 C、系统测试 D、有效性测试
+Correct Answer: B
+
+Question: 63. （ ）是指修改了旧代码后，重新进行测试以确认修改没有引入新的错误或导致其他代码产生错误。
+Options: A、集成测试 B、验收测试 C、系统测试 D、回归测试
+Correct Answer: D
+
+Question: 64. 选择回归测试策略应该兼顾效率和（ ）两个方面。
+Options: A、有效性 B、高效 C、功能性 D、便捷
+Correct Answer: A
+
+Question: 65. 常用的选择回归测试的方式包括：（）、基于风险选择测试、基于操作剖面选择测试、再测试修改的部分等。
+Options: A、随机选取用例 B、再测试全部用例 C、基于模块选择测试 D、基于功能选择测试
+Correct Answer: B
+
+Question: 66. 白盒测试也称为（）。
+Options: A、数据驱动测试 B、功能测试 C、结构测试 D、动态测试
+Correct Answer: C
+
+Question: 67. 白盒测试的方法总体上分为静态分析方法和（ ）方法两大类。
+Options: A、路径测试 B、动态分析 C、单元测试 D、分支测试
+Correct Answer: B
+
+Question: 68. 软件测试中白盒测试方法是通过分析程序的（）来设计测试用例的。
+Options: A、应用范围 B、功能 C、内部逻辑 D、输入数据
+Correct Answer: C
+
+Question: 69. 语句覆盖的含义是选择足够多的测试数据，使被测程序中每条语句至少执行（）。
+Options: A、无数次 B、三次 C、二次 D、一次
+Correct Answer: D
+
+Question: 70. 语句覆盖法的目标是将所有（）覆盖一次。
+Options: A、可执行的语句 B、可能组合 C、判定语句 D、判定语句中每个逻辑条件
+Correct Answer: A
+
+Question: 71. 语句覆盖是很弱的（）。
+Options: A、路径测试 B、逻辑覆盖 C、循环覆盖 D、基本路径测试
+Correct Answer: B
+
+Question: 72. 判定覆盖也被称为（）。
+Options: A、判定-条件覆盖 B、条件覆盖 C、分支覆盖 D、路径覆盖
+Correct Answer: C
+
+Question: 73. 判定覆盖要求（ ）。
+Options: A、每个判定中每个条件的所有取值至少满足一次 B、每个判定至少取得一次“真”值和一次“假”值 C、每个判定中每个条件的所有可能取值组合在至少满足一次 D、每个可执行语句至少执行一次
+Correct Answer: D
+
+Question: 74. （）中每个判定的每个分支至少执行一次。
+Options: A、判定覆盖 B、路径覆盖 C、条件覆盖 D、条件组合覆盖
+Correct Answer: A
+
+Question: 75. 使程序中每个判定的每个条件的可能取值至少执行一次的覆盖方式（）。
+Options: A、逻辑覆盖 B、条件覆盖 C、语句覆盖 D、判定覆盖
+Correct Answer: A
+
+Question: 76. 进行程序测试时，（）是白盒测试方法中最重要的一种方法，也是一种比较好的测试方法，是经常被采用的一种方法。
+Options: A、路径覆盖法 B、条件覆盖法 C、语句覆盖法 D、多重条件覆盖法
+Correct Answer: B
+
+Question: 77. 测试能力中最弱的逻辑覆盖法是（ ）。
+Options: A、条件组合覆盖 B、判定覆盖 C、条件覆盖 D、语句覆盖
+Correct Answer: D
+
+Question: 78. （）是设计足够的测试用例，得使判断中每个条件的所有可能取值至少执行一次，同时每个判断本身所有可能结果也至少执行一次。
+Options: A、逻辑覆盖 B、条件覆盖 C、判定条件覆盖 D、判定覆盖
+Correct Answer: C
+
+Question: 79. 判定条件覆盖的缺点是忽略了（）的组合情况。
+Options: A、逻辑 B、条件 C、路径 D、语句
+Correct Answer: B
+
+Question: 80. 判定条件覆盖是设计足够的测试用例，得使判断中每个条件的所有可能取值至少执行一次，同时每个（）本身所有可能结果也至少执行一次。
+Options: A、判断 B、条件 C、路径 D、语句
+Correct Answer: A
+
+Question: 81. （ ）的基本思想是设计足够的测试用例，使得判断中每个条件的所有可能至少出现一次，并且每个判断本身的判定结果也至少出现一次。
+Options: A、语句覆盖 B、条件覆盖 C、条件组合覆盖 D、判定覆盖
+Correct Answer: C
+
+Question: 82. 满足“（）”的测试用例是一定满足“判定覆盖”、“条件覆盖”和“判定/条件覆盖”的。
+Options: A、语句覆盖 B、条件覆盖 C、判定覆盖 D、条件组合覆盖
+Correct Answer: D
+
+Question: 83. 条件组合覆盖与（）的差别是它不是简单地要求每个条件都出现“真”与“假”两种结果，而是要求让这些结果的所有可能组合都至少出现一次。
+Options: A、语句覆盖 B、条件覆盖 C、判定覆盖 D、条件组合覆盖
+Correct Answer: B
+
+Question: 84. 软件测试中路径覆盖必定也满足（ ）。
+Options: A、语句覆盖 B、条件覆盖 C、判定覆盖 D、条件组合覆盖
+Correct Answer: A
+
+Question: 85. 在白盒测试法中，覆盖程度最高的就是（）。
+Options: A、条件组合覆盖 B、语句覆盖 C、判定覆盖 D、路径覆盖
+Correct Answer: D
+
+Question: 86. （ ）使程序中每一条可能的路径至少执行一次。
+Options: A、语句覆盖 B、条件覆盖 C、路径覆盖 D、条件组合覆盖
+Correct Answer: C
+
+Question: 87. （）是在程序控制流图的基础上，通过分析控制构造的环路复杂性，导出基本可执行路径集合，从而设计测试用例的方法。
+Options: A、语句覆盖 B、条件覆盖 C、路径覆盖 D、基本路径测试法
+Correct Answer: D
+
+Question: 88. （ ）是描述程序控制流的一种图示方法。
+Options: A、程序控制流图 B、功能图 C、功能流程图 D、基本路径图
+Correct Answer: A
+
+Question: 89. 基本路径测试法是在（）的基础上，通过分析控制构造的环路复杂性，导出基本可执行路径集合，从而设计测试用例的方法。
+Options: A、E-R图 B、程序控制流图 C、状态转换图 D、基本路径图
+Correct Answer: B
+
+Question: 90. 黑盒测试是以（ ）的角度，从输入数据与输出数据的对应关系出发进行测试。
+Options: A、开发 B、测试 C、用户 D、管理员
+Correct Answer: C
+
+Question: 91. 黑盒测试又叫功能测试、（）或基于需求规格说明书的功能测试。
+Options: A、性能驱动测试 B、功能驱动测试 C、系统驱动测试 D、数据驱动测试
+Correct Answer: D
+
+Question: 92. 黑盒测试用例设计方法包括等价类划分法、（）、错误推测法、因果图法、判定表驱动法、场景法等。
+Options: A、边界值分析法 B、语句覆盖法 C、条件覆盖法 D、判定覆盖法
+Correct Answer: A
+
+Question: 93. 软件测试中的等价类划分，指的是一种典型的、重要的（）方法。
+Options: A、动态测试 B、白盒测试 C、黑盒测试 D、静态测试
+Correct Answer: C
+
+Question: 94. （）指对于程序规格说明来说，是合理的、有意义的输入数据构成的集合。
+Options: A、等价类 B、有效等价类 C、无效等价类 D、输入域
+Correct Answer: B
+
+Question: 95. 在输入条件规定的取值范围或值的个数的情况下，可以确定一个有效等价类和（ ）无效等价类。
+Options: A、四个 B、一个 C、两个 D、三个
+Correct Answer: C
+
+Question: 96. 边界值分析法是（）测试用例设计方法。
+Options: A、白盒 B、静态 C、动态 D、黑盒
+Correct Answer: D
+
+Question: 97. 边界值分析法是作为对等价类划分法的补充，这种情况下，其测试用例来自等价类的（）。
+Options: A、边界 B、左边界 C、内部 D、右边界
+Correct Answer: A
+
+Question: 98. 边界值分析不仅要考虑输入条件，还要考虑（）空间产生的测试情况。
+Options: A、内部 B、输出 C、外部 D、输入
+Correct Answer: B
+
+Question: 99. （）的基本思想: 列举出程序中所有可能有的错误和容易发生错误的特殊情况,根据他们选择测试用例。
+Options: A、等价类划分法 B、边界值分析法 C、因果图法 D、错误推测法
+Correct Answer: D
+
+Question: 100. （）一般是作为测试用例设计的补充，而不是单独用来设计测试用例。
+Options: A、等价类划分法 B、错误推测法 C、边界值分析法 D、因果图法
 Correct Answer: B
 
 

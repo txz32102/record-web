@@ -5,7 +5,7 @@
             "A、正确",
             "B、错误"
         ],
-        "correct_answer": ""
+        "correct_answer": "A"
     },
     {
         "question": "2. 在MySQL数据库中，DESC与DESCRIBE两者用法相同，都是用来显示已经建立的数据表文件。（ ）",
@@ -21,7 +21,7 @@
             "A、正确",
             "B、错误"
         ],
-        "correct_answer": ""
+        "correct_answer": "A"
     },
     {
         "question": "4. 在MySQL数据库中，同时删除多个数据表时，需要使用分号进行分割。（ ）",
@@ -29,7 +29,7 @@
             "A、正确",
             "B、错误"
         ],
-        "correct_answer": ""
+        "correct_answer": "B"
     },
     {
         "question": "5. 外键是表中一列或多列的一组，其值能唯一地标识表中的每一行。（ ）",
@@ -157,7 +157,7 @@
             "A、正确",
             "B、错误"
         ],
-        "correct_answer": ""
+        "correct_answer": "B"
     },
     {
         "question": "21. 在MySQL中，使用DATE_FORMAT()函数可以将日期或时间值格式化为指定的格式。（ ）",
