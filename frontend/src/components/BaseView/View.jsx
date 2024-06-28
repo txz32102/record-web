@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import './View.css';
@@ -6,11 +6,62 @@ import { Helmet } from 'react-helmet';
 import aGif from './img/a.gif';
 
 const View = () => {
+  // State to control the visibility of the menu
   const [showMenu, setShowMenu] = useState(false);
+  // State to store the starting position of a touch event
+  const [xStart, setXStart] = useState(null);
+  // Ref to reference the navigation menu element
+  const navRef = useRef();
 
+  // Function to toggle the visibility of the menu
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  // Function to handle clicks outside the menu to close it
+  const handleClickOutside = (event) => {
+    if (navRef.current && !navRef.current.contains(event.target)) {
+      setShowMenu(false);
+    }
+  };
+
+  // Function to handle the start of a touch event
+  const handleTouchStart = (event) => {
+    const firstTouch = event.touches[0];
+    setXStart(firstTouch.clientX);
+  };
+
+  // Function to handle the movement during a touch event
+  const handleTouchMove = (event) => {
+    if (!xStart) {
+      return;
+    }
+
+    const xEnd = event.touches[0].clientX;
+    const xDiff = xEnd - xStart;
+
+    // If the swipe is to the right and exceeds 50 pixels, show the menu
+    if (xDiff > 50) {
+      setShowMenu(true);
+    } 
+    // If the swipe is to the left and exceeds 50 pixels, hide the menu
+    else if (xDiff < -50) {
+      setShowMenu(false);
+    }
+  };
+
+  // useEffect to add and clean up event listeners
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchmove', handleTouchMove);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleTouchStart);
+      document.removeEventListener('touchmove', handleTouchMove);
+    };
+  }, [xStart]);
 
   return (
     <>
@@ -18,24 +69,20 @@ const View = () => {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
       </Helmet>
       <Header showMenu={showMenu} handleToggleMenu={handleToggleMenu} />
-      <div className={`nav ${showMenu ? 'show-menu' : ''}`} id="navbar">
+      <div ref={navRef} className={`nav ${showMenu ? 'show-menu' : ''}`} id="navbar">
         <nav className="nav__container">
           <div>
             <a href="#" className="nav__link nav__logo">
               <i className='bx bxs-disc nav__icon'></i>
-              <span className="nav__logo-name">Bedimcode</span>
+              <span className="nav__logo-name">musong</span>
               <a href="#" className="nav__link active"></a>
             </a>
-            <Link to="/" className="nav__link active">
-              <span className="nav__name">Home</span>
-            </Link>
 
             <div className="nav__list">
               <div className="nav__items">
                 <h3 className="nav__subtitle">Profile</h3>
-
+                <img src={aGif} alt="Home" className="nav__icon" />
                 <Link to="/" className="nav__link active">
-                  <img src={aGif} alt="Home" className="nav__icon" />
                   <span className="nav__name">Home</span>
                 </Link>
 
