@@ -442,6 +442,10 @@ dijkstra
   </g>
 </svg>
 
+https://www.freecodecamp.org/news/dijkstras-algorithm-explained-with-a-pseudocode-example/
+
+这个写的不错
+
 
 ```c++
 void dijkstra(vector<vector<int>> data, vector<int> weights){
