@@ -520,6 +520,94 @@ pseudocode
 19      return dist[], prev[]
 ```
 
+
+默写版本，很多技巧值得学习！
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <unordered_map>
+#include <limits>
+
+// Define a structure to represent a graph edge
+struct Edge {
+    int to;
+    int weight;
+};
+
+// Function to perform Dijkstra's algorithm
+void Dijkstra(const std::unordered_map<int, std::vector<Edge>>& graph, int source) {
+    // Initialize distances and previous vertex maps
+    std::unordered_map<int, int> dist;
+    std::unordered_map<int, int> prev;
+    for (const auto& pair : graph) {
+        dist[pair.first] = std::numeric_limits<int>::max();
+        prev[pair.first] = -1; // Using -1 to represent UNDEFINED
+    }
+    dist[source] = 0;
+
+    // Min-heap priority queue to store {distance, vertex}
+    using P = std::pair<int, int>;
+    std::priority_queue<P, std::vector<P>, std::greater<P>> Q;
+    Q.push({0, source});
+
+    while (!Q.empty()) {
+        int u = Q.top().second;
+        Q.pop();
+
+        // Traverse through all adjacent vertices of u
+        for (const Edge& edge : graph.at(u)) {
+            int v = edge.to;
+            int weight = edge.weight;
+            int alt = dist[u] + weight;
+
+            // If a shorter path to v is found
+            if (alt < dist[v]) {
+                dist[v] = alt;
+                prev[v] = u;
+                Q.push({alt, v});
+            }
+        }
+    }
+
+    // Output the distances and paths
+    std::cout << "Vertex Distance from Source" << std::endl;
+    for (const auto& pair : dist) {
+        std::cout << pair.first << "\t\t" << pair.second << std::endl;
+    }
+
+    std::cout << "\nPrevious vertices in the shortest path tree:" << std::endl;
+    for (const auto& pair : prev) {
+        std::cout << "Vertex " << pair.first << ": " << pair.second << std::endl;
+    }
+}
+
+// Helper function to add edges to the graph
+void addEdge(std::unordered_map<int, std::vector<Edge>>& graph, int u, int v, int weight) {
+    graph[u].push_back({v, weight});
+    graph[v].push_back({u, weight}); // For an undirected graph
+}
+
+int main() {
+    // Create a graph using an adjacency list
+    std::unordered_map<int, std::vector<Edge>> graph;
+
+    // Add edges to the graph (example graph)
+    addEdge(graph, 0, 1, 4);
+    addEdge(graph, 0, 2, 1);
+    addEdge(graph, 2, 1, 2);
+    addEdge(graph, 1, 3, 1);
+    addEdge(graph, 2, 3, 5);
+    addEdge(graph, 3, 4, 3);
+
+    // Run Dijkstra's algorithm from source vertex 0
+    Dijkstra(graph, 0);
+
+    return 0;
+}
+```
+
 # 6-22
 <h2>prefix sum! 前缀和！这些题目基本都是prefix sum相关的，直接b站搜，还行</h2>
 https://leetcode.com/problems/count-number-of-nice-subarrays/editorial/?envType=daily-question&envId=2024-06-22</br>
