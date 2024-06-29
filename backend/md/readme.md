@@ -496,6 +496,30 @@ void dijkstra(vector<vector<int>> data, vector<int> weights){
 }
 ```
 
+pseudocode
+
+```txt
+ 1  function Dijkstra(Graph, source):
+ 2      
+ 3      for each vertex v in Graph.Vertices:
+ 4          dist[v] ← INFINITY
+ 5          prev[v] ← UNDEFINED
+ 6          add v to Q
+ 7      dist[source] ← 0
+ 8      
+ 9      while Q is not empty:
+10          u ← vertex in Q with min dist[u]
+11          remove u from Q
+12          
+13          for each neighbor v of u still in Q:
+14              alt ← dist[u] + Graph.Edges(u, v)
+15              if alt < dist[v]:
+16                  dist[v] ← alt
+17                  prev[v] ← u
+18
+19      return dist[], prev[]
+```
+
 # 6-22
 <h2>prefix sum! 前缀和！这些题目基本都是prefix sum相关的，直接b站搜，还行</h2>
 https://leetcode.com/problems/count-number-of-nice-subarrays/editorial/?envType=daily-question&envId=2024-06-22</br>
