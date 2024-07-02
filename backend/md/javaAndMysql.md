@@ -774,3 +774,103 @@ ORDER BY 借阅状态 ASC, 借阅日期 ASC;
 
 ```
 
+
+# account
+```java
+package No3;
+
+class AccountLock
+{
+	private int balance=0;
+	private boolean isActivity = true;
+	
+	
+	public synchronized void  put(int i)
+	{
+		while(!isActivity)
+		{
+			try {
+				this.wait();
+			}
+			catch(InterruptedException e) {}
+		}
+		balance += i;
+		isActivity = false;
+		System.out.println("爸爸往账户中存入了"+i+"元，账户余额为"+balance);
+		notify();
+	}
+	
+	public synchronized int get(int j)
+	{
+		while(isActivity)
+		{
+			try
+			{
+				this.wait();
+			}
+			catch(InterruptedException e) {}
+		} 
+		balance -=j;
+		if(balance==0) { System.out.println("儿子从账户中取出了"+j+"元,账户余额为零");
+		isActivity =true;
+		notify();}
+		else if(balance<0){ System.out.println("账户余额小于您要取的前，请存钱");
+		balance +=j;
+		isActivity =true;
+		notify();}
+		else
+			System.out.println("儿子从账户中取出了"+j+"元,账户余额为"+balance);
+		return balance;
+	}
+}
+
+class Daddy extends Thread
+{
+   private AccountLock al;
+   public Daddy(AccountLock al) 
+   {
+	   this.al = al;
+   }
+   
+   public void run()
+   {
+	   for(int i=1;i<=4;i++)
+	   {
+		   al.put(100*i);
+		   
+		  
+	   }
+   }
+}
+
+class Son extends Thread
+{
+	 private AccountLock al;
+	 public Son(AccountLock al)
+	 {
+		 this.al = al;
+	 }
+	 
+	 public void run()
+	 {
+		 for(int i=1;i<=4;i++)
+		 {
+			 al.get(100*i);
+			 
+			
+		 }
+	 }
+}
+
+public class Account
+{
+	public static void main(String[] args) 
+	{
+	    AccountLock al =new AccountLock();
+		Daddy d =new Daddy(al);
+		d.start();
+		Son s=new Son(al);
+		s.start();	
+	}
+}
+```

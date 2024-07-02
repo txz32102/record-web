@@ -6886,3 +6886,67 @@ INFO:     116.128.211.10:47806 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
 INFO:     116.128.211.10:50629 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
 [<__main__.Record object at 0x7fd2f02d6590>, <__main__.Record object at 0x7fd2f02d6290>, <__main__.Record object at 0x7fd2f02d6650>, <__main__.Record object at 0x7fd2f02d7df0>, <__main__.Record object at 0x7fd2f02d43a0>, <__main__.Record object at 0x7fd2f02d5b40>, <__main__.Record object at 0x7fd2f02d5810>, <__main__.Record object at 0x7fd2f02d52a0>, <__main__.Record object at 0x7fd2f02d5210>, <__main__.Record object at 0x7fd2f02d61d0>]
 INFO:     150.249.219.211:27905 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f02d6440>, <__main__.Record object at 0x7fd2f02d6530>, <__main__.Record object at 0x7fd2f02d62c0>, <__main__.Record object at 0x7fd2f02d7f70>, <__main__.Record object at 0x7fd2f02d5ff0>, <__main__.Record object at 0x7fd2f02d6020>, <__main__.Record object at 0x7fd2f02d60e0>, <__main__.Record object at 0x7fd2f02d6230>, <__main__.Record object at 0x7fd2f02d7a60>, <__main__.Record object at 0x7fd2f02d7d90>]
+INFO:     150.249.219.211:32493 - "GET /records HTTP/1.1" 200 OK
+INFO:     150.249.219.211:32493 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:32493 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:3285 - "GET /files HTTP/1.1" 200 OK
+INFO:     150.249.219.211:3285 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f02d72b0>, <__main__.Record object at 0x7fd2f02d6050>, <__main__.Record object at 0x7fd2f02d5cc0>, <__main__.Record object at 0x7fd2f02d4730>, <__main__.Record object at 0x7fd2f02d73d0>, <__main__.Record object at 0x7fd2f02d7370>, <__main__.Record object at 0x7fd2f02d7cd0>, <__main__.Record object at 0x7fd2f02d63e0>, <__main__.Record object at 0x7fd2f02d72e0>, <__main__.Record object at 0x7fd2f02d6b30>]
+INFO:     116.128.211.14:58082 - "GET /records HTTP/1.1" 200 OK
+INFO:     116.128.211.14:58082 - "GET /files HTTP/1.1" 200 OK
+INFO:     116.128.211.14:58082 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     150.249.219.211:31101 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33199 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33433 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33696 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33724 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33756 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:31793 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32296 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32390 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32541 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32675 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32697 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32737 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32889 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     113.108.28.61:23958 - "GET /files/duanxueqi.json HTTP/1.0" 200 OK
+INFO:     139.227.235.128:33254 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     180.163.29.212:57504 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     223.167.44.214:3942 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.227.235.128:32468 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     223.167.44.214:4150 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     223.167.44.214:4715 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33763 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32971 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33378 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33494 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33577 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33617 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:31989 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33567 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32533 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33348 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:33018 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010c790>, <__main__.Record object at 0x7fd2f010c9d0>, <__main__.Record object at 0x7fd2f010e290>, <__main__.Record object at 0x7fd2f010cfa0>, <__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f010c6d0>, <__main__.Record object at 0x7fd2f010d0c0>, <__main__.Record object at 0x7fd2f010ce50>, <__main__.Record object at 0x7fd2f010d180>, <__main__.Record object at 0x7fd2f010cd60>]
+INFO:     116.128.211.14:54175 - "GET /records HTTP/1.1" 200 OK
+INFO:     116.128.211.14:54853 - "GET /files HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010cc10>, <__main__.Record object at 0x7fd2f010e530>, <__main__.Record object at 0x7fd2f010c9a0>, <__main__.Record object at 0x7fd2f010d060>, <__main__.Record object at 0x7fd2f010cca0>, <__main__.Record object at 0x7fd2f010c7f0>, <__main__.Record object at 0x7fd2f010ce80>, <__main__.Record object at 0x7fd2f010c610>, <__main__.Record object at 0x7fd2f010f280>, <__main__.Record object at 0x7fd2f010eb00>]
+INFO:     116.128.211.14:55630 - "GET /records HTTP/1.1" 200 OK
+INFO:     116.128.211.14:58972 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '百度的语音api能用，但是绝对谈不上好用，客服回复有点慢，比阿里差一点，不过也还行，至少能解决问题'}
+INFO:     116.128.211.14:58972 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010d090>, <__main__.Record object at 0x7fd2f010cf70>, <__main__.Record object at 0x7fd2f010cb80>, <__main__.Record object at 0x7fd2f010c7c0>, <__main__.Record object at 0x7fd2f010cb20>, <__main__.Record object at 0x7fd2f010c700>, <__main__.Record object at 0x7fd2f010ccd0>, <__main__.Record object at 0x7fd2f010e710>, <__main__.Record object at 0x7fd2f010c910>, <__main__.Record object at 0x7fd2f010c8e0>]
+INFO:     116.128.211.14:58972 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010c610>, <__main__.Record object at 0x7fd2f010cca0>, <__main__.Record object at 0x7fd2f010eb00>, <__main__.Record object at 0x7fd2f010c880>, <__main__.Record object at 0x7fd2f010c790>, <__main__.Record object at 0x7fd2f010c9d0>, <__main__.Record object at 0x7fd2f010e290>, <__main__.Record object at 0x7fd2f010cfa0>, <__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f010c6d0>]
+INFO:     116.128.211.14:60636 - "GET /records HTTP/1.1" 200 OK
+INFO:     116.128.211.14:61328 - "GET /files HTTP/1.1" 200 OK
+INFO:     116.128.211.14:61328 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     116.128.211.14:41951 - "GET /files HTTP/1.1" 200 OK
+INFO:     116.128.211.14:41951 - "GET /files/duanxueqi.md HTTP/1.1" 200 OK
+INFO:     116.128.211.14:44470 - "GET /files HTTP/1.1" 200 OK
+INFO:     116.128.211.14:44470 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
