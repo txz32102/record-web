@@ -7149,3 +7149,228 @@ INFO:     116.128.211.14:35152 - "GET /records HTTP/1.1" 200 OK
 INFO:     116.128.211.14:35152 - "OPTIONS /server HTTP/1.1" 200 OK
 {'data': '心照不宣'}
 INFO:     116.128.211.14:35152 - "POST /server HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14773 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:13801 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     101.133.135.162:34436 - "GET / HTTP/1.0" 404 Not Found
+INFO:     101.133.135.162:34506 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     101.133.135.162:42142 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f01bcf70>, <__main__.Record object at 0x7fd2f01bccd0>, <__main__.Record object at 0x7fd2f01bc640>, <__main__.Record object at 0x7fd2f01bd720>, <__main__.Record object at 0x7fd2f01bcc10>, <__main__.Record object at 0x7fd2f01bdd80>, <__main__.Record object at 0x7fd2f01bde40>, <__main__.Record object at 0x7fd2f01bdea0>, <__main__.Record object at 0x7fd2f01bdf00>, <__main__.Record object at 0x7fd2f01bdf60>]
+INFO:     223.166.20.41:40626 - "GET /records HTTP/1.1" 200 OK
+INFO:     223.166.20.41:40626 - "GET /files HTTP/1.1" 200 OK
+INFO:     223.166.20.41:40626 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14335 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     180.163.28.55:41576 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     223.166.20.41:41341 - "GET /files HTTP/1.1" 200 OK
+INFO:     223.166.20.41:41341 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     223.166.20.243:5232 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14211 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14412 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14716 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:13927 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:15122 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     42.194.192.163:45516 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     103.169.127.196:29273 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     103.169.127.196:23491 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14364 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.226.16.16:14390 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     180.163.29.219:32930 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     42.194.225.248:50953 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010c8b0>, <__main__.Record object at 0x7fd2f010cfd0>, <__main__.Record object at 0x7fd2f010d090>, <__main__.Record object at 0x7fd2f010d450>, <__main__.Record object at 0x7fd2f010cc10>, <__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f010cc70>, <__main__.Record object at 0x7fd2f010e710>, <__main__.Record object at 0x7fd2f010c700>, <__main__.Record object at 0x7fd2f010c9d0>]
+INFO:     125.122.15.59:54058 - "GET /records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     106.14.47.169:55866 - "GET / HTTP/1.1" 404 Not Found
+INFO:     114.86.79.119:52066 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     114.86.79.119:49706 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     42.194.192.36:64556 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bde70>, <__main__.Record object at 0x7fd2f01bdd50>, <__main__.Record object at 0x7fd2f01bc9d0>, <__main__.Record object at 0x7fd2f01bcee0>, <__main__.Record object at 0x7fd2f01bce50>, <__main__.Record object at 0x7fd2f01bc610>, <__main__.Record object at 0x7fd2f01bd570>, <__main__.Record object at 0x7fd2f01bd000>, <__main__.Record object at 0x7fd2f01bda20>, <__main__.Record object at 0x7fd2f01bd510>]
+INFO:     223.166.20.41:40360 - "GET /records HTTP/1.1" 200 OK
+INFO:     223.166.20.41:40360 - "GET /files HTTP/1.1" 200 OK
+INFO:     223.166.20.41:40360 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bc610>, <__main__.Record object at 0x7fd2f01bce50>, <__main__.Record object at 0x7fd2f01bd000>, <__main__.Record object at 0x7fd2f01bda20>, <__main__.Record object at 0x7fd2f01bd510>, <__main__.Record object at 0x7fd2f01bdae0>, <__main__.Record object at 0x7fd2f01bd990>, <__main__.Record object at 0x7fd2f01bdf30>, <__main__.Record object at 0x7fd2f01bdd80>, <__main__.Record object at 0x7fd2f01bdbd0>]
+INFO:     3.34.176.209:16285 - "GET /records HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16010 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16051 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16097 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16104 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16121 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16152 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16200 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16232 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16241 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16264 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.88:16278 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     39.144.45.193:43267 - "GET /files HTTP/1.1" 200 OK
+INFO:     39.144.45.193:43267 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     39.144.45.193:43268 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     39.144.45.193:43869 - "GET /files HTTP/1.1" 200 OK
+INFO:     106.55.200.233:58357 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     81.71.99.63:3638 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     129.204.118.204:13667 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     106.52.146.234:6290 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     106.75.17.115:58440 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.75.17.115:58490 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     106.75.17.115:58510 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     106.75.17.115:58512 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     139.227.130.242:3786 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4510 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4582 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4636 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     81.71.94.236:16222 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3177 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3256 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3287 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3345 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3434 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4648 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4694 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4749 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:4793 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     81.71.94.236:16781 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     129.204.105.50:63646 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3571 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3754 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.130.242:3797 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:31798 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     139.227.235.128:32267 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bd480>, <__main__.Record object at 0x7fd2f01bd9c0>, <__main__.Record object at 0x7fd2f01bd930>, <__main__.Record object at 0x7fd2f01bc8b0>, <__main__.Record object at 0x7fd2f01bd2a0>, <__main__.Record object at 0x7fd2f01bd810>, <__main__.Record object at 0x7fd2f01bd690>, <__main__.Record object at 0x7fd2f01bda50>, <__main__.Record object at 0x7fd2f01bd360>, <__main__.Record object at 0x7fd2f02d7010>]
+INFO:     43.203.164.176:15389 - "GET /records HTTP/1.1" 200 OK
+INFO:     43.203.164.176:23229 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '人脑的神经网络要多多训练，多换不一样的场景啊！'}
+INFO:     43.203.164.176:23229 - "POST /server HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     39.103.166.74:45886 - "GET / HTTP/1.0" 404 Not Found
+INFO:     39.103.166.74:46308 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     39.103.166.74:53542 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     106.53.102.224:46171 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     42.194.128.82:1733 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     47.103.41.229:51428 - "GET / HTTP/1.1" 404 Not Found
+INFO:     42.194.226.229:39998 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     47.103.37.203:44398 - "GET / HTTP/1.1" 404 Not Found
+INFO:     42.194.240.188:48987 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+INFO:     106.75.137.241:47536 - "POST /token HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f010cb20>, <__main__.Record object at 0x7fd2f010c9d0>, <__main__.Record object at 0x7fd2f010f340>, <__main__.Record object at 0x7fd2f010c850>, <__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f010d0c0>, <__main__.Record object at 0x7fd2f010c8b0>, <__main__.Record object at 0x7fd2f010d450>, <__main__.Record object at 0x7fd2f010e710>, <__main__.Record object at 0x7fd2f18a9ea0>]
+INFO:     223.166.20.41:41126 - "GET /records HTTP/1.1" 200 OK
+INFO:     223.166.20.41:41206 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '煞笔大作业终于做完了，java真该死'}
+INFO:     223.166.20.41:41206 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010d3c0>, <__main__.Record object at 0x7fd2f18a9ea0>, <__main__.Record object at 0x7fd2f18aa380>, <__main__.Record object at 0x7fd2f18aa500>, <__main__.Record object at 0x7fd2f18aa2f0>, <__main__.Record object at 0x7fd2f18aa7a0>, <__main__.Record object at 0x7fd2f18aa710>, <__main__.Record object at 0x7fd2f1762830>, <__main__.Record object at 0x7fd2f01bdbd0>, <__main__.Record object at 0x7fd2f01bd600>]
+INFO:     223.166.20.41:41206 - "GET /records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f18a9e10>, <__main__.Record object at 0x7fd2f01b40d0>, <__main__.Record object at 0x7fd2f01b40a0>, <__main__.Record object at 0x7fd2f01b4070>, <__main__.Record object at 0x7fd2f02d56f0>, <__main__.Record object at 0x7fd2f02d5ba0>, <__main__.Record object at 0x7fd2f02d61d0>, <__main__.Record object at 0x7fd2f02d6e30>, <__main__.Record object at 0x7fd2f02d7fd0>, <__main__.Record object at 0x7fd2f02d6fb0>]
+INFO:     113.141.84.164:47236 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f02d78e0>, <__main__.Record object at 0x7fd2f02d5c60>, <__main__.Record object at 0x7fd2f02d6020>, <__main__.Record object at 0x7fd2f02d5240>, <__main__.Record object at 0x7fd2f02d7220>, <__main__.Record object at 0x7fd2f02d6260>, <__main__.Record object at 0x7fd2f02d5fc0>, <__main__.Record object at 0x7fd2f02d6bc0>, <__main__.Record object at 0x7fd2f02d7f70>, <__main__.Record object at 0x7fd2f02d6d10>]
+INFO:     113.141.81.222:48152 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f02d5840>, <__main__.Record object at 0x7fd2f02d5f30>, <__main__.Record object at 0x7fd2f02d7940>, <__main__.Record object at 0x7fd2f02d7190>, <__main__.Record object at 0x7fd2f02d7a00>, <__main__.Record object at 0x7fd2f02d56f0>, <__main__.Record object at 0x7fd2f02d5ba0>, <__main__.Record object at 0x7fd2f02d6080>, <__main__.Record object at 0x7fd2f02d7fd0>, <__main__.Record object at 0x7fd2f02d52a0>]
+INFO:     113.141.94.238:53534 - "GET /records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     180.163.30.85:59050 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f02d6170>, <__main__.Record object at 0x7fd2f02d5db0>, <__main__.Record object at 0x7fd2f01bcaf0>, <__main__.Record object at 0x7fd2f01bd840>, <__main__.Record object at 0x7fd2f01bc8e0>, <__main__.Record object at 0x7fd2f01bd390>, <__main__.Record object at 0x7fd2f01bdde0>, <__main__.Record object at 0x7fd2f01bdd80>, <__main__.Record object at 0x7fd2f01bda20>, <__main__.Record object at 0x7fd2f01bcb80>]
+INFO:     18.163.73.163:3887 - "GET /records HTTP/1.1" 200 OK
+INFO:     18.163.73.163:3887 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': 'man'}
+INFO:     18.163.73.163:3887 - "POST /server HTTP/1.1" 200 OK
+INFO:     113.215.189.137:9991 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     113.215.189.137:45475 - "GET / HTTP/1.1" 404 Not Found
+[<__main__.Record object at 0x7fd2f01bc730>, <__main__.Record object at 0x7fd2f01bcb80>, <__main__.Record object at 0x7fd2f01bcfa0>, <__main__.Record object at 0x7fd2f01bde70>, <__main__.Record object at 0x7fd2f01bdc00>, <__main__.Record object at 0x7fd2f01bc820>, <__main__.Record object at 0x7fd2f01bcd60>, <__main__.Record object at 0x7fd2f01bd540>, <__main__.Record object at 0x7fd2f01bcf10>, <__main__.Record object at 0x7fd2f01bd5d0>]
+INFO:     183.192.239.11:5582 - "GET /records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5582 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '不是很想去武汉'}
+INFO:     183.192.239.11:5582 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bcdc0>, <__main__.Record object at 0x7fd2f01bcbb0>, <__main__.Record object at 0x7fd2f01bd300>, <__main__.Record object at 0x7fd2f01bce80>, <__main__.Record object at 0x7fd2f01bd060>, <__main__.Record object at 0x7fd2f01bd630>, <__main__.Record object at 0x7fd2f01bd150>, <__main__.Record object at 0x7fd2f01bcca0>, <__main__.Record object at 0x7fd2f01bc610>, <__main__.Record object at 0x7fd2f01bc880>]
+INFO:     183.192.239.11:5582 - "GET /records HTTP/1.1" 200 OK
+INFO:     113.141.87.163:55746 - "GET / HTTP/1.1" 404 Not Found
+INFO:     81.71.98.166:3867 - "GET /files/duanxueqi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f01bd2a0>, <__main__.Record object at 0x7fd2f01bd600>, <__main__.Record object at 0x7fd2f01bd690>, <__main__.Record object at 0x7fd2f01bdff0>, <__main__.Record object at 0x7fd2f01bd4e0>, <__main__.Record object at 0x7fd2f01bcdf0>, <__main__.Record object at 0x7fd2f01bd480>, <__main__.Record object at 0x7fd2f01bce50>, <__main__.Record object at 0x7fd2f01bca30>, <__main__.Record object at 0x7fd2f01bda50>]
+INFO:     183.192.239.11:5304 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bdc00>, <__main__.Record object at 0x7fd2f01bde70>, <__main__.Record object at 0x7fd2f01bcd60>, <__main__.Record object at 0x7fd2f01bd540>, <__main__.Record object at 0x7fd2f01bcf10>, <__main__.Record object at 0x7fd2f01bd5d0>, <__main__.Record object at 0x7fd2f01bd330>, <__main__.Record object at 0x7fd2f01bdbd0>, <__main__.Record object at 0x7fd2f01bc880>, <__main__.Record object at 0x7fd2f01bc8b0>]
+INFO:     54.254.160.99:19625 - "GET /records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f01bd6c0>, <__main__.Record object at 0x7fd2f01bc8e0>, <__main__.Record object at 0x7fd2f01bd990>, <__main__.Record object at 0x7fd2f01bd510>, <__main__.Record object at 0x7fd2f01bdf30>, <__main__.Record object at 0x7fd2f01bd7e0>, <__main__.Record object at 0x7fd2f01bcd00>, <__main__.Record object at 0x7fd2f01bd360>, <__main__.Record object at 0x7fd2f01bd720>, <__main__.Record object at 0x7fd2f01bd270>]
+INFO:     3.38.216.254:6851 - "GET /records HTTP/1.1" 200 OK
+INFO:     3.38.216.254:12895 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '手动配置GPT sovits模型路径，真要命，不过感觉yaml比json好一点'}
+INFO:     3.38.216.254:23169 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bce80>, <__main__.Record object at 0x7fd2f01bc610>, <__main__.Record object at 0x7fd2f01bd150>, <__main__.Record object at 0x7fd2f01bd210>, <__main__.Record object at 0x7fd2f01bcca0>, <__main__.Record object at 0x7fd2f01bdb10>, <__main__.Record object at 0x7fd2f01bcdf0>, <__main__.Record object at 0x7fd2f01bdab0>, <__main__.Record object at 0x7fd2f01bdd20>, <__main__.Record object at 0x7fd2f01bd8a0>]
+INFO:     36.41.69.121:37346 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bcc40>, <__main__.Record object at 0x7fd2f01bd0c0>, <__main__.Record object at 0x7fd2f01bd690>, <__main__.Record object at 0x7fd2f01bdd80>, <__main__.Record object at 0x7fd2f01bd180>, <__main__.Record object at 0x7fd2f01bdae0>, <__main__.Record object at 0x7fd2f01bcdc0>, <__main__.Record object at 0x7fd2f01bda20>, <__main__.Record object at 0x7fd2f01bd2a0>, <__main__.Record object at 0x7fd2f01bd660>]
+INFO:     113.141.87.37:37146 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bd1e0>, <__main__.Record object at 0x7fd2f01bd990>, <__main__.Record object at 0x7fd2f01bdbd0>, <__main__.Record object at 0x7fd2f01bd5d0>, <__main__.Record object at 0x7fd2f01bca00>, <__main__.Record object at 0x7fd2f01bdff0>, <__main__.Record object at 0x7fd2f01bcd60>, <__main__.Record object at 0x7fd2f01bd1b0>, <__main__.Record object at 0x7fd2f01bca30>, <__main__.Record object at 0x7fd2f01bcb20>]
+INFO:     183.192.239.11:5482 - "GET /records HTTP/1.1" 200 OK
