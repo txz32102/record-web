@@ -7374,3 +7374,41 @@ INFO:     36.41.69.121:37346 - "GET /records HTTP/1.1" 200 OK
 INFO:     113.141.87.37:37146 - "GET /records HTTP/1.1" 200 OK
 [<__main__.Record object at 0x7fd2f01bd1e0>, <__main__.Record object at 0x7fd2f01bd990>, <__main__.Record object at 0x7fd2f01bdbd0>, <__main__.Record object at 0x7fd2f01bd5d0>, <__main__.Record object at 0x7fd2f01bca00>, <__main__.Record object at 0x7fd2f01bdff0>, <__main__.Record object at 0x7fd2f01bcd60>, <__main__.Record object at 0x7fd2f01bd1b0>, <__main__.Record object at 0x7fd2f01bca30>, <__main__.Record object at 0x7fd2f01bcb20>]
 INFO:     183.192.239.11:5482 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bd6c0>, <__main__.Record object at 0x7fd2f01bd9c0>, <__main__.Record object at 0x7fd2f01bd360>, <__main__.Record object at 0x7fd2f01bd510>, <__main__.Record object at 0x7fd2f01bdf30>, <__main__.Record object at 0x7fd2f01bc8e0>, <__main__.Record object at 0x7fd2f01bc880>, <__main__.Record object at 0x7fd2f01bd930>, <__main__.Record object at 0x7fd2f01bc6a0>, <__main__.Record object at 0x7fd2f01bc5e0>]
+INFO:     183.192.239.11:5255 - "GET /records HTTP/1.1" 200 OK
+INFO:     13.114.124.93:13915 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '呃呃呃，等着豆沙冷，先玩一会juequ0'}
+INFO:     13.114.124.93:13915 - "POST /server HTTP/1.1" 200 OK
+{'data': '明天把项目一的readme和训练写好一点，先把训练和权重搞定'}
+INFO:     13.114.124.93:9087 - "POST /server HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f02d62c0>, <__main__.Record object at 0x7fd2f02d7580>, <__main__.Record object at 0x7fd2f02d60b0>, <__main__.Record object at 0x7fd2f02d73d0>, <__main__.Record object at 0x7fd2f02d7400>, <__main__.Record object at 0x7fd2f02d7a00>, <__main__.Record object at 0x7fd2f02d78e0>, <__main__.Record object at 0x7fd2f02d79a0>, <__main__.Record object at 0x7fd2f02d7070>, <__main__.Record object at 0x7fd2f02d5c60>]
+INFO:     38.207.136.39:42905 - "GET /records HTTP/1.1" 200 OK
+INFO:     38.207.136.39:45459 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '刷leetcode确实很痛苦，做到了ab，ba字符串替换，更高权重的更好，但是已经有点做不动了'}
+INFO:     38.207.136.39:36875 - "POST /server HTTP/1.1" 200 OK
+{'data': '刷leetcode确实很痛苦，做到了ab，ba字符串替换，更高权重的更好，但是已经有点做不动了'}
+INFO:     38.207.136.39:45459 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010d0c0>, <__main__.Record object at 0x7fd2f010c8e0>, <__main__.Record object at 0x7fd2f010d420>, <__main__.Record object at 0x7fd2f010ce50>, <__main__.Record object at 0x7fd2f010cc70>, <__main__.Record object at 0x7fd2f010cd60>, <__main__.Record object at 0x7fd2f010cf10>, <__main__.Record object at 0x7fd2f010ca00>, <__main__.Record object at 0x7fd2f010cee0>, <__main__.Record object at 0x7fd2f010d3c0>]
+INFO:     38.207.136.39:38369 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010cb80>, <__main__.Record object at 0x7fd2f010e710>, <__main__.Record object at 0x7fd2f010cfd0>, <__main__.Record object at 0x7fd2f010cc10>, <__main__.Record object at 0x7fd2f010c970>, <__main__.Record object at 0x7fd2f010ce20>, <__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f010c7f0>, <__main__.Record object at 0x7fd2f010f340>, <__main__.Record object at 0x7fd2f010d090>]
+INFO:     38.207.136.39:42115 - "GET /records HTTP/1.1" 200 OK
+INFO:     38.207.136.39:42115 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': 'man'}
+INFO:     38.207.136.39:42115 - "POST /server HTTP/1.1" 200 OK
+{'data': 'man'}
+INFO:     38.207.136.39:45057 - "POST /server HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f010cee0>, <__main__.Record object at 0x7fd2f010ca00>, <__main__.Record object at 0x7fd2f010cd00>, <__main__.Record object at 0x7fd2f010c940>, <__main__.Record object at 0x7fd2f010cdf0>, <__main__.Record object at 0x7fd2f010c640>, <__main__.Record object at 0x7fd2f010d450>, <__main__.Record object at 0x7fd2f010c9a0>, <__main__.Record object at 0x7fd2f1762860>, <__main__.Record object at 0x7fd2f17627a0>]
+INFO:     38.207.136.39:45057 - "GET /records HTTP/1.1" 200 OK
+INFO:     113.215.189.57:61866 - "GET / HTTP/1.1" 404 Not Found
+INFO:     113.215.189.42:62808 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+[<__main__.Record object at 0x7fd2f010caf0>, <__main__.Record object at 0x7fd2f18aa140>, <__main__.Record object at 0x7fd2f18aa470>, <__main__.Record object at 0x7fd2f18aa500>, <__main__.Record object at 0x7fd2f18aa7a0>, <__main__.Record object at 0x7fd2f18aa770>, <__main__.Record object at 0x7fd2f025c2e0>, <__main__.Record object at 0x7fd2f01b40a0>, <__main__.Record object at 0x7fd2f01b4070>, <__main__.Record object at 0x7fd2f01bd960>]
+INFO:     104.238.221.57:44405 - "GET /records HTTP/1.1" 200 OK
+INFO:     104.238.221.57:58693 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '准备睡个早觉，累了，浙软做的差不多了'}
+INFO:     104.238.221.57:44323 - "POST /server HTTP/1.1" 200 OK
