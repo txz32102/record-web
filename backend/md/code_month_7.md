@@ -4,7 +4,7 @@
 
 前一个人走了才能轮到后一个人，或者说，这两个人的时间是接着的
 
-`https://leetcode.com/problems/average-waiting-time/description/?envType=daily-question&envId=2024-07-09`
+https://leetcode.com/problems/average-waiting-time/description/?envType=daily-question&envId=2024-07-09
 
 ```c++
 class Solution {
@@ -259,3 +259,154 @@ int main() {
 ```
 
 https://www.liuchuo.net/archives/2229
+
+# 7-14
+
+https://leetcode.com/problems/number-of-atoms/?envType=daily-question&envId=2024-07-14
+
+一天两个hard，男泵
+
+```c++
+#include <iostream>
+#include <vector>
+#include <map>
+#include <stack>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    string countOfAtoms(string formula) {
+        stack<map<string, int>> stk;
+        map<string, int> current;
+        int size = formula.size();
+        
+        for (int i = 0; i < size;) {
+            if (formula[i] == '(') {
+                stk.push(current);
+                current.clear();
+                i++;
+            } else if (formula[i] == ')') {
+                int j = i + 1;
+                while (j < size && isdigit(formula[j])) j++;
+                int multiplier = j > i + 1 ? stoi(formula.substr(i + 1, j - i - 1)) : 1;
+                i = j;
+                
+                if (!stk.empty()) {
+                    map<string, int> top = stk.top();
+                    stk.pop();
+                    for (auto &p : current) {
+                        top[p.first] += p.second * multiplier;
+                    }
+                    current = top;
+                }
+            } else {
+                int j = i + 1;
+                while (j < size && islower(formula[j])) j++;
+                string name = formula.substr(i, j - i);
+                i = j;
+                while (j < size && isdigit(formula[j])) j++;
+                int count = j > i ? stoi(formula.substr(i, j - i)) : 1;
+                i = j;
+                current[name] += count;
+            }
+        }
+
+        vector<pair<string, int>> elements(current.begin(), current.end());
+        sort(elements.begin(), elements.end());
+        
+        string res;
+        for (auto &element : elements) {
+            res += element.first;
+            if (element.second > 1) res += to_string(element.second);
+        }
+
+        return res;
+    }
+};
+
+int main() {
+    string formula = "(OH)2";
+    Solution s;
+    string result = s.countOfAtoms(formula);
+    cout << result << endl;
+    map<string, int> data = {{"abc", 1}, {"cbd", 2}};
+    cout << data["abc"] << endl;
+    return 0;
+}
+```
+
+https://leetcode.com/problems/robot-collisions/?envType=daily-question&envId=2024-07-13
+
+```c++
+struct robot {
+    int position;
+    int health;
+    int direction;
+    int index;
+};
+
+bool cmp(robot a, robot b) {
+    return a.position < b.position;
+}
+
+class Solution {
+public:
+    vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
+        vector<int> res;
+        int size = positions.size();
+        vector<robot> data(size);
+
+        for (int i = 0; i < size; i++) {
+            data[i].position = positions[i];
+            data[i].health = healths[i];
+            data[i].direction = (directions[i] == 'L') ? 0 : 1;
+            data[i].index = i;
+        }
+
+        sort(data.begin(), data.end(), cmp);
+
+        vector<robot> stack;
+        bool collisionHappened = false;
+
+        for (int i = 0; i < size; i++) {
+            if (stack.empty() || data[i].direction == 1 || (data[i].direction == 0 && stack.back().direction == 0)) {
+                stack.push_back(data[i]);
+            } else {
+                collisionHappened = true;
+                while (!stack.empty() && stack.back().direction == 1 && stack.back().health < data[i].health) {
+                    data[i].health--;
+                    stack.pop_back();
+                }
+                if (!stack.empty() && stack.back().direction == 1 && stack.back().health == data[i].health) {
+                    stack.pop_back();
+                } else if (!stack.empty() && stack.back().direction == 1) {
+                    stack.back().health--;
+                } else {
+                    stack.push_back(data[i]);
+                }
+            }
+        }
+
+        if (!collisionHappened) {
+            return healths;
+        }
+
+        for (const auto& robot : stack) {
+            res.push_back(robot.health);
+        }
+
+        sort(stack.begin(), stack.end(), [](const robot &a, const robot &b) {
+            return a.index < b.index;
+        }); 
+
+        res.clear();
+        for (const auto& robot : stack) {
+            res.push_back(robot.health);
+        }
+
+        return res;
+    }
+};
+```
