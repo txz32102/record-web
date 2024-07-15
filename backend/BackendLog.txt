@@ -7451,3 +7451,48 @@ INFO:     139.196.145.95:40588 - "GET /images/ofbiz.ico HTTP/1.1" 404 Not Found
 INFO:     139.196.145.95:40588 - "GET /phpMyAdmin/ HTTP/1.1" 404 Not Found
 INFO:     139.196.145.95:40588 - "GET /phpmyadmin/ HTTP/1.1" 404 Not Found
 INFO:     139.196.145.95:40588 - "GET /wcm/ HTTP/1.1" 404 Not Found
+[<__main__.Record object at 0x7fd2f01bcd00>, <__main__.Record object at 0x7fd2f01bd540>, <__main__.Record object at 0x7fd2f01bd4e0>, <__main__.Record object at 0x7fd2f01bcaf0>, <__main__.Record object at 0x7fd2f01bd5a0>, <__main__.Record object at 0x7fd2f01bce20>, <__main__.Record object at 0x7fd2f01bceb0>, <__main__.Record object at 0x7fd2f01bda50>, <__main__.Record object at 0x7fd2f01bca00>, <__main__.Record object at 0x7fd2f01bd390>]
+INFO:     104.238.221.57:50221 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7fd2f01bd090>, <__main__.Record object at 0x7fd2f01bd3c0>, <__main__.Record object at 0x7fd2f01bd3f0>, <__main__.Record object at 0x7fd2f01bcb20>, <__main__.Record object at 0x7fd2f01bd810>, <__main__.Record object at 0x7fd2f01bda20>, <__main__.Record object at 0x7fd2f01bd1b0>, <__main__.Record object at 0x7fd2f01bd720>, <__main__.Record object at 0x7fd2f01bd960>, <__main__.Record object at 0x7fd2f01bd9c0>]
+INFO:     104.238.221.57:50188 - "GET /records HTTP/1.1" 200 OK
+INFO:     104.238.221.57:51479 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': '记录似乎没删掉啊？嗯？'}
+INFO:     104.238.221.57:53394 - "POST /server HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1756]
+/root/home/record-web/backend/main.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+INFO:     Started server process [80368]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+[<__main__.Record object at 0x7fb26717cd00>, <__main__.Record object at 0x7fb26717cca0>, <__main__.Record object at 0x7fb26717cdc0>, <__main__.Record object at 0x7fb26717ce20>, <__main__.Record object at 0x7fb26717ce80>, <__main__.Record object at 0x7fb26717cee0>, <__main__.Record object at 0x7fb26717cf40>, <__main__.Record object at 0x7fb26717cfa0>, <__main__.Record object at 0x7fb26717d030>, <__main__.Record object at 0x7fb26717d0c0>]
+INFO:     104.238.221.57:51044 - "GET /records HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files/readme.md HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files/javaAndMysql.md HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files HTTP/1.1" 200 OK
+INFO:     104.238.221.57:41922 - "GET /files/code_month_7.md HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80368]
+/root/home/record-web/backend/main.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+INFO:     Started server process [81607]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     104.238.221.57:46814 - "GET /files/code_month_7.md HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7ff38edcbd30>, <__main__.Record object at 0x7ff38edcbe20>, <__main__.Record object at 0x7ff38edcb070>, <__main__.Record object at 0x7ff38edcb010>, <__main__.Record object at 0x7ff38edcaf80>, <__main__.Record object at 0x7ff38edc9c30>, <__main__.Record object at 0x7ff38edc9b10>, <__main__.Record object at 0x7ff38edcb100>, <__main__.Record object at 0x7ff38edc8fd0>, <__main__.Record object at 0x7ff38edc8d00>]
+INFO:     104.238.221.57:46814 - "GET /records HTTP/1.1" 200 OK
+INFO:     104.238.221.57:46814 - "OPTIONS /server HTTP/1.1" 200 OK
+{'data': 'ceshi'}
+INFO:     104.238.221.57:39625 - "POST /server HTTP/1.1" 200 OK
+{'data': '删数据库真的有问题啊，啊？'}
+INFO:     104.238.221.57:44724 - "POST /server HTTP/1.1" 200 OK
