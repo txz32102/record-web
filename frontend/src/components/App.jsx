@@ -13,7 +13,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Moment />} />
           <Route path="/readme" element={<ReadmeList />} />
-          <Route path="/readme/:filename" element={<ReadmeViewer />} />
+          <Route path="/readme/:folderPathParam/*" element={<ReadmeList />} />
+          <Route path="/file/:filename" element={<ReadmeViewer />} />
         </Routes>
       </div>
     </Router>
