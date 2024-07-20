@@ -11,7 +11,7 @@ const App = () => {
       <div className="app">
         <View />
         <Routes>
-           <Route path="/" element={<Moment />} />
+          <Route path="/" element={<Moment />} />
           <Route path="/readme" element={<ReadmeList />} />
           <Route path="/readme/:filename" element={<ReadmeViewer />} />
         </Routes>

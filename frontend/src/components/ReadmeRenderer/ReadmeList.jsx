@@ -10,17 +10,17 @@ const ReadmeList = () => {
     const fetchData = async () => {
       try {
         const url = process.env.NODE_ENV === 'development' 
-        ? 'http://localhost:32102/files' 
-        : 'http://www.druggableprotein.com:32102/files';
+          ? 'http://localhost:32102/list-all-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md' 
+          : 'http://www.druggableprotein.com:32102/list-files?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000';
         const response = await axios.get(url);
-        if (Array.isArray(response.data.files)) {
-          setFiles(response.data.files);
+        if (response.data.items && Array.isArray(response.data.items)) {
+          setFiles(response.data.items);
         } else {
           throw new Error("API response is not an array");
         }
       } catch (error) {
         console.error("Error fetching files:", error);
-        setError(null);
+        setError(error);
       }
     };
 
@@ -35,7 +35,7 @@ const ReadmeList = () => {
         <ul>
           {files.map((file, index) => (
             <li key={index}>
-              <Link to={`/readme/${file}`}>{file}</Link>            
+              <Link to={`/readme/${encodeURIComponent(file.name)}`}>{file.name}</Link>
             </li>
           ))}
         </ul>

@@ -5,8 +5,8 @@ import { marked } from "marked";
 
 const ReadmeViewer = () => {
     const { filename } = useParams();
-    const [content, setContent] = useState("null");
-    const [error, setError] = useState("null");
+    const [content, setContent] = useState(null);
+    const [error, setError] = useState(null);
     const [showAnswers, setShowAnswers] = useState(true);
 
     marked.use({
@@ -23,11 +23,12 @@ const ReadmeViewer = () => {
 
     useEffect(() => {
         const fetchContent = async () => {
-            console.log("Fetching content for:", filename);
+            const decodedFilename = decodeURIComponent(filename);
+            console.log("Fetching content for:", decodedFilename);
             const url =
                 process.env.NODE_ENV === "development"
-                    ? `http://localhost:32102/files/${filename}`
-                    : `http://www.druggableprotein.com:32102/files/${filename}`;
+                    ? `http://localhost:32102/read-file?file_path=${encodeURIComponent(decodedFilename)}`
+                    : `http://www.druggableprotein.com:32102/read-file?file_path=${encodeURIComponent(decodedFilename)}`;
             try {
                 const response = await axios.get(url);
                 console.log("the md url is ", url);
@@ -78,4 +79,3 @@ const ReadmeViewer = () => {
 };
 
 export default ReadmeViewer;
-
