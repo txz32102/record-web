@@ -26,3 +26,8 @@ def list_all_files_and_folders(folder_path: str = Query(..., description="Path o
 def read_file(file_path: str = Query(..., description="Path of the file to read")):
     content, views = FileController.read_file(file_path)
     return {"content": content, "views": views}
+
+@router.get("/file/list-files-and-folders", response_model=ItemList)
+def list_files_and_folders(folder_path: str = Query(..., description="Path of the folder to list files and folders from"), limit: int = Query(1000, description="Maximum number of files and folders to list")):
+    items = FileController.list_files_and_folders(folder_path, limit)
+    return {"items": items}
