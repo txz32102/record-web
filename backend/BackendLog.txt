@@ -1,0 +1,19 @@
+INFO:     Started server process [3111]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     52.77.221.125:29153 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15429 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:7867 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:7867 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     Started server process [3422]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 32102): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     52.77.221.125:15057 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:16299 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:16299 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:3339 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     52.77.221.125:3339 - "GET /favicon.ico HTTP/1.1" 404 Not Found
