@@ -7653,3 +7653,13 @@ INFO:     183.192.239.11:5399 - "OPTIONS /server HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5402 - "POST /server HTTP/1.1" 200 OK
 [<__main__.Record object at 0x7ff38ee62d70>, <__main__.Record object at 0x7ff38ee62d10>, <__main__.Record object at 0x7ff38ee604c0>, <__main__.Record object at 0x7ff38ee603d0>, <__main__.Record object at 0x7ff38ee624a0>, <__main__.Record object at 0x7ff38ee61ed0>, <__main__.Record object at 0x7ff38ee61f30>, <__main__.Record object at 0x7ff38ee602b0>, <__main__.Record object at 0x7ff38ee60370>, <__main__.Record object at 0x7ff38ee62470>]
 INFO:     183.192.239.11:5402 - "GET /records HTTP/1.1" 200 OK
+[<__main__.Record object at 0x7ff38ee60d60>, <__main__.Record object at 0x7ff38ee60fa0>, <__main__.Record object at 0x7ff38ee61ea0>, <__main__.Record object at 0x7ff38ee60ca0>, <__main__.Record object at 0x7ff38ee62b30>, <__main__.Record object at 0x7ff38ee62ce0>, <__main__.Record object at 0x7ff38ee60160>, <__main__.Record object at 0x7ff38ee60d00>, <__main__.Record object at 0x7ff38ee60c70>, <__main__.Record object at 0x7ff38ee60640>]
+INFO:     52.77.221.125:10541 - "GET /records HTTP/1.1" 200 OK
+INFO:     52.77.221.125:10541 - "GET /files HTTP/1.1" 200 OK
+INFO:     52.77.221.125:10541 - "GET /files/code_month_7.md HTTP/1.1" 200 OK
+INFO:     52.77.221.125:10541 - "GET /files HTTP/1.1" 200 OK
+INFO:     52.77.221.125:10541 - "GET /files/readme.md HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81607]

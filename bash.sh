@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$1" = "run" ]; then
   # Run the backend and frontend processes
-  nohup bash -c 'cd backend && python3 main.py >> BackendLog.txt 2>&1 &' && \
+  nohup bash -c 'cd backend && python3 run.py >> BackendLog.txt 2>&1 &' && \
   nohup bash -c 'cd frontend && serve -s build -l 3001 >> FrontendLog.txt 2>&1 &' && \
   echo "Backend and Frontend processes started."
 elif [ "$1" = "kill" ]; then

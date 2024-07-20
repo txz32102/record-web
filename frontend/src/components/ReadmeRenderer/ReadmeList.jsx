@@ -11,7 +11,7 @@ const ReadmeList = () => {
       try {
         const url = process.env.NODE_ENV === 'development' 
           ? 'http://localhost:32102/list-all-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md' 
-          : 'http://www.druggableprotein.com:32102/list-files?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000';
+          : 'http://www.druggableprotein.com:32102/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md';
         const response = await axios.get(url);
         if (response.data.items && Array.isArray(response.data.items)) {
           setFiles(response.data.items);
