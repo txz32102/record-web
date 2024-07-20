@@ -27,8 +27,8 @@ const ReadmeViewer = () => {
             console.log("Fetching content for:", decodedFilename);
             const url =
                 process.env.NODE_ENV === "development"
-                    ? `http://localhost:32102/read-file?file_path=${encodeURIComponent(decodedFilename)}`
-                    : `http://www.druggableprotein.com:32102/read-file?file_path=${encodeURIComponent(decodedFilename)}`;
+                    ? `http://localhost:32102/file/read-file?file_path=${encodeURIComponent(decodedFilename)}`
+                    : `http://www.druggableprotein.com:32102/file/read-file?file_path=${encodeURIComponent(decodedFilename)}`;
             try {
                 const response = await axios.get(url);
                 console.log("the md url is ", url);

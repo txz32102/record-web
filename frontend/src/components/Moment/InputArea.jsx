@@ -14,7 +14,7 @@ function InputArea() {
 
             console.log('Request URL:', baseURL); 
 
-        fetch(`${baseURL}/server`, {
+        fetch(`${baseURL}/record/server`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -10,7 +10,7 @@ function RecordsPreview() {
                     : 'http://www.druggableprotein.com:32102';
     console.log('Request URL:', baseURL); 
     // Fetch records when the component mounts
-    fetch(`${baseURL}/records`)
+    fetch(`${baseURL}/record/records`)
       .then(response => response.json())
       .then(data => setRecords(data))
       .catch(error => console.error('Error fetching records:', error));
