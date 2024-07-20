@@ -48,3 +48,21 @@ class FileController:
         if len(items) > limit:
             return items[:limit]
         return items
+    
+    @staticmethod
+    def list_files_and_folders(folder_path: str, limit: int = 1000):
+        if not os.path.isdir(folder_path):
+            raise HTTPException(status_code=400, detail="Invalid folder path")
+
+        items = []
+        with os.scandir(folder_path) as entries:
+            for entry in entries:
+                if len(items) >= limit:
+                    break
+                item = {
+                    "name": os.path.join(folder_path, entry.name),
+                    "type": "folder" if entry.is_dir() else "file"
+                }
+                items.append(item)
+        
+        return FileController.if_limited_file_numbers(items, limit)
