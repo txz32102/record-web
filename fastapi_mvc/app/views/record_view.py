@@ -22,6 +22,6 @@ def fetch_records():
 @router.post("/record/server")
 def add_record(record: RecordInput):
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    data_with_time = f"{record.data} (Recorded at: {current_time})"
-    result = create_record(data_with_time)
+    data = f"{record.data}"
+    result = create_record(data)
     return result
