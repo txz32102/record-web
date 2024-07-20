@@ -6,7 +6,7 @@ if [ "$1" = "run" ]; then
   echo "Backend and Frontend processes started."
 elif [ "$1" = "kill" ]; then
   # Kill the backend and frontend processes
-  pkill -f 'python3 main.py' && \
+  pkill -f 'python3 run.py' && \
   pkill -f 'serve -s build -l 3001' && \
   echo "Backend and Frontend processes killed."
 elif [ "$1" = "clean" ]; then
