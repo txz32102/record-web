@@ -7,9 +7,13 @@ curl "http://localhost:32102/read-file?file_path=/home/musong/Documents/record-w
 
 http://localhost:8000/read-file?file_path=/home/musong/Documents/record-web/backend/md/code_month_7.md
 
-http://localhost:32102/list-all-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000
+http://localhost:32102/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000
 
-http://localhost:8000/list-files?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000
+http://localhost:32102/file/list-all-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000
 
+http://localhost:32102/file/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md&limit=1000
 
 curl -X POST "http://localhost:8000/records" -H "Content-Type: application/json" -d '{"data": "Test data"}'
+
+
+http://localhost:32102/file/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md/duanxueqi
