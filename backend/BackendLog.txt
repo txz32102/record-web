@@ -36,3 +36,70 @@ INFO:     183.192.239.11:5223 - "GET /record/records HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5238 - "OPTIONS /record/server HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5238 - "POST /record/server HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5239 - "GET /file/list-all-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3111]
+INFO:     Started server process [7633]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     52.77.221.125:15169 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2Fduanxueqi%2Fconcentrate.py HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     52.77.221.125:15169 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     52.77.221.125:16233 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     52.77.221.125:21597 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     52.77.221.125:21597 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5533 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5533 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5533 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5533 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi/script HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5546 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2Fduanxueqi%2Fscript%2FfilterQOC.py HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi/script HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2Fduanxueqi%2F8.json HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5558 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5209 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Ftree.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fgraph.svg HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5240 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Freadme.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5387 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5409 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5409 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-6%2Fduanxueqi%2Fduanxueqi.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Ftree.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5431 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5504 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5531 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5537 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
