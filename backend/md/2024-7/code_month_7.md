@@ -410,3 +410,55 @@ public:
     }
 };
 ```
+
+# 7-19
+
+脑子不清醒做不出来的题目~
+
+```c++
+/*
+https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question&envId=2024-07-19
+*/
+// indexing值得一看，脑子不清醒的话是做不出来的~
+// 90
+#include<bits/stdc++.h>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+    	vector<int> res;
+        int rows = matrix.size(), cols = matrix[0].size();
+        for(int i = 0; i < rows; i ++){
+        	int row_min_val = matrix[i][0];
+        	int col_max = 0;
+        	for(int i0 = 1; i0 < cols; i0 ++){
+        		if(row_min_val > matrix[i][i0]){
+        			row_min_val = matrix[i][i0];
+        			col_max = i0;
+				}
+			}
+			
+			int j = 0;
+			for(j = 0; j < rows; j ++){
+				if(row_min_val < matrix[j][col_max])
+					break;
+			}
+			if(j == rows)
+				res.push_back(row_min_val);
+    	}
+    	return res;
+	}
+};	
+
+int main(){
+	Solution s;	
+	vector<int> data;
+	vector<vector<int>> res = {{3, 7, 8}, {9, 11, 13}, {15, 16, 17}};
+	data = s.luckyNumbers(res);
+	for(int i = 0; i < data.size(); i ++)
+		cout << data[i] << " ";
+	return 0;
+} 
+```
