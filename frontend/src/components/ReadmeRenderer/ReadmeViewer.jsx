@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { marked } from "marked";
+import markedKatex from "marked-katex-extension";
+import 'katex/dist/katex.min.css';
 
 const ReadmeViewer = () => {
     const { filename } = useParams();
@@ -20,6 +22,11 @@ const ReadmeViewer = () => {
         tokenizer: null,
         walkTokens: null,
     });
+    const options = {
+        throwOnError: false
+      };
+      
+    marked.use(markedKatex(options));
 
     useEffect(() => {
         const fetchContent = async () => {
