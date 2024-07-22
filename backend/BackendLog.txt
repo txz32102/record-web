@@ -169,3 +169,52 @@ WARNING:  Invalid HTTP request received.
 WARNING:  Invalid HTTP request received.
 WARNING:  Invalid HTTP request received.
 WARNING:  Invalid HTTP request received.
+INFO:     Started server process [3154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     183.192.239.11:5274 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5274 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5274 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5274 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5274 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3154]
+INFO:     Started server process [1832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     183.192.239.11:5620 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5187 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5513 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5568 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5602 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5619 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5619 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5622 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5622 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5195 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5195 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5195 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5130 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-6%2Fduanxueqi%2FjavaAndMysql.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi/script HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-6%2Fduanxueqi%2Fscript%2FfilterQOC.py HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi/script HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6/duanxueqi HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-6 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5428 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     52.80.60.159:40030 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     113.215.189.215:25181 - "GET / HTTP/1.1" 404 Not Found
