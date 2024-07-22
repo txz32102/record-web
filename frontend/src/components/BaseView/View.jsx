@@ -8,8 +8,6 @@ import aGif from './img/a.gif';
 const View = () => {
   // State to control the visibility of the menu
   const [showMenu, setShowMenu] = useState(false);
-  // State to store the starting position of a touch event
-  const [xStart, setXStart] = useState(null);
   // Ref to reference the navigation menu element
   const navRef = useRef();
 
@@ -25,43 +23,14 @@ const View = () => {
     }
   };
 
-  // Function to handle the start of a touch event
-  const handleTouchStart = (event) => {
-    const firstTouch = event.touches[0];
-    setXStart(firstTouch.clientX);
-  };
-
-  // Function to handle the movement during a touch event
-  const handleTouchMove = (event) => {
-    if (!xStart) {
-      return;
-    }
-
-    const xEnd = event.touches[0].clientX;
-    const xDiff = xEnd - xStart;
-
-    // If the swipe is to the right and exceeds 50 pixels, show the menu
-    if (xDiff > 50) {
-      setShowMenu(true);
-    } 
-    // If the swipe is to the left and exceeds 50 pixels, hide the menu
-    else if (xDiff < -50) {
-      setShowMenu(false);
-    }
-  };
-
   // useEffect to add and clean up event listeners
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-    document.addEventListener('touchstart', handleTouchStart);
-    document.addEventListener('touchmove', handleTouchMove);
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
-      document.removeEventListener('touchstart', handleTouchStart);
-      document.removeEventListener('touchmove', handleTouchMove);
     };
-  }, [xStart]);
+  }, []);
 
   return (
     <>
