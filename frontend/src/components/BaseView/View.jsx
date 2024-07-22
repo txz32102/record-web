@@ -109,6 +109,10 @@ const View = () => {
                   <i className='bx bx-world nav__icon'></i>
                   <span className="nav__name">readme</span>
                 </Link>
+                <Link to="/terminal" className="nav__link">
+                  <i className='bx bx-world nav__icon'></i>
+                  <span className="nav__name">terminal</span>
+                </Link>
               </div>
             </div>
           </div>

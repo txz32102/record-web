@@ -4,6 +4,7 @@ import View from './BaseView/View';
 import Moment from './Moment/Moment';
 import ReadmeList from './ReadmeRenderer/ReadmeList';
 import ReadmeViewer from './ReadmeRenderer/ReadmeViewer';
+import TerminalComponent from './Terminal/Terminal';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/readme" element={<ReadmeList />} />
           <Route path="/readme/:folderPathParam/*" element={<ReadmeList />} />
           <Route path="/file/:filename" element={<ReadmeViewer />} />
+          <Route path="/terminal" element={<TerminalComponent />} />
         </Routes>
       </div>
     </Router>
