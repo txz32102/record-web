@@ -1,5 +1,3 @@
-// components/Terminal/terminal.jsx
-
 import React, { useEffect, useRef } from 'react';
 import { Terminal } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
@@ -17,7 +15,12 @@ const TerminalComponent = () => {
     term.current.open(terminalRef.current);
     fitAddon.current.fit();
 
-    const socket = new WebSocket('ws://localhost:8765/ws');
+    const socketUrl =
+      process.env.NODE_ENV === 'development'
+        ? 'ws://localhost:8765/ws'
+        : 'ws://www.druggableprotein.com:8765/ws';
+
+    const socket = new WebSocket(socketUrl);
 
     socket.onopen = () => {
       console.log('Connected to server');

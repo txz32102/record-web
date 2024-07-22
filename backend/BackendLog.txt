@@ -218,3 +218,19 @@ INFO:     183.192.239.11:5428 - "GET /file/list-files-and-folders?folder_path=/r
 INFO:     183.192.239.11:5428 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
 INFO:     52.80.60.159:40030 - "GET /record/records HTTP/1.1" 200 OK
 INFO:     113.215.189.215:25181 - "GET / HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1832]
+INFO:     Started server process [1805]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     183.192.239.11:5296 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5296 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     3.36.116.169:3993 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     113.215.189.172:32874 - "GET / HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1805]
