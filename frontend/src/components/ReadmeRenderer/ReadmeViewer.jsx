@@ -3,7 +3,10 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { marked } from "marked";
 import markedKatex from "marked-katex-extension";
+import { markedHighlight } from "marked-highlight";
+import hljs from "highlight.js";
 import 'katex/dist/katex.min.css';
+import 'highlight.js/styles/default.css'; // Import the highlight.js default style
 
 const ReadmeViewer = () => {
     const { filename } = useParams();
@@ -11,21 +14,21 @@ const ReadmeViewer = () => {
     const [error, setError] = useState(null);
     const [showAnswers, setShowAnswers] = useState(true);
 
-    marked.use({
-        async: false,
-        breaks: false,
-        extensions: null,
-        gfm: true,
-        hooks: null,
-        pedantic: false,
-        silent: false,
-        tokenizer: null,
-        walkTokens: null,
-    });
+    // Initialize marked with highlight.js
+    marked.use(
+        markedHighlight({
+            langPrefix: "hljs language-",
+            highlight(code, lang) {
+                const language = hljs.getLanguage(lang) ? lang : "plaintext";
+                return hljs.highlight(code, { language }).value;
+            },
+        })
+    );
+
     const options = {
         throwOnError: false
-      };
-      
+    };
+
     marked.use(markedKatex(options));
 
     useEffect(() => {
