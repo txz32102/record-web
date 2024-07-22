@@ -1,0 +1,3 @@
+go build -o terminal main.go
+
+./terminal -address 0.0.0.0 -port 8765
