@@ -462,3 +462,211 @@ int main(){
 	return 0;
 } 
 ```
+
+# 7-22
+
+找到根节点，然后造树
+
+```c++
+/*
+https://leetcode.com/problems/create-binary-tree-from-descriptions/
+*/
+
+#include<iostream>
+#include<algorithm>
+#include<queue>
+#include<vector>
+#include<unordered_map>
+#include <unordered_set>
+
+using namespace std;
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+class Solution {
+public:
+    TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
+        // Step 1: Organize data
+        unordered_map<int, vector<pair<int, bool>>> parentToChildren;
+        unordered_set<int> allNodes;
+        unordered_set<int> children;
+
+        for (auto& desc : descriptions) {
+            int parent = desc[0];
+            int child = desc[1];
+            bool isLeft = desc[2];
+
+            parentToChildren[parent].push_back({child, isLeft});
+            allNodes.insert(parent);
+            allNodes.insert(child);
+            children.insert(child);
+        }
+
+        // Step 2: Find the root
+        int rootVal = 0;
+        for (int node : allNodes) {
+            if (children.find(node) == children.end()) {
+                rootVal = node;
+                break;
+            }
+        }
+
+        // Step 3 & 4: Build the tree using DFS
+        return dfs(parentToChildren, rootVal);
+    }
+
+    void printTreeNode(TreeNode* root) {
+        if (!root) {
+            cout << "[]" << endl;
+            return;
+        }
+
+        queue<TreeNode*> q;
+        q.push(root);
+        vector<string> result;
+
+        while (!q.empty()) {
+            TreeNode* node = q.front();
+            q.pop();
+
+            if (node) {
+                result.push_back(to_string(node->val));
+                q.push(node->left);
+                q.push(node->right);
+            } else {
+                result.push_back("null");
+            }
+        }
+
+        // Remove trailing nulls
+        while (!result.empty() && result.back() == "null") {
+            result.pop_back();
+        }
+
+        cout << "[";
+        for (size_t i = 0; i < result.size(); ++i) {
+            cout << result[i];
+            if (i != result.size() - 1) {
+                cout << ",";
+            }
+        }
+        cout << "]" << endl;
+    }
+
+    TreeNode* dfs(unordered_map<int, vector<pair<int, bool>>>& parentToChildren, int val) {
+        // Create new TreeNode for current value
+        TreeNode* node = new TreeNode(val);
+
+        // If current node has children, recursively build them
+        if (parentToChildren.find(val) != parentToChildren.end()) {
+            for (auto& child_info : parentToChildren[val]) {
+                int child = child_info.first;
+                bool isLeft = child_info.second;
+
+                // Attach child node based on isLeft flag
+                if (isLeft) {
+                    node->left = dfs(parentToChildren, child);
+                } else {
+                    node->right = dfs(parentToChildren, child);
+                }
+            }
+        }
+
+        return node;
+    }
+
+};
+
+int main(){
+    Solution s;
+    vector<vector<int>> descriptions = {{20,15,1},{20,17,0},{50,20,1},{50,80,0},{80,19,1}};
+    TreeNode* res = s.createBinaryTree(descriptions);
+    s.printTreeNode(res);
+    return 0;
+}
+```
+
+一般的造树
+
+```c++
+#include <iostream>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+struct TreeNode{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(): val(0), left(nullptr), right(nullptr){};
+    TreeNode(int val): val(val), left(nullptr), right(nullptr){};
+    TreeNode(int val, TreeNode *left, TreeNode* right): val(val), left(left), right(right){};
+};
+
+TreeNode* createTree(vector<int*> data){
+    if(data.empty() || data[0] == nullptr) return nullptr;
+
+    TreeNode* root = new TreeNode(*data[0]);
+    queue<TreeNode*> q;
+    q.push(root);
+    int i = 1;
+    int size = data.size();
+    while(!q.empty() && i < size){
+        TreeNode* cur = q.front();
+        q.pop();
+        if(i < size && data[i] != nullptr){
+            cur->left = new TreeNode(*data[i]);
+            q.push(cur->left);
+        }
+        i++;
+        if(i < size && data[i] != nullptr){
+            cur->right = new TreeNode(*data[i]);
+            q.push(cur->right);
+        }
+        i++;
+    }
+    return root;
+}
+
+void printTree(TreeNode* root){
+    if(!root) return;
+    queue<TreeNode*> q;
+    q.push(root);
+    while(!q.empty()){
+        TreeNode* cur = q.front();
+        q.pop();
+        if(cur){
+            cout << cur->val << " ";
+            q.push(cur->left);
+            q.push(cur->right);
+        } else {
+            cout << "null ";
+        }
+    }
+    cout << endl;
+}
+
+int main(){
+    vector<int> temp = {1, 2, 999, 3, 999, 4, 5, 999};
+    vector<int*> data;
+    for(int i = 0; i < temp.size(); i++){
+        if(temp[i] != 999)
+            data.push_back(&temp[i]);
+        else
+            data.push_back(nullptr);
+    }
+    
+    TreeNode* root = createTree(data);
+    printTree(root);
+
+    return 0;
+}
+```
