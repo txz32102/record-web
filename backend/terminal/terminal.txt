@@ -1,1 +1,15 @@
 2024/07/22 21:53:24 Server starting on 0.0.0.0:8765
+2024/07/22 21:58:22 Server starting on 0.0.0.0:8765
+2024/07/22 21:58:30 Client connected
+2024/07/22 21:58:47 Client connected
+2024/07/22 21:58:55 Read message error: websocket: close 1001 (going away)
+2024/07/22 21:58:56 Client connected
+2024/07/22 21:59:16 Read message error: websocket: close 1001 (going away)
+2024/07/22 21:59:17 Client connected
+2024/07/22 21:59:19 Read message error: websocket: close 1001 (going away)
+2024/07/22 21:59:43 Read message error: websocket: close 1001 (going away)
+2024/07/22 21:59:44 Client connected
+2024/07/22 23:20:11 Read message error: read tcp 172.18.23.146:8765->183.192.239.11:1615: read: connection timed out
+2024/07/23 06:56:42 Client connected
+2024/07/23 07:08:10 Server starting on 0.0.0.0:8765
+2024/07/23 07:08:25 Client connected

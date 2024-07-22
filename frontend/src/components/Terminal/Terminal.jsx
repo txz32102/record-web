@@ -9,7 +9,13 @@ const TerminalComponent = () => {
   const fitAddon = useRef(null);
 
   useEffect(() => {
-    term.current = new Terminal();
+    term.current = new Terminal({
+      theme: {
+        background: '#F9F6FD',
+        foreground: '#000000',
+        cursor: '#000000',
+      },
+    });
     fitAddon.current = new FitAddon();
     term.current.loadAddon(fitAddon.current);
     term.current.open(terminalRef.current);
@@ -56,7 +62,7 @@ const TerminalComponent = () => {
   return (
     <div
       ref={terminalRef}
-      style={{ height: '100%', width: '100%', backgroundColor: 'black' }}
+      style={{ height: '100%', width: '100%' }}
     />
   );
 };

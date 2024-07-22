@@ -234,3 +234,22 @@ INFO:     Shutting down
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [1805]
+INFO:     Started server process [1781]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     113.141.84.164:45628 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     125.122.33.118:32784 - "GET /record/records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     38.207.136.39:35969 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5450 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5450 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1781]
+INFO:     Started server process [1815]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     183.192.239.11:5169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
