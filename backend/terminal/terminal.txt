@@ -13,3 +13,36 @@
 2024/07/23 06:56:42 Client connected
 2024/07/23 07:08:10 Server starting on 0.0.0.0:8765
 2024/07/23 07:08:25 Client connected
+2024/07/23 07:21:07 Server starting on 0.0.0.0:8765
+2024/07/23 08:03:29 Client connected
+2024/07/23 08:03:31 Read message error: websocket: close 1005 (no status)
+2024/07/23 08:07:35 Client connected
+2024/07/23 08:07:53 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/07/23 08:07:57 Client connected
+2024/07/23 08:08:00 Read message error: websocket: close 1001 (going away)
+2024/07/23 08:08:00 Client connected
+2024/07/23 08:08:50 Read message error: websocket: close 1001 (going away)
+2024/07/23 09:53:46 Client connected
+2024/07/23 09:53:55 Read message error: websocket: close 1001 (going away)
+2024/07/23 10:14:17 Server starting on 0.0.0.0:8765
+2024/07/23 10:16:02 Server starting on 0.0.0.0:8765
+2024/07/23 10:16:28 Client connected
+2024/07/23 10:26:51 Server starting on 0.0.0.0:8765
+2024/07/23 10:26:55 Client connected
+2024/07/23 10:27:03 Read message error: websocket: close 1001 (going away)
+2024/07/23 10:27:03 Client connected
+2024/07/23 10:33:33 Server starting on 0.0.0.0:8765
+2024/07/23 10:33:42 Client connected
+2024/07/23 10:34:00 Read message error: websocket: close 1001 (going away)
+2024/07/23 10:34:01 Client connected
+2024/07/23 10:38:06 Read message error: websocket: close 1001 (going away)
+2024/07/23 10:41:18 Server starting on 0.0.0.0:8765
+2024/07/23 10:41:25 Client connected
+2024/07/23 10:45:20 Server starting on 0.0.0.0:8765
+2024/07/23 10:45:28 Client connected
+2024/07/23 10:49:48 Server starting on 0.0.0.0:8765
+2024/07/23 10:49:53 Client connected
+2024/07/23 10:54:05 Server starting on 0.0.0.0:8765
+2024/07/23 10:54:11 Client connected
+2024/07/23 10:55:40 Read message error: websocket: close 1001 (going away)
+2024/07/23 10:55:40 Client connected

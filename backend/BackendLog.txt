@@ -253,3 +253,73 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
 INFO:     183.192.239.11:5169 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     Started server process [2338]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     38.207.136.39:43075 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     38.207.136.39:43075 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     38.207.136.39:43075 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     38.207.136.39:43075 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     38.207.136.39:43075 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     38.207.136.39:40445 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     38.207.136.39:38661 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     38.207.136.39:42161 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     38.207.136.39:39795 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     Started server process [2095]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     183.192.239.11:5502 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5504 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5504 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2095]
+INFO:     Started server process [1820]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1820]
+INFO:     Started server process [2633]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     43.203.188.167:29925 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2633]
+INFO:     Started server process [2107]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     43.203.188.167:10567 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2107]
+INFO:     Started server process [1819]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1819]
+INFO:     Started server process [1808]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1808]
+INFO:     Started server process [1796]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
