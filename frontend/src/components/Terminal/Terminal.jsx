@@ -14,6 +14,7 @@ const TerminalComponent = () => {
         background: '#F9F6FD',
         foreground: '#000000',
         cursor: '#000000',
+        selectionBackground: '#734040', // Set the selection color here
       },
     });
     fitAddon.current = new FitAddon();
@@ -53,9 +54,40 @@ const TerminalComponent = () => {
       fitAddon.current.fit();
     });
 
+    // Add event listener for copy functionality using Clipboard API
+    const handleCopy = async (event) => {
+      if (event.ctrlKey && event.key === 'Insert') {
+        try {
+          const selection = window.getSelection().toString();
+          await navigator.clipboard.writeText(selection);
+          console.log('Text copied to clipboard');
+        } catch (err) {
+          console.error('Failed to copy text: ', err);
+        }
+      }
+    };
+
+    // Add event listener for paste functionality using Clipboard API
+    const handlePaste = async (event) => {
+      if (event.shiftKey && event.key === 'Insert') {
+        try {
+          const text = await navigator.clipboard.readText();
+          term.current.write(text);
+        } catch (err) {
+          console.error('Failed to read clipboard contents: ', err);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleCopy);
+    window.addEventListener('keydown', handlePaste);
+
     return () => {
       socket.close();
       term.current.dispose();
+      window.removeEventListener('resize', fitAddon.current.fit);
+      window.removeEventListener('keydown', handleCopy);
+      window.removeEventListener('keydown', handlePaste);
     };
   }, []);
 
