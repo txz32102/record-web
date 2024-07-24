@@ -46,3 +46,20 @@
 2024/07/23 10:54:11 Client connected
 2024/07/23 10:55:40 Read message error: websocket: close 1001 (going away)
 2024/07/23 10:55:40 Client connected
+2024/07/23 11:02:21 Server starting on 0.0.0.0:8765
+2024/07/23 11:39:11 Client connected
+2024/07/23 11:39:38 Read message error: websocket: close 1001 (going away)
+2024/07/23 11:39:38 Client connected
+2024/07/23 12:14:28 Read message error: read tcp 172.18.23.146:8765->183.192.239.11:5502: read: connection timed out
+2024/07/23 13:00:48 Client connected
+2024/07/23 13:01:22 Read message error: read tcp 172.18.23.146:8765->39.144.39.86:38943: read: connection reset by peer
+2024/07/23 15:23:54 Client connected
+2024/07/23 15:27:40 Read message error: websocket: close 1001 (going away)
+2024/07/24 12:05:46 Client connected
+2024/07/24 12:05:51 Read message error: websocket: close 1001 (going away)
+2024/07/24 12:10:41 Client connected
+2024/07/24 12:10:46 Read message error: websocket: close 1005 (no status)
+2024/07/24 12:10:48 Client connected
+2024/07/24 12:14:18 Read message error: websocket: close 1005 (no status)
+2024/07/24 12:24:24 Client connected
+2024/07/24 12:57:11 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
