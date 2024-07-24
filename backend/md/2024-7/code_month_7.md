@@ -670,3 +670,63 @@ int main(){
     return 0;
 }
 ```
+
+# 7-24
+
+```c++
+/*
+https://leetcode.com/problems/sort-the-jumbled-numbers/description/?envType=daily-question&envId=2024-07-24
+*/
+// 80
+// 几乎是一次过，不过sort要加&，稍微看了一下gpt怎么说的，整体难度偏低，主要一开始没有理解题意，以为只要换一下顺序就可以了
+
+#include<iostream>
+#include<vector>
+#include<algorithm>
+
+struct node{
+        int val;
+        int conv;
+        int rank;
+};
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+        int size = nums.size();
+                vector<node> data(size);
+        vector<string> nums_str;
+        
+        for(int i = 0; i < size; i ++)
+                        data[i].val = nums[i];
+        
+        for(int i = 0; i < size; i ++){
+                string temp = to_string(data[i].val);
+                for(int j = 0; j < temp.size(); j ++)
+                        temp[j] = mapping[temp[j] - '0'] + '0';
+                data[i].conv = stoi(temp);
+                }
+
+                sort(data.begin(), data.end(), [](node &a, node &b){return a.conv < b.conv;});
+
+                vector<int> res(size);
+                for(int i = 0; i < size; i ++){
+                        res[i] = data[i].val;
+                }
+                return res;
+    }
+};
+
+int main(){
+        vector<int> mapping = {8,9,4,0,2,1,3,5,7,6};
+        vector<int> nums = {991,338,38};
+        vector<int> data;
+        Solution s;
+        data = s.sortJumbled(mapping, nums);
+        for(auto i : data)
+                cout << i << " ";
+        return 0;
+}
+```
