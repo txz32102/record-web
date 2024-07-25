@@ -382,3 +382,11 @@ INFO:     52.221.200.26:8491 - "GET /record/records HTTP/1.1" 200 OK
 INFO:     52.221.200.26:27409 - "OPTIONS /record/server HTTP/1.1" 200 OK
 INFO:     52.221.200.26:27409 - "POST /record/server HTTP/1.1" 200 OK
 INFO:     52.221.200.26:10405 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     Started server process [1757]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     13.213.54.30:17631 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     13.213.54.30:17631 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     13.213.54.30:17631 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     13.213.54.30:22453 - "GET /record/records HTTP/1.1" 200 OK
