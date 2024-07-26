@@ -17,3 +17,12 @@ A bottleneck layer is a layer that contains few nodes compared to the previous l
 https://stats.stackexchange.com/questions/262044/what-does-a-bottleneck-layer-mean-in-neural-networks
 
 今天算是正式看CLIP的第一天（慢慢来吧
+
+# 7-25
+
+what is linear probing?
+
+
+Zero-Shot Classification
+
+https://huggingface.co/tasks/zero-shot-classification
