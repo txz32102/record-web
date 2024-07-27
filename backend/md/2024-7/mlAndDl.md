@@ -18,6 +18,10 @@ https://stats.stackexchange.com/questions/262044/what-does-a-bottleneck-layer-me
 
 今天算是正式看CLIP的第一天（慢慢来吧
 
+https://www.pinecone.io/learn/series/image-search/clip/
+
+(7-26补充链接)
+
 # 7-25
 
 what is linear probing?
@@ -26,3 +30,17 @@ what is linear probing?
 Zero-Shot Classification
 
 https://huggingface.co/tasks/zero-shot-classification
+
+# 7-26
+
+VGG
+
+VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION
+
+R-CNN
+
+https://blog.roboflow.com/what-is-r-cnn/#:~:text=Region%2Dbased%20Convolutional%20Neural%20Network,networks%20and%20region%2Dbased%20approaches.
+
+YOLO
+
+https://www.datacamp.com/blog/yolo-object-detection-explained
