@@ -44,3 +44,28 @@ https://blog.roboflow.com/what-is-r-cnn/#:~:text=Region%2Dbased%20Convolutional%
 YOLO
 
 https://www.datacamp.com/blog/yolo-object-detection-explained
+
+# 7-27
+
+scaling laws
+
+https://en.wikipedia.org/wiki/Neural_scaling_law
+
+Masked language models
+
+https://www.techtarget.com/searchenterpriseai/definition/masked-language-models-MLMs#:~:text=How%20do%20Masked%20Language%20Models,to%20predict%20the%20masked%20tokens.
+
+
+https://huggingface.co/docs/transformers/en/tasks/masked_language_modeling
+
+self-attention (当天看的hung yi lee的视频，非常有帮助)
+
+https://www.youtube.com/watch?v=hYdO9CscNes
+
+https://slds-lmu.github.io/seminar_nlp_ss20/attention-and-self-attention-for-nlp.html 
+
+（没看完）
+
+https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
+
+（没看）

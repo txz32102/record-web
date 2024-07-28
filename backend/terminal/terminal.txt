@@ -68,3 +68,7 @@
 2024/07/25 09:13:14 Client connected
 2024/07/25 09:21:15 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
 2024/07/25 09:21:15 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/07/27 21:49:28 Client connected
+2024/07/27 21:51:32 Read message error: websocket: close 1005 (no status)
+2024/07/27 21:53:14 Client connected
+2024/07/27 21:53:15 Read message error: websocket: close 1005 (no status)

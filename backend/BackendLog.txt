@@ -477,3 +477,130 @@ INFO:     185.217.5.60:45112 - "OPTIONS /record/server HTTP/1.1" 200 OK
 INFO:     185.217.5.60:45112 - "POST /record/server HTTP/1.1" 200 OK
 INFO:     113.215.189.202:10386 - "GET / HTTP/1.1" 404 Not Found
 WARNING:  Invalid HTTP request received.
+INFO:     183.192.239.11:5430 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5440 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5461 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5462 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5477 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5477 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5477 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5477 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5477 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5525 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5527 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5527 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5527 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5527 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5527 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5550 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5200 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5200 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5200 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     101.133.131.45:48834 - "GET / HTTP/1.0" 404 Not Found
+INFO:     101.133.131.45:48880 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     101.133.131.45:56158 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     183.192.239.11:5355 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5397 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5445 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5445 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2F.mlAndDl.md.swp HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.10/dist-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/root/home/record-web/backend/app/views/file_view.py", line 27, in read_file
+    content, views = FileController.read_file(file_path)
+  File "/root/home/record-web/backend/app/controllers/file_controller.py", line 42, in read_file
+    content = file.read()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdd in position 25: invalid continuation byte
+INFO:     183.192.239.11:5450 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5450 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
