@@ -72,3 +72,9 @@
 2024/07/27 21:51:32 Read message error: websocket: close 1005 (no status)
 2024/07/27 21:53:14 Client connected
 2024/07/27 21:53:15 Read message error: websocket: close 1005 (no status)
+2024/07/28 14:26:03 Server starting on 0.0.0.0:8765
+2024/07/28 14:27:16 Client connected
+2024/07/28 14:27:34 Write message error: write tcp 172.18.23.146:8765->183.192.239.11:5286: write: broken pipe
+2024/07/28 14:27:34 Read message error: read tcp 172.18.23.146:8765->183.192.239.11:5286: use of closed network connection
+2024/07/28 14:27:56 Client connected
+2024/07/28 14:28:15 Read message error: websocket: close 1001 (going away)

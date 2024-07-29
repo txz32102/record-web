@@ -50,22 +50,57 @@ https://www.datacamp.com/blog/yolo-object-detection-explained
 scaling laws
 
 https://en.wikipedia.org/wiki/Neural_scaling_law
+</br></br>
 
 Masked language models
 
 https://www.techtarget.com/searchenterpriseai/definition/masked-language-models-MLMs#:~:text=How%20do%20Masked%20Language%20Models,to%20predict%20the%20masked%20tokens.
 
-
 https://huggingface.co/docs/transformers/en/tasks/masked_language_modeling
+</br></br>
 
 self-attention (当天看的hung yi lee的视频，非常有帮助)
 
 https://www.youtube.com/watch?v=hYdO9CscNes
-
-https://slds-lmu.github.io/seminar_nlp_ss20/attention-and-self-attention-for-nlp.html 
+</br></br>
 
 （没看完）
 
-https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
+https://slds-lmu.github.io/seminar_nlp_ss20/attention-and-self-attention-for-nlp.html 
+</br></br>
 
-（没看）
+（没看）（7.28，补着看了，multi head attention啥的讲的还是比较清楚的）
+
+https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
+</br></br>
+
+# 7-28
+
+(看完了，讲的很有帮助，self attention是rnn和cnn的superset，还讲了一些paper值得一看)
+
+https://www.youtube.com/watch?v=gmsMY5kc-zw
+
+视频里面提及了三篇论文，非常粗略地看了一下下，论文如下：
+
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [https://arxiv.org/abs/2010.11929]
+
+Long Range Arena: A Benchmark for Efficient Transformers [https://arxiv.org/abs/2011.04006]
+
+Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention [https://arxiv.org/abs/2006.16236]
+</br></br>
+
+Word2Vec 
+
+https://en.wikipedia.org/wiki/Word2vec#:~:text=Word2vec%20is%20a%20group%20of,reconstruct%20linguistic%20contexts%20of%20words.
+
+https://www.analyticsvidhya.com/blog/2021/07/word2vec-for-word-embeddings-a-beginners-guide/ 
+(这个写的不怎么好)
+</br></br>
+
+encoder decoder 
+
+https://medium.com/@ahmadsabry678/a-perfect-guide-to-understand-encoder-decoders-in-depth-with-visuals-30805c23659b
+
+</br></br>
+
+bert gpt

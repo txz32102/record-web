@@ -604,3 +604,38 @@ Traceback (most recent call last):
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdd in position 25: invalid continuation byte
 INFO:     183.192.239.11:5450 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5450 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:28749 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     3.36.110.200:2141 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:2141 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     3.36.110.200:2141 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.162.58.18:25031 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     18.162.58.18:25031 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     18.162.58.18:32971 - "POST /record/server HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     47.103.99.182:45656 - "GET / HTTP/1.1" 404 Not Found
+INFO:     3.36.110.200:16755 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     3.36.110.200:16755 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:16755 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     3.36.110.200:16755 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:29945 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:23723 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:12369 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     3.36.110.200:15453 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     40.77.188.95:49920 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     52.167.144.67:20298 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     Started server process [2226]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     139.162.108.251:40223 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2Fcode_month_7.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5500 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     3.38.215.160:9559 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     3.38.215.160:9559 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     3.38.215.160:9559 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     3.38.215.160:9559 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
