@@ -78,3 +78,10 @@
 2024/07/28 14:27:34 Read message error: read tcp 172.18.23.146:8765->183.192.239.11:5286: use of closed network connection
 2024/07/28 14:27:56 Client connected
 2024/07/28 14:28:15 Read message error: websocket: close 1001 (going away)
+2024/07/29 11:15:11 Client connected
+2024/07/29 11:25:52 Server starting on 0.0.0.0:8765
+2024/07/29 15:53:41 Client connected
+2024/07/29 15:59:30 Read message error: websocket: close 1001 (going away)
+2024/07/30 13:18:09 Server starting on 0.0.0.0:8765
+2024/07/30 20:27:58 Client connected
+2024/07/30 20:41:10 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF

@@ -97,10 +97,17 @@ https://www.analyticsvidhya.com/blog/2021/07/word2vec-for-word-embeddings-a-begi
 (这个写的不怎么好)
 </br></br>
 
+# 7-29
+
 encoder decoder 
 
 https://medium.com/@ahmadsabry678/a-perfect-guide-to-understand-encoder-decoders-in-depth-with-visuals-30805c23659b
 
 </br></br>
 
-bert gpt
+BERT
+
+https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
+
+
+gpt
