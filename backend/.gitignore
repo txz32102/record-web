@@ -1,0 +1,6 @@
+app/__pycache__
+app/controllers/__pycache__
+app/models/__pycache__
+app/views/__pycache__
+app/db/__pycache__
+db/__pycache__
