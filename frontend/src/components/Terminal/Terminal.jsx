@@ -94,7 +94,7 @@ const TerminalComponent = () => {
   return (
     <div
       ref={terminalRef}
-      style={{ height: '100%', width: '100%' }}
+      style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}
     />
   );
 };

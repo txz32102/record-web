@@ -31,6 +31,12 @@ elif [ "$1" = "kill" ]; then
     echo "No process found: ./terminal -address 0.0.0.0 -port 8765"
   fi
 
+  if pkill -f './terminal -port 8765'; then
+    echo "Killed: ./terminal -port 8765"
+  else
+    echo "No process found: ./terminal -address 0.0.0.0 -port 8765"
+  fi
+
   if pkill -f 'node .*react-scripts/scripts/start.js'; then
     echo "Killed: node running react-scripts/scripts/start.js"
   else
