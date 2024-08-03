@@ -89,3 +89,49 @@
 2024/08/01 11:11:30 Server starting on 0.0.0.0:8765
 2024/08/01 11:15:33 Server starting on 0.0.0.0:8765
 2024/08/01 11:16:52 Server starting on 0.0.0.0:8765
+2024/08/01 12:20:38 Server starting on 0.0.0.0:8765
+2024/08/01 12:20:54 Client connected
+2024/08/01 12:21:46 Read message error: websocket: close 1001 (going away)
+2024/08/01 13:56:42 Client connected
+2024/08/01 14:00:25 Server starting on 0.0.0.0:8765
+2024/08/01 14:00:32 Client connected
+2024/08/01 14:13:37 Read message error: websocket: close 1001 (going away)
+2024/08/01 14:24:55 Client connected
+2024/08/01 14:32:54 Server starting on 0.0.0.0:8765
+2024/08/01 14:35:26 Server starting on 0.0.0.0:8765
+2024/08/01 14:35:42 Client connected
+2024/08/01 14:59:14 Client connected
+2024/08/01 15:06:51 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/08/01 15:06:52 Write message error: write tcp 172.18.23.146:8765->52.192.118.3:12551: write: broken pipe
+2024/08/01 15:08:22 Read message error: websocket: close 1001 (going away)
+2024/08/01 15:08:22 Write message error: websocket: close sent
+2024/08/01 15:08:27 Client connected
+2024/08/01 15:23:19 Read message error: websocket: close 1001 (going away)
+2024/08/01 15:23:20 Write message error: websocket: close sent
+2024/08/01 16:07:26 Client connected
+2024/08/01 16:35:23 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/08/01 16:35:25 Write message error: write tcp 172.18.23.146:8765->52.192.118.3:7345: write: broken pipe
+2024/08/01 16:52:09 Client connected
+2024/08/01 17:08:00 Read message error: websocket: close 1001 (going away)
+2024/08/01 17:10:01 Client connected
+2024/08/01 17:10:17 Read message error: read tcp 172.18.23.146:8765->157.245.57.103:46635: read: connection reset by peer
+2024/08/01 17:10:17 Client connected
+2024/08/01 17:32:13 Read message error: websocket: close 1001 (going away)
+2024/08/01 20:14:24 Client connected
+2024/08/01 20:18:02 Read message error: websocket: close 1001 (going away)
+2024/08/01 20:20:07 Client connected
+2024/08/01 20:20:39 Read from pty error: read /dev/ptmx: input/output error
+2024/08/01 20:20:39 Read message error: read tcp 172.18.23.146:8765->52.192.118.3:15635: use of closed network connection
+2024/08/01 20:21:02 Client connected
+2024/08/01 20:23:18 Read message error: websocket: close 1001 (going away)
+2024/08/02 06:37:51 Client connected
+2024/08/02 06:38:49 Read message error: websocket: close 1001 (going away)
+2024/08/02 09:38:10 Server starting on 0.0.0.0:8765
+2024/08/02 09:38:36 Client connected
+2024/08/02 09:38:45 Read message error: websocket: close 1001 (going away)
+2024/08/02 10:19:04 Client connected
+2024/08/02 10:32:04 Read message error: websocket: close 1001 (going away)
+2024/08/03 08:54:57 Client connected
+2024/08/03 08:55:08 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/08/03 08:55:21 Client connected
+2024/08/03 08:55:34 Read message error: websocket: close 1001 (going away)
