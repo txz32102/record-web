@@ -40,7 +40,7 @@ case "$1" in
     ;;
 
   syn)
-    ssh root@47.100.233.136 "cd /root/home/record-web; sh bash.sh kill; nohup s clash > /dev/null 2>&1 &; sleep 2; git pull; pid=\$(lsof -t -i:9090); if [[ -n \$pid ]]; then kill \$pid; fi; sh bash.sh run"
+    ssh root@47.100.233.136 'cd /root/home/record-web; sh bash.sh kill; nohup s clash > /dev/null 2>&1 &; sleep 2; git pull; pid=$(lsof -t -i:9090); if [[ -n $pid ]]; then kill $pid; fi; sh bash.sh run'
     ;;
 
   *)
