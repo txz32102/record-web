@@ -58,7 +58,7 @@ elif [ "$1" = "dev" ]; then
   wait
   echo "[\033[34mDev mode\033[0m]: go, python, and bun have all started!"else
   echo "Usage: sh bash.sh [run|kill|clean|zip|dev]"
-elif [ "$1" == "syn" ]; then
+elif [ "$1" = "syn" ]; then
   ssh root@47.100.233.136 << 'ENDSSH'
     cd /root/home/record-web
     sh bash.sh kill
