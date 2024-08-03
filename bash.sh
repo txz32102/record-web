@@ -51,6 +51,13 @@ elif [ "$1" = "zip" ]; then
   zip -r source.zip . -x "frontend/build/*" "frontend/node_modules/*"
   echo "Created source.zip excluding frontend/build and frontend/node_modules."
 elif [ "$1" = "dev" ]; then
+  (cd backend && python3 run.py) & 
+  (cd frontend && bun run dev) & 
+  (cd backend/terminal && ./terminal -port 8765) &
+
+  wait
+  echo "[\033[34mDev mode\033[0m]: go, python, and bun have all started!"else
+  echo "Usage: sh bash.sh [run|kill|clean|zip|dev]"
 elif [ "$1" == "syn" ]; then
   ssh root@47.100.233.136 << 'ENDSSH'
     cd /root/home/record-web
