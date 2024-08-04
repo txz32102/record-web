@@ -1,3 +1,9 @@
+# 8-1
+
+Cosine Similarity
+
+https://www.benmayersohn.com/2022/09/cosine-similarity-not-for-probabilities/
+
 # 8-3
 
 awesome ai papers
