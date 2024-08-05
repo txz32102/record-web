@@ -49,9 +49,11 @@ https://www.youtube.com/watch?v=hYdO9CscNes
 我的总结：
 
 输入向量
+
 $$\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3 \in \mathbb{R}^n$$
 
 注意力q,v
+
 $$q^{1} = W^{q} \alpha^{1}$$
 $$q^{2} = W^{q} \alpha^{2}$$
 $$q^{3} = W^{q} \alpha^{3}$$
@@ -64,15 +66,19 @@ $$k^{3} = W^{k} \alpha^{3}$$
 $$k^{i} = W^{k} \alpha^{i}$$
 
 注意力分数
+
 $$e_{ij} = \mathbf{a}_i^\top \mathbf{a}_j$$
 
 注意力权重
+
 $$\alpha_{ij} = \frac{\exp(e_{ij})}{\sum_{k=1}^3 \exp(e_{ik})}$$
 
 输出向量
+
 $$\alpha_i = \sum_{j=1}^3 \alpha_{ij} \mathbf{a}_j$$
 
 总结公式
+
 $$\alpha_i = \sum_{j=1}^3 \left( \frac{\exp(\mathbf{a}_i^\top \mathbf{a}_j)}{\sum_{k=1}^3 \exp(\mathbf{a}_i^\top \mathbf{a}_k)} \right) \mathbf{a}_j$$
 
 </br></br>
