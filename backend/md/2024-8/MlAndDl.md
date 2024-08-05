@@ -35,3 +35,9 @@ torch.jit.load
 
 https://pytorch.org/docs/stable/generated/torch.jit.load.html
 </br></br>
+
+F.multi_head_attention_forward
+/home/musong/python/CLIP/clip/model.py, line 72
+
+https://github.com/pytorch/pytorch/blob/main/torch/nn/functional.py
+</br></br>
