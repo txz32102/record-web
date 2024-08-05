@@ -135,3 +135,27 @@
 2024/08/03 08:55:08 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
 2024/08/03 08:55:21 Client connected
 2024/08/03 08:55:34 Read message error: websocket: close 1001 (going away)
+2024/08/03 09:20:37 Server starting on 0.0.0.0:8765
+2024/08/03 09:20:37 ListenAndServe error:listen tcp 0.0.0.0:8765: bind: address already in use
+2024/08/03 09:21:03 Server starting on 0.0.0.0:8765
+2024/08/03 09:22:36 Server starting on 0.0.0.0:8765
+2024/08/03 09:25:08 Server starting on 0.0.0.0:8765
+2024/08/03 09:25:08 ListenAndServe error:listen tcp 0.0.0.0:8765: bind: address already in use
+2024/08/03 09:39:14 Server starting on 0.0.0.0:8765
+2024/08/04 09:10:23 Client connected
+2024/08/04 09:10:33 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/08/04 09:10:34 Client connected
+2024/08/04 09:15:50 Read message error: websocket: close 1001 (going away)
+2024/08/04 10:13:34 Client connected
+2024/08/04 10:16:38 Read message error: read tcp 172.18.23.146:8765->159.223.34.225:40931: read: connection reset by peer
+2024/08/04 10:16:38 Write message error: write tcp 172.18.23.146:8765->159.223.34.225:40931: write: broken pipe
+2024/08/04 17:36:27 Client connected
+2024/08/04 17:37:21 Read message error: websocket: close 1001 (going away)
+2024/08/04 17:37:21 Client connected
+2024/08/04 17:37:39 Read message error: websocket: close 1005 (no status)
+2024/08/04 17:38:56 Write message error: websocket: close sent
+2024/08/04 21:08:59 Write message error: websocket: close sent
+2024/08/05 07:35:10 Client connected
+2024/08/05 07:36:49 Read message error: websocket: close 1001 (going away)
+2024/08/05 07:36:49 Client connected
+2024/08/05 07:46:27 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF

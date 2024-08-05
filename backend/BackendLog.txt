@@ -814,3 +814,79 @@ INFO:     183.192.239.11:5333 - "OPTIONS /record/server HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5363 - "POST /record/server HTTP/1.1" 200 OK
 INFO:     183.192.239.11:5363 - "GET /record/records HTTP/1.1" 200 OK
 INFO:     104.238.220.49:44875 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57894 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57904 - "GET /file/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57904 - "GET /file/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57904 - "GET /file/list-files-and-folders?folder_path=/home/musong/Documents/record-web/backend/md HTTP/1.1" 400 Bad Request
+INFO:     183.192.239.11:5456 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5456 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5456 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     Started server process [10031]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 32102): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1756]
+INFO:     Started server process [10120]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10120]
+INFO:     Started server process [10471]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     Started server process [10497]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 32102): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10471]
+INFO:     Started server process [12819]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     185.206.249.30:7811 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     185.206.249.30:7811 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     185.206.249.30:7811 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     185.206.249.30:7811 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     152.42.233.210:35685 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     159.223.34.225:41459 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     36.41.67.162:38190 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     36.41.65.20:42192 - "GET /record/records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     125.122.33.122:36438 - "GET / HTTP/1.1" 404 Not Found
+INFO:     113.141.84.160:35422 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.41.66.81:50106 - "GET / HTTP/1.1" 404 Not Found
+INFO:     113.215.188.48:31933 - "GET / HTTP/1.1" 404 Not Found
+INFO:     39.144.39.206:15581 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     39.144.39.206:15581 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     39.144.39.206:15582 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     113.215.189.151:19483 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     106.75.66.166:57500 - "GET /record/records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     113.215.189.139:45680 - "GET / HTTP/1.1" 404 Not Found
+INFO:     3.39.245.152:3843 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     39.144.43.214:40130 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
