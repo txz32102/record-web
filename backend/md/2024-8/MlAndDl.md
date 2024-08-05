@@ -23,3 +23,10 @@ How to Train Really Large Models on Many GPUs?
 
 https://lilianweng.github.io/posts/2021-09-25-train-large/
 </br></br>
+
+# 8-5
+
+clip for object detection
+
+https://www.pinecone.io/learn/series/image-search/zero-shot-object-detection-clip/
+</br></br>
