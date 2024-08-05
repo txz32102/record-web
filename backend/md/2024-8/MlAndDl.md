@@ -92,6 +92,6 @@ $$b^1 = {\sum_{i}}\alpha_{1,i}'v^i $$
 </br></br>
 
 
-![示意图](attention.png)
+![示意图](http://www.druggableprotein.com:3001/file/%2Froot%2Fhome%2Fbackend%2Fmd%2F2024-8%2Fattention.png)
 
 

@@ -10,7 +10,7 @@ def convert_path_to_url(path):
     return url
 
 # Input path
-input_path = "/root/home/leetcode/cc/330.Patching_Array.cc"
+input_path = "/root/home/backend/md/2024-8/attention.png"
 
 # Get the converted URL
 converted_url = convert_path_to_url(input_path)
