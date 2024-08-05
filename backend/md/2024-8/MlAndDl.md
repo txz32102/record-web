@@ -30,3 +30,8 @@ clip for object detection
 
 https://www.pinecone.io/learn/series/image-search/zero-shot-object-detection-clip/
 </br></br>
+
+torch.jit.load
+
+https://pytorch.org/docs/stable/generated/torch.jit.load.html
+</br></br>
