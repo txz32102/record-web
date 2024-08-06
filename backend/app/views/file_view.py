@@ -31,3 +31,7 @@ def read_file(file_path: str = Query(..., description="Path of the file to read"
 def list_files_and_folders(folder_path: str = Query(..., description="Path of the folder to list files and folders from"), limit: int = Query(1000, description="Maximum number of files and folders to list")):
     items = FileController.list_files_and_folders(folder_path, limit)
     return {"items": items}
+
+@router.get("/file/download")
+def download_file(file_path: str = Query(..., description="Path of the file or directory to download")):
+    return FileController.download_file(file_path)

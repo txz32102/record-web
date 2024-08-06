@@ -1,6 +1,9 @@
 import os
 from fastapi import HTTPException
 from app.models.file_model import FileModel
+from fastapi.responses import FileResponse
+import shutil
+import tempfile
 
 class FileController:
 
@@ -66,3 +69,20 @@ class FileController:
                 items.append(item)
         
         return FileController.if_limited_file_numbers(items, limit)
+    
+    @staticmethod
+    def download_file(path: str):
+        if not os.path.exists(path):
+            raise HTTPException(status_code=404, detail="Path not found")
+
+        if os.path.isfile(path):
+            return FileResponse(path)
+
+        if os.path.isdir(path):
+            # Create a temporary file to store the zipped folder
+            with tempfile.TemporaryDirectory() as temp_dir:
+                zip_path = os.path.join(temp_dir, "folder.zip")
+                shutil.make_archive(zip_path.replace('.zip', ''), 'zip', path)
+                return FileResponse(zip_path, filename="folder.zip")
+
+        raise HTTPException(status_code=400, detail="Unsupported path type")
