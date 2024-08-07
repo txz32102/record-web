@@ -159,3 +159,14 @@
 2024/08/05 07:36:49 Read message error: websocket: close 1001 (going away)
 2024/08/05 07:36:49 Client connected
 2024/08/05 07:46:27 Read message error: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/08/05 14:26:52 Client connected
+2024/08/05 14:26:54 Read message error: websocket: close 1005 (no status)
+2024/08/05 20:54:06 Client connected
+2024/08/05 20:54:06 Read message error: websocket: close 1005 (no status)
+2024/08/05 20:56:57 Client connected
+2024/08/05 20:56:59 Read message error: websocket: close 1005 (no status)
+2024/08/06 08:44:37 Server starting on 0.0.0.0:8765
+2024/08/06 09:02:47 Client connected
+2024/08/06 09:02:48 Read message error: websocket: close 1005 (no status)
+2024/08/06 10:57:18 Client connected
+2024/08/06 11:14:02 Read message error: websocket: close 1001 (going away)
