@@ -108,3 +108,48 @@ https://stackoverflow.com/questions/58127059/how-to-understand-masked-multi-head
 cross attention
 
 https://vaclavkosar.com/ml/cross-attention-in-transformer-architecture
+
+```python
+import torch
+import torch.nn.functional as F
+
+# Define the dimensions
+d_model = 512  # Dimension of model
+n_heads = 8    # Number of attention heads
+d_k = d_model // n_heads  # Dimension of keys/queries
+d_v = d_model // n_heads  # Dimension of values
+
+# Define input sequences (batch_size, sequence_length, d_model)
+query_seq = torch.rand(64, 10, d_model)  # Queries from the target sequence
+key_seq = torch.rand(64, 20, d_model)    # Keys from the source sequence
+value_seq = torch.rand(64, 20, d_model)  # Values from the source sequence
+
+# Linear layers to project queries, keys, and values
+W_q = torch.nn.Linear(d_model, d_model)
+W_k = torch.nn.Linear(d_model, d_model)
+W_v = torch.nn.Linear(d_model, d_model)
+W_o = torch.nn.Linear(d_model, d_model)
+
+# Project queries, keys, and values
+queries = W_q(query_seq)  # (batch_size, query_len, d_model)
+keys = W_k(key_seq)       # (batch_size, key_len, d_model)
+values = W_v(value_seq)   # (batch_size, value_len, d_model)
+
+# Split into multiple heads and transpose to get dimensions (batch_size, n_heads, seq_len, d_k)
+queries = queries.view(64, 10, n_heads, d_k).transpose(1, 2)
+keys = keys.view(64, 20, n_heads, d_k).transpose(1, 2)
+values = values.view(64, 20, n_heads, d_v).transpose(1, 2)
+
+# Scaled dot-product attention
+scores = torch.matmul(queries, keys.transpose(-2, -1)) / torch.sqrt(torch.tensor(d_k, dtype=torch.float32))
+attn_weights = F.softmax(scores, dim=-1)
+
+# Multiply the attention weights with the values
+context = torch.matmul(attn_weights, values)  # (batch_size, n_heads, query_len, d_v)
+
+# Concatenate heads and put through final linear layer
+context = context.transpose(1, 2).contiguous().view(64, 10, d_model)
+output = W_o(context)  # (batch_size, query_len, d_model)
+
+print(output.shape)  # Should be (64, 10, 512)
+```
