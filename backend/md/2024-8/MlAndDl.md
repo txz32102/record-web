@@ -102,3 +102,9 @@ try to understand masked multi-head attention
 https://stackoverflow.com/questions/58127059/how-to-understand-masked-multi-head-attention-in-transformer
 
 </br></br>
+
+# 8-7
+
+cross attention
+
+https://vaclavkosar.com/ml/cross-attention-in-transformer-architecture
