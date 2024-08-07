@@ -68,7 +68,7 @@ $$k^{i} = W^{k} \alpha^{i}$$
 
 $$v^{1} = W^{v} \alpha^{1}$$
 $$v^{2} = W^{v} \alpha^{2}$$
-$$v^{3} = W^{v} \alpha^{3}$$
+$$v^{3} = W^{v} \alpha^{3}$$/home/musong/Documents/2024/record-web
 $$v^{i} = W^{v} \alpha^{i}$$
 
 
@@ -95,3 +95,10 @@ $$b^1 = {\sum_{i}}\alpha_{1,i}'v^i $$
 ![示意图](https://raw.githubusercontent.com/txz32102/record-web/main/backend/md/2024-8/attention.png)
 
 
+# 8-6
+
+try to understand masked multi-head attention
+
+https://stackoverflow.com/questions/58127059/how-to-understand-masked-multi-head-attention-in-transformer
+
+</br></br>
