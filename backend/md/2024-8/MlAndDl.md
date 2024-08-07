@@ -68,7 +68,7 @@ $$k^{i} = W^{k} \alpha^{i}$$
 
 $$v^{1} = W^{v} \alpha^{1}$$
 $$v^{2} = W^{v} \alpha^{2}$$
-$$v^{3} = W^{v} \alpha^{3}$$/home/musong/Documents/2024/record-web
+$$v^{3} = W^{v} \alpha^{3}$$
 $$v^{i} = W^{v} \alpha^{i}$$
 
 
