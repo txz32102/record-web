@@ -890,3 +890,135 @@ INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/r
 INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
 INFO:     39.144.43.214:40130 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
 INFO:     39.144.43.214:40130 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64980 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64985 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64985 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64989 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64989 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-7 HTTP/1.1" 200 OK
+INFO:     180.158.37.46:64998 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-7%2FmlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:12189 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     18.163.105.242:12189 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:12189 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     18.163.105.242:12189 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:32205 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     18.163.105.242:32205 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:32205 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     18.163.105.242:32205 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:32205 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:16101 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     18.163.105.242:16101 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:16101 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     18.163.105.242:16101 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     18.163.105.242:18721 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     172.96.160.184:38815 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     172.96.160.184:43365 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     172.96.160.184:43365 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12819]
+INFO:     Started server process [29915]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:32102 (Press CTRL+C to quit)
+INFO:     172.96.160.184:32977 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     172.96.160.184:32977 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     172.96.160.184:32977 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     172.96.160.184:32977 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     172.96.160.184:32977 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     172.96.160.184:32977 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37757 - "GET /file/download?file_path=/root/home/record-web/backend/md/2024-8/attention.png HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37757 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.96.160.184:37757 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.96.160.184:37757 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.96.160.184:44029 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5299 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5299 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5299 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     183.192.239.11:5299 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37145 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37145 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37145 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     172.96.160.184:37145 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27864 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27864 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27864 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27866 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27867 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27867 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27868 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27868 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27868 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27870 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27871 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2Fattention.png HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.10/dist-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/root/home/record-web/backend/app/views/file_view.py", line 27, in read_file
+    content, views = FileController.read_file(file_path)
+  File "/root/home/record-web/backend/app/controllers/file_controller.py", line 45, in read_file
+    content = file.read()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+INFO:     223.104.5.113:27872 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27872 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27873 - "GET /file/list-files-and-folders?folder_path=/root/home/record-web/backend/md/2024-8 HTTP/1.1" 200 OK
+INFO:     223.104.5.113:27873 - "GET /file/read-file?file_path=%2Froot%2Fhome%2Frecord-web%2Fbackend%2Fmd%2F2024-8%2FMlAndDl.md HTTP/1.1" 200 OK
+INFO:     180.158.37.46:55327 - "GET /record/records HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     39.144.105.149:35439 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     39.144.105.149:35439 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     39.144.105.149:35440 - "POST /record/server HTTP/1.1" 200 OK
+INFO:     39.144.105.149:35440 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     117.184.31.6:37270 - "GET /record/records HTTP/1.1" 200 OK
+INFO:     117.184.31.6:38107 - "OPTIONS /record/server HTTP/1.1" 200 OK
+INFO:     117.184.31.6:21284 - "POST /record/server HTTP/1.1" 200 OK
