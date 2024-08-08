@@ -153,3 +153,9 @@ output = W_o(context)  # (batch_size, query_len, d_model)
 
 print(output.shape)  # Should be (64, 10, 512)
 ```
+
+# 8-8
+
+how svm works
+
+https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/
