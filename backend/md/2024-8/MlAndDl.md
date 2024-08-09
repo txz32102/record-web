@@ -159,3 +159,9 @@ print(output.shape)  # Should be (64, 10, 512)
 how svm works
 
 https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/
+
+# 8-9
+
+transformer implemention
+
+https://github.com/hyunwoongko/transformer
